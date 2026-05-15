@@ -2,6 +2,8 @@
 
 Begriffsmapping für 2024/2025-Regelwerke. Zweck: bei englischer Quellenrecherche (offizielle Wizards-of-the-Coast-Seiten, englische Foren, Reddit) sauber zwischen Englisch und Deutsch übersetzen, am Tisch aber konsequent deutsch sprechen.
 
+Die deutschen Begriffe folgen der **offiziellen Wizards-of-the-Coast-Übersetzung** (Spielerhandbuch 2024, DMG 2024, MM 2025 / SRD 5.2.1 Deutsch). Wenn ein englischer Begriff hier ist, ist die deutsche Variante verbindlich für den Tisch.
+
 Die Liste ist nicht vollständig — sie enthält die häufigsten Begriffe, die in Drehbüchern und Live-Klärungen aufkommen. Bei Unsicherheit oder neuen Begriffen am Tisch im Spielerhandbuch 2024 oder im DMG 2024 nachschlagen und hier ergänzen.
 
 ## Inhaltsverzeichnis
@@ -27,7 +29,9 @@ Die Liste ist nicht vollständig — sie enthält die häufigsten Begriffe, die 
 |---|---|
 | Probe | Check |
 | Rettungswurf | Saving Throw |
-| Schwierigkeitsgrad (DC) | Difficulty Class (DC) |
+| Schwierigkeitsgrad (SG) | Difficulty Class (DC) |
+| Erfahrungspunkte (EP) | Experience Points (XP) |
+| Herausforderungsgrad (HG) | Challenge Rating (CR) |
 | Übungsbonus | Proficiency Bonus |
 | Vorteil | Advantage |
 | Nachteil | Disadvantage |
@@ -42,74 +46,79 @@ Die Liste ist nicht vollständig — sie enthält die häufigsten Begriffe, die 
 
 | Deutsch | Englisch |
 |---|---|
+| Angriff (Aktion) | Attack |
 | Aktion | Action |
 | Bonusaktion | Bonus Action |
 | Reaktion | Reaction |
 | Freie Aktion | Free Action |
-| Angreifen | Attack |
-| Zaubern | Cast a Spell |
-| Hilfeleistung | Help |
+| Magie (Aktion) | Magic |
+| Helfen | Help |
 | Rückzug | Disengage |
-| Sprinten | Dash |
-| Sich-bereithalten | Ready |
-| Versuchen (Beeinflussen) | Influence |
-| Aufmerksam-suchen | Search |
-| Studieren (Untersuchen) | Study |
-| Erfassen | Grapple |
-| Schubsen | Shove |
+| Spurt | Dash |
+| Ausweichen | Dodge |
+| Vorbereiten | Ready |
+| Beeinflussen | Influence |
+| Suchen | Search |
+| Studieren | Study |
 | Verstecken | Hide |
+| Verwenden | Utilize |
+| Packen (Option des Angriffs) | Grapple |
+| Stoßen (Option des Angriffs) | Shove |
 | Gelegenheitsangriff | Opportunity Attack |
 
 ## Attribute
 
-| Deutsch | Englisch | Kürzel |
-|---|---|---|
-| Stärke | Strength | STR |
-| Geschicklichkeit | Dexterity | GES / DEX |
-| Konstitution | Constitution | KON / CON |
-| Intelligenz | Intelligence | INT |
-| Weisheit | Wisdom | WIS |
-| Charisma | Charisma | CHA |
+| Deutsch | Englisch | Deutsches Kürzel | Englisches Kürzel |
+|---|---|---|---|
+| Stärke | Strength | STÄ | STR |
+| Geschicklichkeit | Dexterity | GES | DEX |
+| Konstitution | Constitution | KON | CON |
+| Intelligenz | Intelligence | INT | INT |
+| Weisheit | Wisdom | WEI | WIS |
+| Charisma | Charisma | CHA | CHA |
+
+Im Skill durchgängig die **deutschen Kürzel** STÄ / GES / KON / INT / WEI / CHA verwenden.
 
 ## Fertigkeiten
 
 | Deutsch | Englisch | Attribut |
 |---|---|---|
 | Akrobatik | Acrobatics | GES |
-| Athletik | Athletics | STR |
+| Arkane Kunde | Arcana | INT |
+| Athletik | Athletics | STÄ |
 | Auftreten | Performance | CHA |
 | Einschüchtern | Intimidation | CHA |
-| Entfesselungskunst | Sleight of Hand | GES |
+| Fingerfertigkeit | Sleight of Hand | GES |
 | Geschichte | History | INT |
-| Heilkunde | Medicine | WIS |
+| Heilkunde | Medicine | WEI |
 | Heimlichkeit | Stealth | GES |
-| Mit Tieren umgehen | Animal Handling | WIS |
-| Motiv erkennen | Insight | WIS |
-| Nachforschen | Investigation | INT |
+| Mit Tieren umgehen | Animal Handling | WEI |
+| Motiv erkennen | Insight | WEI |
+| Nachforschungen | Investigation | INT |
 | Naturkunde | Nature | INT |
 | Religion | Religion | INT |
 | Täuschen | Deception | CHA |
-| Überlebenskunst | Survival | WIS |
+| Überlebenskunst | Survival | WEI |
 | Überzeugen | Persuasion | CHA |
-| Wahrnehmung | Perception | WIS |
-| Zauberkunde | Arcana | INT |
+| Wahrnehmung | Perception | WEI |
 
 ## Zustände (Conditions)
 
 | Deutsch | Englisch |
 |---|---|
-| Bezaubert | Charmed |
+| Betäubt | Stunned |
 | Bewusstlos | Unconscious |
-| Erfasst | Grappled |
+| Bezaubert | Charmed |
+| Blind | Blinded |
 | Erschöpft | Exhausted |
-| Festgehalten | Restrained |
-| Geblendet | Blinded |
+| Festgesetzt | Restrained |
+| Gelähmt | Paralyzed |
+| Gepackt | Grappled |
+| Kampfunfähig | Incapacitated |
 | Liegend | Prone |
-| Reglos | Paralyzed |
 | Taub | Deafened |
 | Unsichtbar | Invisible |
 | Verängstigt | Frightened |
-| Vergeblich | Stunned |
 | Vergiftet | Poisoned |
 | Versteinert | Petrified |
 
@@ -154,8 +163,8 @@ Die Liste ist nicht vollständig — sie enthält die häufigsten Begriffe, die 
 |---|---|
 | Fokuspunkte (Mönch) | Focus Points |
 | Glückspunkte (Schurke / Bard / etc.) | Luck Points |
-| Inspiration | Inspiration |
-| Bardische Inspiration | Bardic Inspiration |
+| Heldische Inspiration (Spielerbelohnung, 2024er-Begriff) | Heroic Inspiration |
+| Bardische Inspiration (Bard-Klassenfähigkeit) | Bardic Inspiration |
 | Wut (Barbar) | Rage |
 | Zaubervorbereitung | Spell Preparation |
 | Zauberplatz | Spell Slot |
@@ -197,15 +206,15 @@ Die Liste ist nicht vollständig — sie enthält die häufigsten Begriffe, die 
 | Halbe Deckung | Half Cover |
 | Reichweite | Range |
 | Geübt mit | Proficient with |
-| Waffenmeisterschaft | Weapon Mastery |
-| Plagen (Waffenmeisterschafts-Effekt) | Vex |
-| Spalten | Cleave |
-| Stoßen | Push |
-| Niederstrecken | Topple |
-| Verlangsamen | Slow |
-| Lähmen | Sap |
-| Spickeln | Nick |
-| Schlitzen | Graze |
+| Waffenbeherrschung | Weapon Mastery |
+| Auslaugen (Mastery-Effekt) | Sap |
+| Einkerben (Mastery-Effekt) | Nick |
+| Plagen (Mastery-Effekt) | Vex |
+| Spalten (Mastery-Effekt) | Cleave |
+| Stoßen (Mastery-Effekt) | Push |
+| Streifen (Mastery-Effekt) | Graze |
+| Umstoßen (Mastery-Effekt) | Topple |
+| Verlangsamen (Mastery-Effekt) | Slow |
 
 ## Magie-Begriffe
 
@@ -240,6 +249,7 @@ Die Liste ist nicht vollständig — sie enthält die häufigsten Begriffe, die 
 | Hintergrund | Background |
 | Talent / Begabung | Feat |
 | Herkunftstalent | Origin Feat |
+| Bastion (Spieler-Festung, DMG 2024 Kapitel 8) | Bastion |
 
 ---
 

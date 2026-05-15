@@ -55,7 +55,14 @@ Bei **Skizzen-Tiefe** entfällt die Tabelle — Wegszenen und Übergänge haben 
 
 Eine Zeile, drei Felder: **Spielzeit / Pillar / Designprinzip.**
 
-- **Spielzeit:** ungefähre Tischzeit für die Szene, in Minuten. Realistische Schätzung — ein Sozial-Check braucht selten unter 10 Minuten, ein normaler Kampf 30–45 Minuten.
+- **Spielzeit:** ungefähre Tischzeit für die Szene, in Minuten. Heuristik:
+  - kurze Sozialszene (ein Auftrag, ein NSC, klares Ziel): **15–25 Min.**
+  - dichte Sozialszene (Verhandlung mit Spielraum, mehrere NSC, Spotlight-Wechsel): **25–45 Min.**
+  - Erkundungs-/Rätselszene: **20–40 Min.**
+  - Kampf 4 Gegner, Stufe 3–5: **30–45 Min.**
+  - Kampf 4–6 Gegner, Stufe 6–10: **45–75 Min.**
+  - Bosskampf mit Phasen oder Lair-Aktionen: **60–90 Min.**
+  - Plus pro Charakter über vier in der Gruppe: **+10–15 Min.** im Kampf, **+5 Min.** in Sozialszenen.
 - **Pillar:** sozial / explorativ / Kampf, auch in Mischform mit Hauptanteil und Nebenanteil markieren.
 - **Designprinzip:** ein Satz, was die Szene leisten soll und was sie **nicht** sein soll, falls Verwechslungsgefahr besteht.
 
@@ -140,23 +147,25 @@ Details in `nsc-werkzeugkasten.md`.
 
 ## 7. D20-Tests als Tabelle
 
-Spalten: **Probe / DC / Wirkung.**
+Spalten: **Probe / SG / Wirkung.**
 
-DC-Skala 2024: 10 leicht, 13 mittel, 16 schwer, 19 sehr schwer. Details und Anwendungsbeispiele in `dc-skala-2024.md`.
+SG-Skala PHB/DMG 2024: 5 sehr einfach, 10 einfach, 15 mittel, 20 schwer, 25 sehr schwer, 30 fast unmöglich. Default 15 (mittel). Details und Anwendungsbeispiele in `dc-skala-2024.md`.
 
 Pro Test eine Zeile. Wirkung knapp formulieren, nicht im Sinne von „Erfolg / Fehlschlag", sondern was konkret passiert.
 
 **Beispiel:**
 
-| Probe | DC | Wirkung |
+| Probe | SG | Wirkung |
 |---|---:|---|
-| Motiv erkennen (CHA-basiert) | 13 | Al'e merkt: Claude verschweigt etwas Wichtiges über Karl |
-| Nachforschen (Karte) | 13 | Raiku erkennt zweiten Höhleneingang im Norden |
-| Überzeugen (Honorar) | 16 | Claude geht auf 200 hoch, plus Spesen |
+| Motiv erkennen (WEI) | 15 | Al'e merkt: Claude verschweigt etwas Wichtiges über Karl |
+| Nachforschungen (INT, Karte) | 15 | Raiku erkennt zweiten Höhleneingang im Norden |
+| Überzeugen (CHA, Honorar) | 20 | Claude geht auf 200 hoch, plus Spesen |
 
 ## 8. Charakter-Spotlights
 
 Pro Charakter alle in dieser Szene relevanten Fähigkeiten **mit konkreten Effektwerten**: Würfelformel, Aktion oder Bonusaktion, Reichweite, Kosten (Fokuspunkte, Zauberplätze, Glückspunkte etc.), Häufigkeit (1×/Kurzrast, 1×/lange Rast).
+
+Bei Kampf-Szenen zusätzlich für jede primäre Waffe die **Waffenbeherrschungs-Eigenschaft** mit auflisten (PHB 2024: Auslaugen / Einkerben / Plagen / Spalten / Stoßen / Streifen / Umstoßen / Verlangsamen — Details in `waffenbeherrschung.md`), damit der GM beim Treffer sofort die richtige Folge ansagen kann.
 
 **Keine reinen Verweise auf den Bogen.** Am Tisch muss alles direkt lesbar sein.
 
@@ -164,12 +173,20 @@ Pro Charakter zusätzlich einen **Spotlight-Vorschlag**: ein konkreter Mini-Plan
 
 Bei nicht regelseitig verifizierten Werten klar **„am Bogen prüfen"** markieren, aber trotzdem den vermutlichen Wert nennen, damit am Tisch flüssig gespielt werden kann.
 
-**Beispiel:**
+**Beispiel (Sozialszene):**
 
 > **Naeris (Bardin)**
-> - **Bezauberungsperson** (Zauberplatz Stufe 1): WIS-Rettungswurf der Zielperson, DC 13 (am Bogen prüfen). Bei Fehlschlag: Ziel betrachtet Naeris für 1 Stunde als freundlichen Bekannten. Aktion, 9 m Reichweite. Wichtig: nach Wirkungsende weiß das Ziel, dass es bezaubert wurde.
+> - **Bezauberungsperson** (Zauberplatz Stufe 1): WEI-Rettungswurf der Zielperson, SG 13 (am Bogen prüfen). Bei Fehlschlag: Ziel betrachtet Naeris für 1 Stunde als freundlichen Bekannten. Aktion, 9 m Reichweite. Wichtig: nach Wirkungsende weiß das Ziel, dass es bezaubert wurde.
 > - **Inspiration** (Bonusaktion, 1×/Kurzrast): Verbündeter erhält W6 auf eine Probe in den nächsten 10 Minuten.
 > - **Spotlight-Vorschlag:** In Phase 2 Überzeugen mit Inspiration auf sich selbst, Honorar auf 200 hochziehen.
+
+**Beispiel (Kampfszene mit Waffenbeherrschung):**
+
+> **Raiku (Kämpfer 5, Geübt mit zwei Waffen)**
+> - **Langschwert** (+7 zu treffen, 1W8+4 Hieb): Waffenbeherrschung **Umstoßen** — bei Treffer: Ziel KON-Rettung SG 13 oder Liegend.
+> - **Kurzschwert** (Bonusaktion, +7 zu treffen, 1W6+4 Stich): Waffenbeherrschung **Einkerben** — zusätzlicher Leicht-Angriff als Teil der Angriffsaktion (statt Bonusaktion), 1×/Zug.
+> - **Second Wind** (Bonusaktion, 2×/Kurzrast): Heilung 1W10+5 auf sich selbst.
+> - **Spotlight-Vorschlag:** Phase 1 Boss umstoßen, dann mit Vorteil aus dem Liegend nachsetzen.
 
 ## 9. Verzweigungstabelle
 

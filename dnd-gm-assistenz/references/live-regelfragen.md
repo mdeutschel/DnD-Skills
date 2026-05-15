@@ -13,6 +13,8 @@ Standardantworten zu den Regelthemen, die am Tisch am häufigsten aufkommen. Nac
 - [Aktionen, Bonusaktionen, Reaktionen](#aktionen-bonusaktionen-reaktionen)
 - [Bewegung](#bewegung)
 - [Heilung und Rasten](#heilung-und-rasten)
+- [Auf 0 TP fallen und Todesrettungswürfe](#auf-0-tp-fallen-und-todesrettungswürfe)
+- [Kritische Treffer](#kritische-treffer)
 - [Vorteil und Nachteil](#vorteil-und-nachteil)
 
 ---
@@ -33,19 +35,20 @@ Maximal acht bis zehn Zeilen. Wenn der Fall komplexer ist, das offen sagen und v
 
 ## Heimlichkeit und Wahrnehmung
 
-**Regel:** Heimlichkeit (GES) gegen passive Wahrnehmung — falls der Beobachter aktiv sucht, würfelt er Wahrnehmung (WIS) statt der passiven.
+**Regel (Verstecken-Aktion, PHB 2024):** Verstecken ist eine Aktion. Voraussetzung: der Charakter ist **stark verdeckt** (Heavily Obscured), hat **dreiviertel oder volle Deckung** und ist **außerhalb der direkten Sichtlinie** aller Feinde, die ihn entdecken könnten. Ein GES-Wurf (Heimlichkeit) gegen SG 15 (oder höher, je nach Beobachter) bestimmt, ob das Verstecken klappt.
 
 **Mechanik:**
-- Heimlichkeit ist möglich, wenn der Charakter **stark verdeckt** ist oder **außer Sicht** des Beobachters.
-- Bei Bewegung in normaler Sicht ist keine Heimlichkeit möglich, außer der Beobachter ist abgelenkt.
+- Bei Erfolg ist der Charakter **Unsichtbar** (Zustand) bis er sich entdeckt.
+- Aufgedeckt wird er, wenn er angreift, einen Zauber mit V-Komponente wirkt, lauter als ein Flüstern Geräusche macht, oder ein Feind ihn mit einem Wahrnehmungswurf gegen seine Heimlichkeitsprobe entdeckt.
 - Schwere Rüstung gibt Nachteil auf Heimlichkeit, falls der Charakter darin nicht geübt ist.
+- Bei reiner Bewegung außerhalb der Verstecken-Aktion (z.B. an einer Wache vorbei) gilt: Heimlichkeit gegen passive Wahrnehmung des Beobachters.
 
-**Was am Tisch zu tun ist:** Beobachter-passive Wahrnehmung als DC nehmen, Spieler würfelt Heimlichkeit. Bei aktiver Suche durch Beobachter: gegnerischer Wahrnehmungswurf statt passiv.
+**Was am Tisch zu tun ist:** Erst prüfen, ob die Voraussetzungen für Verstecken erfüllt sind (verdeckt, außer Sicht). Wenn ja, SG 15 oder passive Wahrnehmung des wachsamsten Beobachters als SG nehmen — der höhere Wert gilt. Bei aktiver Suche durch Beobachter: gegnerischer Wahrnehmungswurf statt passiv.
 
 **Häufige Sonderfälle:**
 - Mehrere Beobachter: höchste passive Wahrnehmung gilt.
-- Beobachter abgelenkt (Gespräch, Wache mit Gerede): Vorteil auf Heimlichkeit, oder DC −5.
-- Charakter hat Vorteil aus Tarnung (Dunkelheit gegen Lebenswesen ohne Dunkelsicht): zusätzlich zum DC-System Vorteil auf den Wurf.
+- Beobachter abgelenkt (Gespräch, Wache mit Gerede): Vorteil auf Heimlichkeit, oder SG −5.
+- Charakter hat Vorteil aus Tarnung (Dunkelheit gegen Lebenswesen ohne Dunkelsicht): zusätzlich zum SG-System Vorteil auf den Wurf.
 
 ---
 
@@ -82,14 +85,14 @@ Maximal acht bis zehn Zeilen. Wenn der Fall komplexer ist, das offen sagen und v
 
 ## Konzentration
 
-**Regel:** Bei Schaden während eines Konzentrationszaubers: **Konstitutionsrettung**, DC ist halber erhaltener Schaden, mindestens 10.
+**Regel:** Bei Schaden während eines Konzentrationszaubers: **Konstitutionsrettung**, SG ist halber erhaltener Schaden, mindestens 10.
 
 **Mechanik:**
 - Pro Schadensereignis (auch jeder Treffer eines Mehrfachangriffs) ein eigener Wurf.
 - Falls der Charakter einen neuen Konzentrationszauber wirkt, endet der vorherige automatisch.
 - Bewusstlosigkeit beendet Konzentration.
 
-**Was am Tisch zu tun ist:** Sobald ein Konzentrationszauber im Spiel ist, am Tisch markieren (Token, Notiz). Bei Schaden: KON-Wurf gegen DC max(10, halber Schaden) ansagen.
+**Was am Tisch zu tun ist:** Sobald ein Konzentrationszauber im Spiel ist, am Tisch markieren (Token, Notiz). Bei Schaden: KON-Wurf gegen SG max(10, halber Schaden) ansagen.
 
 **Häufiger Fehler:** Eine Heilung durch Verbündete bricht Konzentration **nicht** — Konzentration bricht nur bei Schaden.
 
@@ -97,22 +100,25 @@ Maximal acht bis zehn Zeilen. Wenn der Fall komplexer ist, das offen sagen und v
 
 ## Zustände (Conditions)
 
-Die wichtigsten Zustände auf einen Blick:
+Die fünfzehn Zustände nach PHB 2024 (offizielle WotC-Begriffe):
 
 | Zustand | Wichtigste Effekte |
 |---|---|
-| **Vergiftet** | Nachteil auf Angriffe und Fähigkeitsproben |
-| **Bezaubert** | kann Bezauberer nicht angreifen, Bezauberer hat Vorteil auf Soziales |
-| **Verängstigt** | Nachteil auf Angriffe und Proben, solange Quelle in Sicht |
-| **Geblendet** | Nachteil auf Angriffe, Angriffe gegen sind im Vorteil; sieht nichts |
-| **Taub** | hört nichts; automatischer Fehlschlag bei höranspruchsvollen Proben |
-| **Festgehalten** | Geschwindigkeit 0; Nachteil auf Angriffe und GES-Rettungen; Angreifer im Vorteil |
-| **Reglos** | wie Festgehalten plus automatisch Fehlschlag bei STR/GES-Rettungen; Angreifer trifft kritisch bei Nahkampf in 1,5 m |
-| **Liegend** | Bewegung halbiert; Nachteil auf Angriffe; Nahkampfangreifer im Vorteil, Fernkampfangreifer im Nachteil |
-| **Erfasst** | Geschwindigkeit 0; siehe Erfassen-Aktion |
-| **Vergeblich** (Stunned) | wie Reglos minus automatischen Fehlschlag — kein autom. krit |
-| **Bewusstlos** | wie Reglos plus liegend; krit auch bei Nahkampf in 1,5 m |
-| **Erschöpft** | Stufenweise: Probennachteil pro Stufe, ab Stufe 3 Bewegung halbiert, ab Stufe 5 Geschwindigkeit 0, Stufe 6 = Tod |
+| **Vergiftet** (Poisoned) | Nachteil auf Angriffe und Fähigkeitsproben |
+| **Bezaubert** (Charmed) | kann Bezauberer nicht angreifen, Bezauberer hat Vorteil auf Soziales |
+| **Verängstigt** (Frightened) | Nachteil auf Angriffe und Proben, solange Quelle in Sicht; kann sich nicht freiwillig auf Quelle zubewegen |
+| **Blind** (Blinded) | sieht nichts; automatischer Fehlschlag bei sichtanspruchsvollen Proben; Nachteil auf Angriffe, Angriffe gegen sind im Vorteil |
+| **Taub** (Deafened) | hört nichts; automatischer Fehlschlag bei höranspruchsvollen Proben |
+| **Unsichtbar** (Invisible) | kann nicht gesehen werden; Vorteil auf Angriffe, Angriffe gegen sind im Nachteil; bleibt in Initiative-Reihenfolge |
+| **Festgesetzt** (Restrained) | Geschwindigkeit 0; Nachteil auf Angriffe und GES-Rettungen; Angreifer im Vorteil |
+| **Gelähmt** (Paralyzed) | kampfunfähig, kann sich nicht bewegen oder sprechen; automatischer Fehlschlag bei STÄ/GES-Rettungen; Angriffe im Vorteil; krit bei Nahkampf in 1,5 m |
+| **Liegend** (Prone) | Bewegung halbiert; Nachteil auf Angriffe; Nahkampfangreifer im Vorteil, Fernkampfangreifer im Nachteil |
+| **Gepackt** (Grappled) | Geschwindigkeit 0; Nachteil auf Angriffe gegen alles außer dem Packenden; siehe Packen-Option des Angriffs |
+| **Betäubt** (Stunned) | kampfunfähig, kann sich nicht bewegen, automatischer Fehlschlag bei STÄ/GES-Rettungen, Angriffe im Vorteil |
+| **Bewusstlos** (Unconscious) | kampfunfähig, liegend, lässt Halt los; STÄ/GES-Rettung autom. Fehlschlag; Angriffe gegen im Vorteil; krit bei Nahkampf in 1,5 m |
+| **Versteinert** (Petrified) | wie Bewusstlos plus Verwandlung in Stein, Resistenz gegen alle Schadensarten, immun gegen Gift und Krankheit |
+| **Kampfunfähig** (Incapacitated) | kann keine Aktionen, Bonusaktionen oder Reaktionen ausführen; Konzentration bricht; Vorgängerzustand vieler härterer Zustände |
+| **Erschöpft** (Exhausted) | Stufenweise (1–6): pro Stufe −2 auf D20-Tests und Rettungs-SGs; ab Stufe 3 Bewegung halbiert; ab Stufe 5 Geschwindigkeit 0; Stufe 6 = Tod |
 
 **Was am Tisch zu tun ist:** Zustand auf Token oder Tisch-Notiz markieren, am Rundenende Wirkungsdauer prüfen. Bei mehreren Zuständen gleichzeitig die Effekte addieren.
 
@@ -128,13 +134,13 @@ Die wichtigsten Zustände auf einen Blick:
 
 **Was am Tisch zu tun ist:** Wenn ein Spieler etwas tun will, klären: welche Aktionsart? Bei Unklarheit lieber großzügig auslegen — die meisten taktischen Manöver sind Aktionen, kosmetische Bewegungen sind frei.
 
-**Häufige Aktionen:** Angreifen, Zaubern, Hilfeleistung, Rückzug, Sich-bereithalten, Aufmerksam-suchen (Suchen), Beeinflussen (Versuchen).
+**Häufige Aktionen (2024er-Standardliste):** Angriff, Magie, Helfen, Rückzug, Ausweichen, Spurt, Vorbereiten, Suchen, Verstecken, Beeinflussen, Studieren, Verwenden. Packen und Stoßen sind keine eigenen Aktionen mehr, sondern Optionen der Angriff-Aktion.
 
 **Häufige Bonusaktionen:** zweite-Hand-Angriff (Zweihandkampfstil), bestimmte Zauber, Klassenfähigkeiten (Inspirations-Bonus, Wut-Aktivierung etc.).
 
 **Häufige Reaktionen:** Gelegenheitsangriff, Schildreaktion, Konter-Zauber, Klassenreaktionen.
 
-**Sonderfall: Sich-bereithalten:** Aktion, um eine vorgespeicherte Aktion bei einem Auslöser auszulösen — kostet die Aktion **dieser** Runde und wird in der nächsten Runde als Reaktion ausgelöst.
+**Sonderfall: Vorbereiten:** Aktion, um eine Aktion auf einen Auslöser hin auszulösen — kostet die Aktion **dieser** Runde, wird beim Auslöser als Reaktion ausgeführt.
 
 ---
 
@@ -154,11 +160,48 @@ Die wichtigsten Zustände auf einen Blick:
 
 ## Heilung und Rasten
 
-**Kurze Rast:** mindestens eine Stunde Pause. Charaktere können Trefferwürfel ausgeben (1W + KON pro Würfel) zur Heilung. Klassenfähigkeiten mit „1×/Kurzrast" werden zurückgesetzt.
+**Kurze Rast:** mindestens eine Stunde Pause. Charaktere können beliebig viele Trefferwürfel ausgeben (1W + KON-Mod pro Würfel, mindestens 1 TP pro Würfel) zur Heilung. Klassenfähigkeiten mit „1×/Kurzrast" werden zurückgesetzt. Trefferwürfel-Pool: 1 Würfel pro Charakterstufe, regeneriert sich teils bei langer Rast.
 
-**Lange Rast:** 8 Stunden Pause, davon 6 schlafend. Trefferpunkte voll, Trefferwürfel bis zur Hälfte zurück, Zauberplätze und „1×/Lange Rast"-Fähigkeiten zurück.
+**Lange Rast:** 8 Stunden Pause, davon 6 schlafend. **TP voll**, **Trefferwürfel bis zur Hälfte der Maximalzahl zurück**, **Zauberplätze und „1×/Lange Rast"-Fähigkeiten zurück**. Eine Kreatur kann nur einmal pro 24 Stunden von einer langen Rast profitieren.
 
-**Was am Tisch zu tun ist:** Vor jeder Rast klären, ob die Situation eine Rast erlaubt — Wachen, sicherer Ort, Vorräte. Lange Rast in feindlichem Gebiet ist riskant und kann unterbrochen werden.
+**Temporäre Trefferpunkte:** stapeln sich **nicht** (nimm den höheren Wert), gehen bei nächster langer Rast verloren, werden zuerst aufgebraucht bevor normale TP fallen.
+
+**Was am Tisch zu tun ist:** Vor jeder Rast klären, ob die Situation eine Rast erlaubt — Wachen, sicherer Ort, Vorräte. Lange Rast in feindlichem Gebiet ist riskant und kann unterbrochen werden (bei Unterbrechung von mehr als einer Stunde Aktivität gilt sie als gescheitert).
+
+---
+
+## Auf 0 TP fallen und Todesrettungswürfe
+
+**Regel (PHB 2024):** Charakter auf 0 TP fällt, ist bewusstlos und liegend. Zu Beginn jedes seiner Züge: **Todesrettungswurf** = 1W20.
+
+**Mechanik:**
+- **10 oder höher** = Erfolg. **9 oder niedriger** = Misserfolg.
+- **Drei Erfolge** = stabilisiert (bewusstlos, aber sicher).
+- **Drei Misserfolge** = tot.
+- Erfolge und Misserfolge müssen nicht aufeinanderfolgen — beide Zähler werden parallel geführt.
+- **Natürliche 20:** sofort 1 TP zurück (wacht auf, Erfolge/Misserfolge zurückgesetzt).
+- **Natürliche 1:** zwei Misserfolge auf einmal.
+- **Schaden bei 0 TP:** automatisch ein Misserfolg. Schaden aus kritischem Treffer: zwei Misserfolge. Wenn der Schaden mindestens das TP-Maximum erreicht: sofortiger Tod.
+
+**Stabilisieren ohne Wurf:** Verbündeter macht Helfen-Aktion + WEI(Heilkunde)-Probe SG 10 — bei Erfolg stabil. Heilung jeglicher Art bringt den Charakter zurück auf 1+ TP und beendet den Bewusstlos-Zustand.
+
+**Was am Tisch zu tun ist:** Token zur Seite legen oder umdrehen. Bei jedem Zug-Start des sterbenden Charakters Wurf einfordern, Erfolge/Misserfolge mitzählen (z. B. drei Striche pro Spalte). Sobald ein Verbündeter mit Heilung in Reichweite ist: aktive Aktion einfordern, nicht automatisch.
+
+---
+
+## Kritische Treffer
+
+**Regel:** Bei einer natürlichen 20 auf dem Angriffswurf: kritischer Treffer, trifft automatisch (unabhängig von RK und Modifikatoren).
+
+**Schadensregel:** **Alle Schadenswürfel des Angriffs zweimal würfeln** und addieren. Modifikatoren (STÄ, GES, magische Boni) werden **nicht** verdoppelt — nur die Würfel.
+
+**Beispiel:** Langschwert (1W8+3 STÄ) als Crit → 2W8 würfeln + 3 = z. B. 9 + 3 = 12 Schaden.
+
+**Sondereffekte:**
+- Crit bei Nahkampfangriff in 1,5 m gegen Gelähmt/Bewusstlos/Versteinert-Ziel: automatisch.
+- Crit gegen sterbenden Charakter (0 TP): zwei Misserfolge auf Todesrettungswürfe.
+
+**2024er-Änderung:** Crits gelten weiterhin nur auf natürliche 20 (nicht auf Treffer-Bereiche wie 19–20 außer durch spezifische Klassenmerkmale wie Champion-Kämpfer). Monster-Angriffe lösen weiterhin Crits aus — keine „nur Spieler-Crits"-Hausregel im Standard.
 
 ---
 
@@ -171,7 +214,7 @@ Die wichtigsten Zustände auf einen Blick:
 **Was am Tisch zu tun ist:** Vor dem Wurf klären, ob Vorteil oder Nachteil greift. Bei Unklarheit lieber dem Spieler den Vorteil geben — das fördert kreative Beschreibung von Aktionen.
 
 **Häufige Quellen für Vorteil:**
-- Hilfeleistung-Aktion eines Verbündeten
+- Helfen-Aktion eines Verbündeten
 - Ziel ist verängstigt durch den Angreifer
 - Angreifer ist verborgen
 - Ziel ist liegend (im Nahkampf)

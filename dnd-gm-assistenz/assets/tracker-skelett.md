@@ -49,7 +49,7 @@ Begleitdokument zum Drehbuch. Wird **während der Sitzung am Tisch** geführt �
 | Hinweis | Hat die Gruppe? | Quelle | Wozu führt er |
 |---|:---:|---|---|
 | Karl als Hauptverdächtiger | ja | Claude in Phase 1 | Hauptquest |
-| Zweiter Höhleneingang | nein | Nachforschen-Probe Karte DC 13 | umgeht Banditen |
+| Zweiter Höhleneingang | nein | Nachforschungen-Probe Karte SG 15 | umgeht Banditen |
 | Karls wahres Motiv | nein | Verhandlung mit Karl in Werkstatt | moralisches Dilemma |
 
 ---
