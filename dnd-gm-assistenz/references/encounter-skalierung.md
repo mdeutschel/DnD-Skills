@@ -4,9 +4,28 @@ Skalierung von Kampfbegegnungen an Gruppengröße und Stufe nach den 2024er-Rege
 
 ## Grundprinzip 2024
 
-Das Dungeon Master Handbuch 2024 nutzt **XP-Budgets pro Charakter und Stufe** für drei Schwierigkeitsgrade: **Niedrig, Moderat, Hoch**. Die Skalierung läuft über das Gesamt-XP-Budget der Gruppe gegen die Summe der Gegner-XP nach CR.
+Das Dungeon Master Handbuch 2024 nutzt **XP-Budgets pro Charakter und Stufe** für drei Schwierigkeitsgrade: **Niedrig, Moderat, Hoch**.
 
-Die XP-Tabellen liegen im DMG 2024 (im Kapitel zu Encounter-Building). Wenn die Tabellen nicht im aktiven Projekt-Wissen verfügbar sind, per Web-Recherche prüfen oder aus internem Wissen mit Stand kennzeichnen.
+**Die Formel:**
+
+```
+Gruppen-Budget = (XP-Budget pro Char auf Stufe X für gewünschte Schwierigkeit) × Anzahl Charaktere
+Encounter-Soll = Summe der XP-Werte aller Gegner nach CR
+Encounter-Soll ≤ Gruppen-Budget
+```
+
+**Wichtig gegenüber 5e-2014:** Es gibt **keinen Gruppengrößen-Multiplikator** mehr und **keinen Schwierigkeitsmultiplikator pro Gegnerzahl** (im Sinne von „×1,5 wenn 3 Gegner, ×2 wenn 4–6"). Reine Summe der Monster-XP gegen das Gruppen-Budget.
+
+Die XP-Tabellen pro Stufe und Schwierigkeit liegen im DMG 2024 (Encounter-Building-Kapitel). Wenn die Tabellen nicht im aktiven Projekt-Wissen verfügbar sind, per Web-Recherche prüfen oder aus internem Wissen mit Stand kennzeichnen — **die exakten Werte hier nicht aus dem Gedächtnis nennen, sondern nachschlagen.**
+
+**Rechenbeispiel (vorausgesetzt, das XP-Budget für Stufe 4 Moderat liegt im DMG bei 500 pro Char):**
+
+> Gruppe: 3 Charaktere Stufe 4, gewünschte Schwierigkeit Moderat.
+> Gruppen-Budget = 500 × 3 = 1.500 XP.
+> Encounter: 1× Räuberhauptmann (CR 2, 450 XP) + 3× Räuber (CR 1/8, 25 XP) = 525 XP.
+> 525 ≪ 1.500 → die Begegnung ist deutlich unter Moderat, eher Niedrig. Aufstocken oder härtere Gegner.
+
+Wert für CR-XP-Konvertierung im DMG 2024 / MM 2025 nachschlagen, nicht aus dem Gedächtnis.
 
 ## Schnellverfahren ohne XP-Tabellen
 

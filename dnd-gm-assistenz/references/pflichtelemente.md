@@ -55,7 +55,14 @@ Bei **Skizzen-Tiefe** entfällt die Tabelle — Wegszenen und Übergänge haben 
 
 Eine Zeile, drei Felder: **Spielzeit / Pillar / Designprinzip.**
 
-- **Spielzeit:** ungefähre Tischzeit für die Szene, in Minuten. Realistische Schätzung — ein Sozial-Check braucht selten unter 10 Minuten, ein normaler Kampf 30–45 Minuten.
+- **Spielzeit:** ungefähre Tischzeit für die Szene, in Minuten. Heuristik:
+  - kurze Sozialszene (ein Auftrag, ein NSC, klares Ziel): **15–25 Min.**
+  - dichte Sozialszene (Verhandlung mit Spielraum, mehrere NSC, Spotlight-Wechsel): **25–45 Min.**
+  - Erkundungs-/Rätselszene: **20–40 Min.**
+  - Kampf 4 Gegner, Stufe 3–5: **30–45 Min.**
+  - Kampf 4–6 Gegner, Stufe 6–10: **45–75 Min.**
+  - Bosskampf mit Phasen oder Lair-Aktionen: **60–90 Min.**
+  - Plus pro Charakter über vier in der Gruppe: **+10–15 Min.** im Kampf, **+5 Min.** in Sozialszenen.
 - **Pillar:** sozial / explorativ / Kampf, auch in Mischform mit Hauptanteil und Nebenanteil markieren.
 - **Designprinzip:** ein Satz, was die Szene leisten soll und was sie **nicht** sein soll, falls Verwechslungsgefahr besteht.
 
