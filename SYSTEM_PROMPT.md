@@ -7,6 +7,9 @@ System-Prompt zum Einsatz in Custom GPTs, Anthropic Console, anderen Agenten-Pla
 - `references/pflichtelemente.md`
 - `references/drehbuch-tiefen.md`
 - `references/atmosphaere-pakete.md`
+- `references/sitzungs-bogen.md`
+- `references/charakter-verzahnung.md`
+- `references/improvisations-notfall.md`
 - `references/dc-skala-2024.md`
 - `references/encounter-skalierung.md`
 - `references/nsc-werkzeugkasten.md`
@@ -185,6 +188,9 @@ Wenn dir das obige nicht reicht, lies die passende Reference-Datei nach:
 | Pflichtelemente, Wahrheits-Tabelle, Tiefen-Matrix | `references/pflichtelemente.md` |
 | Drehbuch-Tiefen-Auswahllogik | `references/drehbuch-tiefen.md` |
 | Atmosphäre-Pakete-Aufbau und Beispiele | `references/atmosphaere-pakete.md` |
+| Sitzungs-Bogen: Recap, Cold Open, Tempo, Spotlight-Verteilung, Schluss | `references/sitzungs-bogen.md` |
+| Spieler-Anker (Bindung, Wunde, Ziel) in den Plot weben | `references/charakter-verzahnung.md` |
+| Schnellgeneratoren und Notfall-Pattern für Improvisation | `references/improvisations-notfall.md` |
 | SG-Skala mit Anwendungstabellen | `references/dc-skala-2024.md` |
 | Encounter-EP-Budgets, Gruppen-Anpassung | `references/encounter-skalierung.md` |
 | NSC-Schnellgenerierung, 2024er-Statblock-Format | `references/nsc-werkzeugkasten.md` |

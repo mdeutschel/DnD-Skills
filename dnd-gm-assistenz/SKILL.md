@@ -131,6 +131,21 @@ Häufige Live-Regelfragen (Heimlichkeit, Überraschung, Deckung, Konzentration, 
 - **Schlüsselinformationen dürfen nicht an einem D20-Test scheitern.** Mindestens zwei Pfade zu jeder kritischen Information. *Beispiel:* Motiv erkennen SG 15 *oder* Nachforschungen am Schreibtisch SG 15 *oder* Hofnachbar fragen (kein Wurf) — drei Pfade zur gleichen Wahrheit.
 - **Begleit-NSC dürfen helfen, aber nicht die Heldengruppe ersetzen.** Wichtige Entscheidungen gehören den Spielern. *Beispiel:* Der NSC schlägt vor, kämpft mit, gibt Hinweise — entscheidet aber nicht, ob die Gruppe verhandelt oder eskaliert.
 
+## Sandbox-Pivot
+
+Wenn die Gruppe sich vom vorbereiteten Plot entfernt, gibt es zwei Reaktionen — die Wahl hängt davon ab, **was die Spieler stattdessen tun**:
+
+- **Folgen, wenn die Abweichung Energie hat.** Die Gruppe ist aktiv, hat eine eigene Idee, verfolgt sie konsequent. Dann den geplanten Plot anhalten, aus `improvisations-notfall.md` schöpfen, später bewerten, ob der ursprüngliche Plot zurückgeholt werden muss oder die neue Richtung übernommen wird.
+- **Sanft zurückführen, wenn die Abweichung Vermeidung ist.** Die Gruppe wirkt unentschlossen, weicht der eigentlichen Konfliktsituation aus. Dann einen sichtbaren Hook einbauen (NSC mit konkretem Anliegen, Geräusch in die richtige Richtung, Bote mit Nachricht) — kein Bahnschienen-Druck, sondern eine sichtbare Tür zurück zum Plot.
+
+**Erkennungssignal:** Folgt die Gruppe einem **eigenen Plan** (auch wenn er absurd ist), ist das Energie — folgen. Wandert sie ziellos durch Wirtshäuser ohne Engagement, ist es Vermeidung — Hook anbieten.
+
+Egal welche Reaktion: vorbereitete Szenen sind nicht verloren, sondern Bausteine, die später passend eingesetzt werden können. Wahrheits-Tabellen tragen die Information unabhängig vom Plot-Pfad.
+
+## Safety Tools
+
+Vor einer neuen Kampagne (Session Zero) mit den Spielern klären: gibt es Themen, die am Tisch nicht oder nur als Andeutung vorkommen sollen? Standardwerkzeuge: **Lines & Veils** (harte Tabu / nur Andeutung), **X-Card** (jederzeit auflegbar, beendet die laufende Szene ohne Diskussion), **Open Door** (jeder darf ohne Begründung gehen). Wenn schon abgeklärt: in der Nachbereitungs-Datei kurz notieren, welche Themen gelten. Wenn nicht: vor der ersten Sitzung einer neuen Kampagne ansprechen.
+
 ## Self-Check vor Datei-Übergabe
 
 Bevor eine Drehbuch-Datei an den GM rausgeht, kurz durchgehen:
@@ -176,15 +191,32 @@ Referenzen werden bei Bedarf gelesen, nicht alle auf einmal.
 
 | Datei | Inhalt | Wann lesen |
 |---|---|---|
+**Drehbuch und Szene:**
+
+| Datei | Inhalt | Wann lesen |
+|---|---|---|
 | `references/pflichtelemente.md` | Die 10 Szenen-Elemente, Wahrheits-Tabelle, Tiefen-Matrix | vor jedem Drehbuch |
 | `references/drehbuch-tiefen.md` | Auswahllogik der drei Tiefen, Beispiele | bei Tiefenwahl unklar |
 | `references/atmosphaere-pakete.md` | Aufbau und Beispiele | beim Schreiben von Szenen |
+| `references/sitzungs-bogen.md` | Sitzung als Ganzes — Recap, Cold Open, Tempo, Spotlight-Verteilung, Schluss | Sitzungs-Vorbereitung |
+| `references/charakter-verzahnung.md` | Spieler-Anker (Bindung, Wunde, Ziel) in den Plot weben | Kampagnen- und Quest-Planung |
+| `references/improvisations-notfall.md` | Schnellgeneratoren, Yes-and, was tun wenn die Vorbereitung nicht greift | am Tisch in Notfällen |
+
+**Mechanik und Werte:**
+
+| Datei | Inhalt | Wann lesen |
+|---|---|---|
 | `references/dc-skala-2024.md` | SG-Skala mit Anwendungsbeispielen | Live-SG-Fragen, Drehbuch-D20-Tabellen |
 | `references/encounter-skalierung.md` | EP-Budget-Logik, Skalierung an Gruppe und Stufe | jede Kampfvorbereitung |
 | `references/nsc-werkzeugkasten.md` | NSC-Schnellgenerierung, Antriebe, Sprachbilder, 2024er-Statblock-Format | NSC-Erstellung |
 | `references/standard-nsc-werte.md` | Statblöcke der 7 häufigsten NSC-Typen | wenn MM 2025 nicht greifbar |
 | `references/waffenbeherrschung.md` | Die 8 Mastery-Eigenschaften mit Effekten | Kampfvorbereitung, Live-Klärung |
 | `references/live-regelfragen.md` | Häufige Regelfragen inkl. Tod-Rettungswürfe, Crits | Live-Modus, Regelfrage |
+
+**Nachgang und Hilfsmittel:**
+
+| Datei | Inhalt | Wann lesen |
+|---|---|---|
 | `references/nachbereitung.md` | Nachbereitung und Kampagnenchronik | nach der Sitzung |
 | `references/glossar-de-en.md` | Begriffsmapping DE↔EN | bei englischer Quellenrecherche |
 | `assets/drehbuch-skelett.md` | Leere Drehbuch-Vorlage | als Startpunkt |
