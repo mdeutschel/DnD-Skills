@@ -168,6 +168,18 @@ Wenn keiner passt, den nächstpassenden wählen und am Bogen oder im MM 2025 pr�
 
 **Wichtig:** Statblock im Drehbuch **nicht kopieren**, sondern referenzieren. Im Drehbuch reicht: „Statblock: Räuberhauptmann, MM 2025".
 
+### 2024er-Statblock-Format (MM 2025) — was anders ist
+
+Das MM 2025 strukturiert Statblöcke neu (siehe MM 2025, „Stat Block Overview"). Worauf der GM beim Nachschlagen achten muss:
+
+- **Combat Highlights als Block:** RK, TP, Bewegungsrate und **Initiative-Wert** stehen zusammen oben. Der Initiative-Wert ist explizit als Score angegeben (Modifikator und Klammerwert) — wenn der GM nicht würfeln will, gilt der Score als Initiative im Kampf.
+- **Gear-Feld:** Ausrüstung des Monsters ist ein eigener Eintrag, getrennt vom Schatz. Was im Gear steht, kann die Gruppe nach dem Kampf erbeuten — falls sie's findet.
+- **Treasure-Themen:** statt fester Schatzlisten gibt es ein Thema (Any / Individual / Arcana / Armaments / Implements / Relics / None). Der konkrete Schatz wird im DMG 2024 nach Thema generiert.
+- **Habitat:** jeder Monstereintrag nennt typische Lebensräume — nützlich, um zu prüfen, ob ein Encounter sich in der Szene plausibel ergibt.
+- **Special Lairs:** manche Bossmonster bringen Regional- und Lair-Effekte mit, die als eigener Block neben dem Statblock stehen. Bei Bossfights mit nachschlagen.
+- **HG-Block mit EP-Wert:** Herausforderungsgrad und Erfahrungspunkte stehen zusammen — der EP-Wert kann direkt für die Encounter-Skalierung übernommen werden, ohne separate Tabelle.
+- **Traits / Actions / Bonus Actions / Reactions / Legendary Actions** als getrennte Sektionen (statt gemischter Liste wie 2014).
+
 ## Beziehungslagen
 
 Pro NSC eine grobe Disposition zur Gruppe festhalten — beeinflusst soziale SGs (siehe `dc-skala-2024.md`).

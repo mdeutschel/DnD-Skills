@@ -165,18 +165,28 @@ Pro Test eine Zeile. Wirkung knapp formulieren, nicht im Sinne von „Erfolg / F
 
 Pro Charakter alle in dieser Szene relevanten Fähigkeiten **mit konkreten Effektwerten**: Würfelformel, Aktion oder Bonusaktion, Reichweite, Kosten (Fokuspunkte, Zauberplätze, Glückspunkte etc.), Häufigkeit (1×/Kurzrast, 1×/lange Rast).
 
+Bei Kampf-Szenen zusätzlich für jede primäre Waffe die **Waffenbeherrschungs-Eigenschaft** mit auflisten (PHB 2024: Plagen / Spalten / Stoßen / Niederstrecken / Verlangsamen / Lähmen / Spickeln / Schlitzen), damit der GM beim Treffer sofort die richtige Folge ansagen kann.
+
 **Keine reinen Verweise auf den Bogen.** Am Tisch muss alles direkt lesbar sein.
 
 Pro Charakter zusätzlich einen **Spotlight-Vorschlag**: ein konkreter Mini-Plan, wie der Charakter in dieser Szene zünden kann, falls die Spieler nicht selbst auf die Idee kommen. Backup, kein Zwang.
 
 Bei nicht regelseitig verifizierten Werten klar **„am Bogen prüfen"** markieren, aber trotzdem den vermutlichen Wert nennen, damit am Tisch flüssig gespielt werden kann.
 
-**Beispiel:**
+**Beispiel (Sozialszene):**
 
 > **Naeris (Bardin)**
 > - **Bezauberungsperson** (Zauberplatz Stufe 1): WEI-Rettungswurf der Zielperson, SG 13 (am Bogen prüfen). Bei Fehlschlag: Ziel betrachtet Naeris für 1 Stunde als freundlichen Bekannten. Aktion, 9 m Reichweite. Wichtig: nach Wirkungsende weiß das Ziel, dass es bezaubert wurde.
 > - **Inspiration** (Bonusaktion, 1×/Kurzrast): Verbündeter erhält W6 auf eine Probe in den nächsten 10 Minuten.
 > - **Spotlight-Vorschlag:** In Phase 2 Überzeugen mit Inspiration auf sich selbst, Honorar auf 200 hochziehen.
+
+**Beispiel (Kampfszene mit Waffenbeherrschung):**
+
+> **Raiku (Kämpfer 5, Geübt mit zwei Waffen)**
+> - **Langschwert** (+7 zu treffen, 1W8+4 Hieb): Waffenbeherrschung **Niederstrecken** — bei Treffer: Ziel KON-Rettung SG 13 oder Liegend.
+> - **Kurzschwert** (Bonusaktion, +7 zu treffen, 1W6+4 Stich): Waffenbeherrschung **Spickeln** — Bonusangriff ohne Strafe, auch wenn nicht mit Zweiwaffenkampf gerüstet.
+> - **Second Wind** (Bonusaktion, 2×/Kurzrast): Heilung 1W10+5 auf sich selbst.
+> - **Spotlight-Vorschlag:** Phase 1 Boss niederstrecken, dann mit Vorteil aus dem Liegend nachsetzen.
 
 ## 9. Verzweigungstabelle
 
