@@ -207,14 +207,14 @@ Im Skill durchgängig die **deutschen Kürzel** STÄ / GES / KON / INT / WEI / C
 | Reichweite | Range |
 | Geübt mit | Proficient with |
 | Waffenbeherrschung | Weapon Mastery |
-| Plagen (Waffenbeherrschungs-Effekt) | Vex |
-| Spalten | Cleave |
-| Stoßen | Push |
-| Niederstrecken | Topple |
-| Verlangsamen | Slow |
-| Lähmen | Sap |
-| Spickeln | Nick |
-| Schlitzen | Graze |
+| Auslaugen (Mastery-Effekt) | Sap |
+| Einkerben (Mastery-Effekt) | Nick |
+| Plagen (Mastery-Effekt) | Vex |
+| Spalten (Mastery-Effekt) | Cleave |
+| Stoßen (Mastery-Effekt) | Push |
+| Streifen (Mastery-Effekt) | Graze |
+| Umstoßen (Mastery-Effekt) | Topple |
+| Verlangsamen (Mastery-Effekt) | Slow |
 
 ## Magie-Begriffe
 

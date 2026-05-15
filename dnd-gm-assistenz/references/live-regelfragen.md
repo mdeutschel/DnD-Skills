@@ -13,6 +13,8 @@ Standardantworten zu den Regelthemen, die am Tisch am häufigsten aufkommen. Nac
 - [Aktionen, Bonusaktionen, Reaktionen](#aktionen-bonusaktionen-reaktionen)
 - [Bewegung](#bewegung)
 - [Heilung und Rasten](#heilung-und-rasten)
+- [Auf 0 TP fallen und Todesrettungswürfe](#auf-0-tp-fallen-und-todesrettungswürfe)
+- [Kritische Treffer](#kritische-treffer)
 - [Vorteil und Nachteil](#vorteil-und-nachteil)
 
 ---
@@ -158,11 +160,48 @@ Die fünfzehn Zustände nach PHB 2024 (offizielle WotC-Begriffe):
 
 ## Heilung und Rasten
 
-**Kurze Rast:** mindestens eine Stunde Pause. Charaktere können Trefferwürfel ausgeben (1W + KON pro Würfel) zur Heilung. Klassenfähigkeiten mit „1×/Kurzrast" werden zurückgesetzt.
+**Kurze Rast:** mindestens eine Stunde Pause. Charaktere können beliebig viele Trefferwürfel ausgeben (1W + KON-Mod pro Würfel, mindestens 1 TP pro Würfel) zur Heilung. Klassenfähigkeiten mit „1×/Kurzrast" werden zurückgesetzt. Trefferwürfel-Pool: 1 Würfel pro Charakterstufe, regeneriert sich teils bei langer Rast.
 
-**Lange Rast:** 8 Stunden Pause, davon 6 schlafend. Trefferpunkte voll, Trefferwürfel bis zur Hälfte zurück, Zauberplätze und „1×/Lange Rast"-Fähigkeiten zurück.
+**Lange Rast:** 8 Stunden Pause, davon 6 schlafend. **TP voll**, **Trefferwürfel bis zur Hälfte der Maximalzahl zurück**, **Zauberplätze und „1×/Lange Rast"-Fähigkeiten zurück**. Eine Kreatur kann nur einmal pro 24 Stunden von einer langen Rast profitieren.
 
-**Was am Tisch zu tun ist:** Vor jeder Rast klären, ob die Situation eine Rast erlaubt — Wachen, sicherer Ort, Vorräte. Lange Rast in feindlichem Gebiet ist riskant und kann unterbrochen werden.
+**Temporäre Trefferpunkte:** stapeln sich **nicht** (nimm den höheren Wert), gehen bei nächster langer Rast verloren, werden zuerst aufgebraucht bevor normale TP fallen.
+
+**Was am Tisch zu tun ist:** Vor jeder Rast klären, ob die Situation eine Rast erlaubt — Wachen, sicherer Ort, Vorräte. Lange Rast in feindlichem Gebiet ist riskant und kann unterbrochen werden (bei Unterbrechung von mehr als einer Stunde Aktivität gilt sie als gescheitert).
+
+---
+
+## Auf 0 TP fallen und Todesrettungswürfe
+
+**Regel (PHB 2024):** Charakter auf 0 TP fällt, ist bewusstlos und liegend. Zu Beginn jedes seiner Züge: **Todesrettungswurf** = 1W20.
+
+**Mechanik:**
+- **10 oder höher** = Erfolg. **9 oder niedriger** = Misserfolg.
+- **Drei Erfolge** = stabilisiert (bewusstlos, aber sicher).
+- **Drei Misserfolge** = tot.
+- Erfolge und Misserfolge müssen nicht aufeinanderfolgen — beide Zähler werden parallel geführt.
+- **Natürliche 20:** sofort 1 TP zurück (wacht auf, Erfolge/Misserfolge zurückgesetzt).
+- **Natürliche 1:** zwei Misserfolge auf einmal.
+- **Schaden bei 0 TP:** automatisch ein Misserfolg. Schaden aus kritischem Treffer: zwei Misserfolge. Wenn der Schaden mindestens das TP-Maximum erreicht: sofortiger Tod.
+
+**Stabilisieren ohne Wurf:** Verbündeter macht Helfen-Aktion + WEI(Heilkunde)-Probe SG 10 — bei Erfolg stabil. Heilung jeglicher Art bringt den Charakter zurück auf 1+ TP und beendet den Bewusstlos-Zustand.
+
+**Was am Tisch zu tun ist:** Token zur Seite legen oder umdrehen. Bei jedem Zug-Start des sterbenden Charakters Wurf einfordern, Erfolge/Misserfolge mitzählen (z. B. drei Striche pro Spalte). Sobald ein Verbündeter mit Heilung in Reichweite ist: aktive Aktion einfordern, nicht automatisch.
+
+---
+
+## Kritische Treffer
+
+**Regel:** Bei einer natürlichen 20 auf dem Angriffswurf: kritischer Treffer, trifft automatisch (unabhängig von RK und Modifikatoren).
+
+**Schadensregel:** **Alle Schadenswürfel des Angriffs zweimal würfeln** und addieren. Modifikatoren (STÄ, GES, magische Boni) werden **nicht** verdoppelt — nur die Würfel.
+
+**Beispiel:** Langschwert (1W8+3 STÄ) als Crit → 2W8 würfeln + 3 = z. B. 9 + 3 = 12 Schaden.
+
+**Sondereffekte:**
+- Crit bei Nahkampfangriff in 1,5 m gegen Gelähmt/Bewusstlos/Versteinert-Ziel: automatisch.
+- Crit gegen sterbenden Charakter (0 TP): zwei Misserfolge auf Todesrettungswürfe.
+
+**2024er-Änderung:** Crits gelten weiterhin nur auf natürliche 20 (nicht auf Treffer-Bereiche wie 19–20 außer durch spezifische Klassenmerkmale wie Champion-Kämpfer). Monster-Angriffe lösen weiterhin Crits aus — keine „nur Spieler-Crits"-Hausregel im Standard.
 
 ---
 

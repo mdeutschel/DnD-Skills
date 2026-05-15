@@ -165,7 +165,7 @@ Pro Test eine Zeile. Wirkung knapp formulieren, nicht im Sinne von „Erfolg / F
 
 Pro Charakter alle in dieser Szene relevanten Fähigkeiten **mit konkreten Effektwerten**: Würfelformel, Aktion oder Bonusaktion, Reichweite, Kosten (Fokuspunkte, Zauberplätze, Glückspunkte etc.), Häufigkeit (1×/Kurzrast, 1×/lange Rast).
 
-Bei Kampf-Szenen zusätzlich für jede primäre Waffe die **Waffenbeherrschungs-Eigenschaft** mit auflisten (PHB 2024: Plagen / Spalten / Stoßen / Niederstrecken / Verlangsamen / Lähmen / Spickeln / Schlitzen), damit der GM beim Treffer sofort die richtige Folge ansagen kann.
+Bei Kampf-Szenen zusätzlich für jede primäre Waffe die **Waffenbeherrschungs-Eigenschaft** mit auflisten (PHB 2024: Auslaugen / Einkerben / Plagen / Spalten / Stoßen / Streifen / Umstoßen / Verlangsamen — Details in `waffenbeherrschung.md`), damit der GM beim Treffer sofort die richtige Folge ansagen kann.
 
 **Keine reinen Verweise auf den Bogen.** Am Tisch muss alles direkt lesbar sein.
 
@@ -183,10 +183,10 @@ Bei nicht regelseitig verifizierten Werten klar **„am Bogen prüfen"** markier
 **Beispiel (Kampfszene mit Waffenbeherrschung):**
 
 > **Raiku (Kämpfer 5, Geübt mit zwei Waffen)**
-> - **Langschwert** (+7 zu treffen, 1W8+4 Hieb): Waffenbeherrschung **Niederstrecken** — bei Treffer: Ziel KON-Rettung SG 13 oder Liegend.
-> - **Kurzschwert** (Bonusaktion, +7 zu treffen, 1W6+4 Stich): Waffenbeherrschung **Spickeln** — Bonusangriff ohne Strafe, auch wenn nicht mit Zweiwaffenkampf gerüstet.
+> - **Langschwert** (+7 zu treffen, 1W8+4 Hieb): Waffenbeherrschung **Umstoßen** — bei Treffer: Ziel KON-Rettung SG 13 oder Liegend.
+> - **Kurzschwert** (Bonusaktion, +7 zu treffen, 1W6+4 Stich): Waffenbeherrschung **Einkerben** — zusätzlicher Leicht-Angriff als Teil der Angriffsaktion (statt Bonusaktion), 1×/Zug.
 > - **Second Wind** (Bonusaktion, 2×/Kurzrast): Heilung 1W10+5 auf sich selbst.
-> - **Spotlight-Vorschlag:** Phase 1 Boss niederstrecken, dann mit Vorteil aus dem Liegend nachsetzen.
+> - **Spotlight-Vorschlag:** Phase 1 Boss umstoßen, dann mit Vorteil aus dem Liegend nachsetzen.
 
 ## 9. Verzweigungstabelle
 

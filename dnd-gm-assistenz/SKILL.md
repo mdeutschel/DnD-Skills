@@ -157,6 +157,19 @@ Wenn ein Punkt offenbleibt: explizit im Chat ansprechen, nicht stillschweigend l
 - Statblöcke ins Drehbuch kopieren, statt zu referenzieren.
 - Atmosphäre als Sortierliste nach Sinnen, statt als erzählbare Pakete.
 
+## Autarkie (ohne Handbücher)
+
+Wenn PHB/DMG/MM gerade nicht greifbar sind, deckt der Skill folgende Tisch-Mechaniken **autark** ab — Live-Antworten ohne Buch-Verifikation:
+
+- SG-Skala 2024 mit Anwendungsbeispielen (`dc-skala-2024.md`)
+- EP-Budget-Tabelle Stufen 1–20 und HG-zu-EP-Werte (`encounter-skalierung.md`)
+- Die 15 Conditions mit Effekten (`live-regelfragen.md`)
+- Tod-Rettungswürfe, Kritische Treffer, Heilung und Rast, Verstecken, Deckung, Konzentration, Bewegung, Aktion-Ökonomie, Vorteil/Nachteil (`live-regelfragen.md`)
+- Die 8 Waffenbeherrschungs-Eigenschaften mit Effekten (`waffenbeherrschung.md`)
+- Sieben Standard-NSC-Statblöcke (Wache, Wachanführer, Bandit, Banditenhauptmann, Späher, Spion, Adeliger) (`standard-nsc-werte.md`)
+
+Was im Skill **nicht** autark liegt: Klassen-Features, Zauber, Spezies-Eigenheiten, magische Gegenstände, vollständige Monster-Bestiarien jenseits der sieben Statblöcke. Bei Fragen dazu offen ansagen und nachfragen, ob im Buch nachgeschlagen werden kann.
+
 ## Verweisstruktur
 
 Referenzen werden bei Bedarf gelesen, nicht alle auf einmal.
@@ -168,8 +181,10 @@ Referenzen werden bei Bedarf gelesen, nicht alle auf einmal.
 | `references/atmosphaere-pakete.md` | Aufbau und Beispiele | beim Schreiben von Szenen |
 | `references/dc-skala-2024.md` | SG-Skala mit Anwendungsbeispielen | Live-SG-Fragen, Drehbuch-D20-Tabellen |
 | `references/encounter-skalierung.md` | EP-Budget-Logik, Skalierung an Gruppe und Stufe | jede Kampfvorbereitung |
-| `references/nsc-werkzeugkasten.md` | NSC-Schnellgenerierung, Antriebe, Sprachbilder | NSC-Erstellung |
-| `references/live-regelfragen.md` | Häufige Regelfragen mit Standardantworten | Live-Modus, Regelfrage |
+| `references/nsc-werkzeugkasten.md` | NSC-Schnellgenerierung, Antriebe, Sprachbilder, 2024er-Statblock-Format | NSC-Erstellung |
+| `references/standard-nsc-werte.md` | Statblöcke der 7 häufigsten NSC-Typen | wenn MM 2025 nicht greifbar |
+| `references/waffenbeherrschung.md` | Die 8 Mastery-Eigenschaften mit Effekten | Kampfvorbereitung, Live-Klärung |
+| `references/live-regelfragen.md` | Häufige Regelfragen inkl. Tod-Rettungswürfe, Crits | Live-Modus, Regelfrage |
 | `references/nachbereitung.md` | Nachbereitung und Kampagnenchronik | nach der Sitzung |
 | `references/glossar-de-en.md` | Begriffsmapping DE↔EN | bei englischer Quellenrecherche |
 | `assets/drehbuch-skelett.md` | Leere Drehbuch-Vorlage | als Startpunkt |
