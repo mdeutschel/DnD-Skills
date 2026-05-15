@@ -6,12 +6,12 @@ Die DC-Skala für 2024er-Regeln. Quelle: PHB 2024 („Typical Difficulty Classes
 
 | Schwierigkeit | DC | Wann |
 |---|---:|---|
-| Sehr leicht | 5 | nahezu jeder schafft es ohne Probe — meist sollte gar kein Wurf nötig sein |
-| Leicht | 10 | gelernte Tätigkeit unter Stress; ungeübt mit etwas Glück |
+| Sehr einfach | 5 | nahezu jeder schafft es ohne Probe — meist sollte gar kein Wurf nötig sein |
+| Einfach | 10 | gelernte Tätigkeit unter Stress; ungeübt mit etwas Glück |
 | Mittel | 15 | normale Anforderung im Abenteurer-Alltag |
 | Schwer | 20 | spezialisiertes Können oder günstige Umstände nötig |
 | Sehr schwer | 25 | Expertise plus Vorbereitung oder Glück |
-| Nahezu unmöglich | 30 | außergewöhnliche Fähigkeiten plus großes Glück |
+| Fast unmöglich | 30 | außergewöhnliche Fähigkeiten plus großes Glück |
 
 Default-DC für offene Anfragen: **15 (mittel)** als Ausgangspunkt, dann situativ verschieben.
 
@@ -29,8 +29,8 @@ Eine Probe ist nur sinnvoll, wenn **Erfolg ungewiss ist und Fehlschlag eine Kons
 
 Drei Standardformeln aus dem DMG 2024:
 
-- **Passive Probe** = 10 + alle Modifikatoren, die normalerweise gelten würden. Beispiel: passive Wahrnehmung = 10 + WIS-Mod + Übungsbonus (falls geübt).
-- **Konteste** (eine Probe gegen die andere): die eine Probe ist DC für die andere. Beispiel: Heimlichkeit gegen passive Wahrnehmung des Wachpostens; STR-Athletik des Packenden gegen GES-Akrobatik oder STR-Athletik des Ziels.
+- **Passive Probe** = 10 + alle Modifikatoren, die normalerweise gelten würden. Beispiel: passive Wahrnehmung = 10 + WEI-Mod + Übungsbonus (falls geübt).
+- **Konteste** (eine Probe gegen die andere): die eine Probe ist DC für die andere. Beispiel: Heimlichkeit gegen passive Wahrnehmung des Wachpostens; STÄ-Athletik des Packenden gegen GES-Akrobatik oder STÄ-Athletik des Ziels.
 - **Berechneter DC** für Charakterfähigkeiten = 8 + Attributmodifikator + Übungsbonus. Wird genutzt für Zauber-Rettungswürfe und Spezialfähigkeiten („target makes a save against your DC").
 
 ## Modifikatoren situativ

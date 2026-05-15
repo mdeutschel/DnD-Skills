@@ -99,9 +99,9 @@ Knapp, fokussiert, entscheidungsorientiert. Inline im Chat, keine Datei. Harte L
 | Encounter-Schnellskalierung | 4 |
 | „Was passiert, wenn Spieler X tut?" | 5 |
 
-**DC-Skala 2024** (PHB / DMG): 5 sehr leicht, 10 leicht, 15 mittel, 20 schwer, 25 sehr schwer, 30 nahezu unmöglich. Default 15. Modifikatoren in 5er-Schritten oder lieber Vorteil/Nachteil.
+**DC-Skala 2024** (PHB / DMG): 5 sehr einfach, 10 einfach, 15 mittel, 20 schwer, 25 sehr schwer, 30 fast unmöglich. Default 15. Modifikatoren in 5er-Schritten oder lieber Vorteil/Nachteil.
 
-**Encounter-Skalierung 2024** (DMG): XP-Budget pro Charakter und Stufe (Niedrig / Moderat / Hoch). Gruppen-Budget = XP/Char × Charakteranzahl. Encounter-Soll = Summe der Monster-XP nach CR. Kein Multiplikator nach Gegnerzahl mehr (anders als 5e-2014). Tabelle in `references/encounter-skalierung.md`.
+**Encounter-Skalierung 2024** (DMG): XP-Budget pro Charakter und Stufe (Niedrig / Mittel / Hoch). Gruppen-Budget = XP/Char × Charakteranzahl. Encounter-Soll = Summe der Monster-XP nach CR. Kein Multiplikator nach Gegnerzahl mehr (anders als 5e-2014). Tabelle in `references/encounter-skalierung.md`.
 
 **Vor der Live-Antwort** kurz prüfen: Liegt eine Tracker-Datei oder ein aktives Drehbuch vor? Wenn ja, vorbereitete Werte (NSC-Status, DCs, offene Hinweise) übernehmen statt neu zu erfinden.
 

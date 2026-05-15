@@ -4,7 +4,7 @@ Skalierung von Kampfbegegnungen an Gruppengröße und Stufe nach den 2024er-Rege
 
 ## Grundprinzip 2024
 
-Das DMG 2024 nutzt **XP-Budgets pro Charakter und Stufe** für drei Schwierigkeitsgrade: **Niedrig (Low) / Moderat (Moderate) / Hoch (High)**.
+Das DMG 2024 nutzt **XP-Budgets pro Charakter und Stufe** für drei Schwierigkeitsgrade: **Niedrig (Low) / Mittel (Moderate) / Hoch (High)**.
 
 **Die Formel:**
 
@@ -18,7 +18,7 @@ Encounter-Soll ≤ Gruppen-Budget
 
 ## XP-Budget pro Charakter (DMG 2024, Auszug)
 
-| Stufe | Niedrig | Moderat | Hoch |
+| Stufe | Niedrig | Mittel | Hoch |
 |---:|---:|---:|---:|
 | 1 | 50 | 75 | 100 |
 | 2 | 100 | 150 | 200 |
@@ -52,11 +52,11 @@ Identisch mit 5e-2014:
 
 ## Rechenbeispiel
 
-> Gruppe: 3 Charaktere Stufe 4, gewünschte Schwierigkeit Moderat.
+> Gruppe: 3 Charaktere Stufe 4, gewünschte Schwierigkeit Mittel.
 > Gruppen-Budget = 375 × 3 = **1.125 XP**.
 > Encounter-Variante A: 1× Räuberhauptmann (CR 2, 450 XP) + 3× Räuber (CR 1/8, 25 XP) = 525 XP → unter Niedrig (Niedrig wäre 250 × 3 = 750), eher leichter Filler.
-> Encounter-Variante B: 1× Räuberhauptmann (450) + 1× Schläger (CR 1/2, 100) + 4× Räuber (4×25) = 650 XP → noch unter Moderat, leicht-bis-mittel.
-> Encounter-Variante C: 2× Räuberhauptmann (900) + 2× Räuber (50) = 950 XP → solide Moderat.
+> Encounter-Variante B: 1× Räuberhauptmann (450) + 1× Schläger (CR 1/2, 100) + 4× Räuber (4×25) = 650 XP → noch unter Mittel, leicht-bis-mittel.
+> Encounter-Variante C: 2× Räuberhauptmann (900) + 2× Räuber (50) = 950 XP → solide Mittel.
 
 ## Anpassung an Gruppengröße
 
@@ -90,7 +90,7 @@ Wenn ein Charakter eine Stufe niedriger ist als der Rest, am Encounter selbst ni
 - **Massive Effekt-Synergien** der Gegner (Boss buffed Mooks, Mooks setzen Boss frei)
 - **Spezielle Verwundbarkeiten** der Gruppe (kein Heiler, kein Fernkampf, keine Flächenmagie)
 
-Wenn zwei oder mehr dieser Faktoren zusammenkommen, eine Stufe herunterstufen (Hoch → Moderat).
+Wenn zwei oder mehr dieser Faktoren zusammenkommen, eine Stufe herunterstufen (Hoch → Mittel).
 
 ## Faktoren, die einen Encounter weicher machen
 
@@ -119,7 +119,7 @@ Budget pro Schwierigkeit (3 × XP/Char):
 | Schwierigkeit | XP-Budget | Anhaltspunkt |
 |---|---:|---|
 | Niedrig | 750 | drei Räuber (75) plus ein Schläger (100) = 175 → noch deutlich darunter; eher 1× Räuberhauptmann (450) + 4× Räuber (100) = 550 |
-| Moderat | 1.125 | 2× Räuberhauptmann (900) + 2× Räuber (50) = 950, knapp unter Moderat |
+| Mittel | 1.125 | 2× Räuberhauptmann (900) + 2× Räuber (50) = 950, knapp unter Mittel |
 | Hoch | 1.500 | 1× Räuberhauptmann (450) + 1× Schläger (100) + 1× Gegner CR 4 (1.100) = 1.650 → leicht über Hoch |
 
 Werte im konkreten Encounter immer gegen die offizielle DMG-Tabelle und die Stat-Block-XP im MM 2025 prüfen.

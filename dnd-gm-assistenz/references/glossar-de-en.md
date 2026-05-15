@@ -66,14 +66,16 @@ Die Liste ist nicht vollständig — sie enthält die häufigsten Begriffe, die 
 
 ## Attribute
 
-| Deutsch | Englisch | Kürzel |
-|---|---|---|
-| Stärke | Strength | STR |
-| Geschicklichkeit | Dexterity | GES / DEX |
-| Konstitution | Constitution | KON / CON |
-| Intelligenz | Intelligence | INT |
-| Weisheit | Wisdom | WIS |
-| Charisma | Charisma | CHA |
+| Deutsch | Englisch | Deutsches Kürzel | Englisches Kürzel |
+|---|---|---|---|
+| Stärke | Strength | STÄ | STR |
+| Geschicklichkeit | Dexterity | GES | DEX |
+| Konstitution | Constitution | KON | CON |
+| Intelligenz | Intelligence | INT | INT |
+| Weisheit | Wisdom | WEI | WIS |
+| Charisma | Charisma | CHA | CHA |
+
+Im Skill durchgängig die **deutschen Kürzel** STÄ / GES / KON / INT / WEI / CHA verwenden.
 
 ## Fertigkeiten
 
@@ -81,22 +83,22 @@ Die Liste ist nicht vollständig — sie enthält die häufigsten Begriffe, die 
 |---|---|---|
 | Akrobatik | Acrobatics | GES |
 | Arkane Kunde | Arcana | INT |
-| Athletik | Athletics | STR |
+| Athletik | Athletics | STÄ |
 | Auftreten | Performance | CHA |
 | Einschüchtern | Intimidation | CHA |
 | Fingerfertigkeit | Sleight of Hand | GES |
 | Geschichte | History | INT |
-| Heilkunde | Medicine | WIS |
+| Heilkunde | Medicine | WEI |
 | Heimlichkeit | Stealth | GES |
-| Mit Tieren umgehen | Animal Handling | WIS |
-| Motiv erkennen | Insight | WIS |
+| Mit Tieren umgehen | Animal Handling | WEI |
+| Motiv erkennen | Insight | WEI |
 | Nachforschungen | Investigation | INT |
 | Naturkunde | Nature | INT |
 | Religion | Religion | INT |
 | Täuschen | Deception | CHA |
-| Überlebenskunst | Survival | WIS |
+| Überlebenskunst | Survival | WEI |
 | Überzeugen | Persuasion | CHA |
-| Wahrnehmung | Perception | WIS |
+| Wahrnehmung | Perception | WEI |
 
 ## Zustände (Conditions)
 

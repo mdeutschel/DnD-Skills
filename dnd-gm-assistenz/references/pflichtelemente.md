@@ -149,7 +149,7 @@ Details in `nsc-werkzeugkasten.md`.
 
 Spalten: **Probe / DC / Wirkung.**
 
-DC-Skala PHB/DMG 2024: 5 sehr leicht, 10 leicht, 15 mittel, 20 schwer, 25 sehr schwer, 30 nahezu unmöglich. Default 15 (mittel). Details und Anwendungsbeispiele in `dc-skala-2024.md`.
+DC-Skala PHB/DMG 2024: 5 sehr einfach, 10 einfach, 15 mittel, 20 schwer, 25 sehr schwer, 30 fast unmöglich. Default 15 (mittel). Details und Anwendungsbeispiele in `dc-skala-2024.md`.
 
 Pro Test eine Zeile. Wirkung knapp formulieren, nicht im Sinne von „Erfolg / Fehlschlag", sondern was konkret passiert.
 
@@ -157,7 +157,7 @@ Pro Test eine Zeile. Wirkung knapp formulieren, nicht im Sinne von „Erfolg / F
 
 | Probe | DC | Wirkung |
 |---|---:|---|
-| Motiv erkennen (WIS) | 15 | Al'e merkt: Claude verschweigt etwas Wichtiges über Karl |
+| Motiv erkennen (WEI) | 15 | Al'e merkt: Claude verschweigt etwas Wichtiges über Karl |
 | Nachforschungen (INT, Karte) | 15 | Raiku erkennt zweiten Höhleneingang im Norden |
 | Überzeugen (CHA, Honorar) | 20 | Claude geht auf 200 hoch, plus Spesen |
 
@@ -174,7 +174,7 @@ Bei nicht regelseitig verifizierten Werten klar **„am Bogen prüfen"** markier
 **Beispiel:**
 
 > **Naeris (Bardin)**
-> - **Bezauberungsperson** (Zauberplatz Stufe 1): WIS-Rettungswurf der Zielperson, DC 13 (am Bogen prüfen). Bei Fehlschlag: Ziel betrachtet Naeris für 1 Stunde als freundlichen Bekannten. Aktion, 9 m Reichweite. Wichtig: nach Wirkungsende weiß das Ziel, dass es bezaubert wurde.
+> - **Bezauberungsperson** (Zauberplatz Stufe 1): WEI-Rettungswurf der Zielperson, DC 13 (am Bogen prüfen). Bei Fehlschlag: Ziel betrachtet Naeris für 1 Stunde als freundlichen Bekannten. Aktion, 9 m Reichweite. Wichtig: nach Wirkungsende weiß das Ziel, dass es bezaubert wurde.
 > - **Inspiration** (Bonusaktion, 1×/Kurzrast): Verbündeter erhält W6 auf eine Probe in den nächsten 10 Minuten.
 > - **Spotlight-Vorschlag:** In Phase 2 Überzeugen mit Inspiration auf sich selbst, Honorar auf 200 hochziehen.
 

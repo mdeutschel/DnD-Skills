@@ -33,7 +33,7 @@ Maximal acht bis zehn Zeilen. Wenn der Fall komplexer ist, das offen sagen und v
 
 ## Heimlichkeit und Wahrnehmung
 
-**Regel (Verstecken-Aktion, PHB 2024):** Verstecken ist eine Aktion. Voraussetzung: der Charakter ist **stark verdeckt** (Heavily Obscured), hat **dreiviertel oder volle Deckung** und ist **außerhalb der direkten Sichtlinie** aller Feinde, die ihn entdecken könnten. Ein DEX(Heimlichkeit)-Wurf gegen DC 15 (oder höher, je nach Beobachter) bestimmt, ob das Verstecken klappt.
+**Regel (Verstecken-Aktion, PHB 2024):** Verstecken ist eine Aktion. Voraussetzung: der Charakter ist **stark verdeckt** (Heavily Obscured), hat **dreiviertel oder volle Deckung** und ist **außerhalb der direkten Sichtlinie** aller Feinde, die ihn entdecken könnten. Ein GES-Wurf (Heimlichkeit) gegen DC 15 (oder höher, je nach Beobachter) bestimmt, ob das Verstecken klappt.
 
 **Mechanik:**
 - Bei Erfolg ist der Charakter **Unsichtbar** (Zustand) bis er sich entdeckt.
@@ -111,11 +111,11 @@ Die fünfzehn Zustände nach PHB 2024 (offizielle WotC-Begriffe):
 | **Taub** (Deafened) | hört nichts; automatischer Fehlschlag bei höranspruchsvollen Proben |
 | **Unsichtbar** (Invisible) | kann nicht gesehen werden; Vorteil auf Angriffe, Angriffe gegen sind im Nachteil; bleibt in Initiative-Reihenfolge |
 | **Festgesetzt** (Restrained) | Geschwindigkeit 0; Nachteil auf Angriffe und GES-Rettungen; Angreifer im Vorteil |
-| **Gelähmt** (Paralyzed) | kampfunfähig, kann sich nicht bewegen oder sprechen; automatischer Fehlschlag bei STR/GES-Rettungen; Angriffe im Vorteil; krit bei Nahkampf in 1,5 m |
+| **Gelähmt** (Paralyzed) | kampfunfähig, kann sich nicht bewegen oder sprechen; automatischer Fehlschlag bei STÄ/GES-Rettungen; Angriffe im Vorteil; krit bei Nahkampf in 1,5 m |
 | **Liegend** (Prone) | Bewegung halbiert; Nachteil auf Angriffe; Nahkampfangreifer im Vorteil, Fernkampfangreifer im Nachteil |
 | **Gepackt** (Grappled) | Geschwindigkeit 0; Nachteil auf Angriffe gegen alles außer dem Packenden; siehe Packen-Option des Angriffs |
-| **Betäubt** (Stunned) | kampfunfähig, kann sich nicht bewegen, automatischer Fehlschlag bei STR/GES-Rettungen, Angriffe im Vorteil |
-| **Bewusstlos** (Unconscious) | kampfunfähig, liegend, lässt Halt los; STR/GES-Rettung autom. Fehlschlag; Angriffe gegen im Vorteil; krit bei Nahkampf in 1,5 m |
+| **Betäubt** (Stunned) | kampfunfähig, kann sich nicht bewegen, automatischer Fehlschlag bei STÄ/GES-Rettungen, Angriffe im Vorteil |
+| **Bewusstlos** (Unconscious) | kampfunfähig, liegend, lässt Halt los; STÄ/GES-Rettung autom. Fehlschlag; Angriffe gegen im Vorteil; krit bei Nahkampf in 1,5 m |
 | **Versteinert** (Petrified) | wie Bewusstlos plus Verwandlung in Stein, Resistenz gegen alle Schadensarten, immun gegen Gift und Krankheit |
 | **Kampfunfähig** (Incapacitated) | kann keine Aktionen, Bonusaktionen oder Reaktionen ausführen; Konzentration bricht; Vorgängerzustand vieler härterer Zustände |
 | **Erschöpft** (Exhausted) | Stufenweise (1–6): pro Stufe −2 auf D20-Tests und Rettungs-DCs; ab Stufe 3 Bewegung halbiert; ab Stufe 5 Geschwindigkeit 0; Stufe 6 = Tod |
