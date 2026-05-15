@@ -145,3 +145,7 @@ Wenn die Aktionen interagieren (einer lenkt ab, einer schleicht), kann der ablen
 > Begründung: keine ungewöhnlichen Umstände, der Bandit ist wachsam aber nicht alarmiert
 > Bei Erfolg: Naeris kommt unbemerkt nah genug, um zu lauschen
 > Bei Fehlschlag: der Bandit hört etwas, geht zum Türknauf
+
+---
+
+*SG-Skala und SG-Berechnungsformeln sind aus dem System Reference Document 5.2.1 (Wizards of the Coast LLC) abgeleitet, lizenziert unter [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Details siehe `NOTICE.md` im Repository-Root.*

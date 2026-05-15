@@ -80,3 +80,7 @@ Die häufigsten Gegner- und NSC-Statblöcke aus dem offiziellen WotC SRD 5.2.1 (
 - **Skalierung:** Wenn die Begegnung härter sein soll, lieber Anzahl erhöhen als Werte tunen. Wenn weicher: TP nach unten würfeln (1W8 statt 2W8 etc.).
 
 Für seltenere NSC-Typen (Veteran, Schläger, Bürgerlicher, Magus, Akolyth, Priester) im MM 2025 oder im englischen SRD 5.2.1 nachschlagen — die obigen sieben decken die häufigsten Spontan-Encounter ab.
+
+---
+
+*Statblöcke abgeleitet aus dem System Reference Document 5.2.1 (Wizards of the Coast LLC), lizenziert unter [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Details siehe `NOTICE.md` im Repository-Root.*

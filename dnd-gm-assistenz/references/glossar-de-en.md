@@ -256,3 +256,7 @@ Im Skill durchgängig die **deutschen Kürzel** STÄ / GES / KON / INT / WEI / C
 ## Hinweis zur Pflege
 
 Wenn beim Übersetzen oder Recherchieren ein Begriff fehlt, hier ergänzen. Das Glossar ist absichtlich klein gehalten — Vollständigkeit ist nicht das Ziel, sondern verlässliche Mappings für die häufigsten Fälle.
+
+---
+
+*Die deutschen Begriffe folgen der offiziellen Übersetzung im System Reference Document 5.2.1 (Wizards of the Coast LLC), lizenziert unter [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Details siehe `NOTICE.md` im Repository-Root.*

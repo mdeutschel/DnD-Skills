@@ -53,3 +53,7 @@ Bei Unsicherheit: Spieler nennt die Waffe → im PHB 2024 (Waffentabelle) oder a
 **Interaktion mit Vorteilen/Nachteilen?** Plagen gibt Vorteil auf den **nächsten** Angriffswurf gegen das Ziel — andere Quellen für Nachteil heben das aber gemäß Standardregel auf (Vorteil + Nachteil = neutraler Wurf).
 
 **Wenn der Charakter die Waffenmeisterschaft nicht hat?** Eigenschaft greift nicht. Die Waffe macht ihren normalen Schaden, kein Sondereffekt.
+
+---
+
+*Die acht Waffenbeherrschungs-Eigenschaften und ihre Effekte sind aus dem System Reference Document 5.2.1 (Wizards of the Coast LLC) abgeleitet, lizenziert unter [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Details siehe `NOTICE.md` im Repository-Root.*

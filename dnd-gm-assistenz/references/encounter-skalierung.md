@@ -136,3 +136,7 @@ Werte im konkreten Encounter immer gegen die offizielle DMG-Tabelle und die Stat
 > Empfohlene Anpassung für 3 Charaktere Stufe 4: 3 Räuber + 1 Schläger
 > Begründung: ein Schläger als Druck-Element reicht; Räuberzahl reduziert, weil ohne vierten Charakter weniger Aktion-Ökonomie auf Spielerseite
 > Wenn die Gruppe Probleme bekommt: ein Räuber flieht in Runde 3, Schläger ergibt sich bei unter 10 HP
+
+---
+
+*EP-Budget-Tabelle und HG-zu-EP-Tabelle sind aus dem System Reference Document 5.2.1 (Wizards of the Coast LLC) abgeleitet, lizenziert unter [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Details siehe `NOTICE.md` im Repository-Root.*
