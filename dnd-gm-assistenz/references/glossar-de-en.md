@@ -2,6 +2,8 @@
 
 Begriffsmapping für 2024/2025-Regelwerke. Zweck: bei englischer Quellenrecherche (offizielle Wizards-of-the-Coast-Seiten, englische Foren, Reddit) sauber zwischen Englisch und Deutsch übersetzen, am Tisch aber konsequent deutsch sprechen.
 
+Die deutschen Begriffe folgen der **offiziellen Wizards-of-the-Coast-Übersetzung** (Spielerhandbuch 2024, DMG 2024, MM 2025 / SRD 5.2.1 Deutsch). Wenn ein englischer Begriff hier ist, ist die deutsche Variante verbindlich für den Tisch.
+
 Die Liste ist nicht vollständig — sie enthält die häufigsten Begriffe, die in Drehbüchern und Live-Klärungen aufkommen. Bei Unsicherheit oder neuen Begriffen am Tisch im Spielerhandbuch 2024 oder im DMG 2024 nachschlagen und hier ergänzen.
 
 ## Inhaltsverzeichnis
@@ -42,24 +44,24 @@ Die Liste ist nicht vollständig — sie enthält die häufigsten Begriffe, die 
 
 | Deutsch | Englisch |
 |---|---|
+| Angriff (Aktion) | Attack |
 | Aktion | Action |
 | Bonusaktion | Bonus Action |
 | Reaktion | Reaction |
 | Freie Aktion | Free Action |
-| Angreifen | Attack |
-| Zaubern | Cast a Spell |
-| Hilfeleistung | Help |
+| Magie (Aktion) | Magic |
+| Helfen | Help |
 | Rückzug | Disengage |
-| Sprinten | Dash |
+| Spurt | Dash |
 | Ausweichen | Dodge |
-| Sich-bereithalten | Ready |
-| Versuchen (Beeinflussen) | Influence |
-| Aufmerksam-suchen | Search |
-| Studieren (Untersuchen) | Study |
-| Erfassen | Grapple |
-| Schubsen | Shove |
+| Vorbereiten | Ready |
+| Beeinflussen | Influence |
+| Suchen | Search |
+| Studieren | Study |
 | Verstecken | Hide |
-| Magisches Objekt nutzen | Utilize |
+| Verwenden | Utilize |
+| Packen (Option des Angriffs) | Grapple |
+| Stoßen (Option des Angriffs) | Shove |
 | Gelegenheitsangriff | Opportunity Attack |
 
 ## Attribute
@@ -78,41 +80,41 @@ Die Liste ist nicht vollständig — sie enthält die häufigsten Begriffe, die 
 | Deutsch | Englisch | Attribut |
 |---|---|---|
 | Akrobatik | Acrobatics | GES |
+| Arkane Kunde | Arcana | INT |
 | Athletik | Athletics | STR |
 | Auftreten | Performance | CHA |
 | Einschüchtern | Intimidation | CHA |
-| Entfesselungskunst | Sleight of Hand | GES |
+| Fingerfertigkeit | Sleight of Hand | GES |
 | Geschichte | History | INT |
 | Heilkunde | Medicine | WIS |
 | Heimlichkeit | Stealth | GES |
 | Mit Tieren umgehen | Animal Handling | WIS |
 | Motiv erkennen | Insight | WIS |
-| Nachforschen | Investigation | INT |
+| Nachforschungen | Investigation | INT |
 | Naturkunde | Nature | INT |
 | Religion | Religion | INT |
 | Täuschen | Deception | CHA |
 | Überlebenskunst | Survival | WIS |
 | Überzeugen | Persuasion | CHA |
 | Wahrnehmung | Perception | WIS |
-| Zauberkunde | Arcana | INT |
 
 ## Zustände (Conditions)
 
 | Deutsch | Englisch |
 |---|---|
-| Bezaubert | Charmed |
+| Betäubt | Stunned |
 | Bewusstlos | Unconscious |
-| Erfasst | Grappled |
+| Bezaubert | Charmed |
+| Blind | Blinded |
 | Erschöpft | Exhausted |
-| Festgehalten | Restrained |
-| Geblendet | Blinded |
-| Handlungsunfähig | Incapacitated |
+| Festgesetzt | Restrained |
+| Gelähmt | Paralyzed |
+| Gepackt | Grappled |
+| Kampfunfähig | Incapacitated |
 | Liegend | Prone |
-| Reglos | Paralyzed |
 | Taub | Deafened |
 | Unsichtbar | Invisible |
 | Verängstigt | Frightened |
-| Vergeblich | Stunned |
 | Vergiftet | Poisoned |
 | Versteinert | Petrified |
 
@@ -157,7 +159,7 @@ Die Liste ist nicht vollständig — sie enthält die häufigsten Begriffe, die 
 |---|---|
 | Fokuspunkte (Mönch) | Focus Points |
 | Glückspunkte (Schurke / Bard / etc.) | Luck Points |
-| Heroische Inspiration (Spielerbelohnung, 2024er-Begriff) | Heroic Inspiration |
+| Heldische Inspiration (Spielerbelohnung, 2024er-Begriff) | Heroic Inspiration |
 | Bardische Inspiration (Bard-Klassenfähigkeit) | Bardic Inspiration |
 | Wut (Barbar) | Rage |
 | Zaubervorbereitung | Spell Preparation |
@@ -200,8 +202,8 @@ Die Liste ist nicht vollständig — sie enthält die häufigsten Begriffe, die 
 | Halbe Deckung | Half Cover |
 | Reichweite | Range |
 | Geübt mit | Proficient with |
-| Waffenmeisterschaft | Weapon Mastery |
-| Plagen (Waffenmeisterschafts-Effekt) | Vex |
+| Waffenbeherrschung | Weapon Mastery |
+| Plagen (Waffenbeherrschungs-Effekt) | Vex |
 | Spalten | Cleave |
 | Stoßen | Push |
 | Niederstrecken | Topple |
