@@ -24,3 +24,11 @@ Skill nutzt die D&D-2024/2025-Regelwerke als primäre Quelle:
 - Monster Manual 2025 (MM)
 
 Bei Diskrepanz zwischen Skill-Inhalt und Druckausgabe gilt das Druckwerk. Errata werden nicht automatisch nachgeführt — bei Regelfragen den aktuellen Stand prüfen.
+
+## Lizenz und Attribution
+
+Dieses Repository steht unter der **Creative Commons Attribution 4.0 International License (CC BY 4.0)**. Volltext in [`LICENSE`](LICENSE).
+
+Teile des Skills enthalten Material aus dem **System Reference Document 5.2.1** (Wizards of the Coast LLC, ebenfalls CC BY 4.0) — betroffen sind unter anderem die Statblöcke in `references/standard-nsc-werte.md`, die Zustände und Regelaussagen in `references/live-regelfragen.md`, die acht Eigenschaften in `references/waffenbeherrschung.md`, die SG- und EP-Tabellen sowie das deutsche Begriffsmapping. Vollständige Attribution und Datei-Liste in [`NOTICE.md`](NOTICE.md).
+
+"Dungeons & Dragons", "D&D" und "Wizards of the Coast" sind Marken von Wizards of the Coast LLC. Dieses Projekt ist inoffizieller Fan-Content und steht in keinerlei Verbindung zu Wizards of the Coast.

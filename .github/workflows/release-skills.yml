@@ -49,7 +49,12 @@ jobs:
             if [ -f "${skill}/SKILL.md" ]; then
               zipname="${skill}-${VERSION}.zip"
               echo "Packaging ${skill} -> dist/${zipname}"
-              (cd "${skill}" && zip -r "../dist/${zipname}" . -x "*.DS_Store" "__MACOSX/*")
+              staging="$(mktemp -d)"
+              cp -R "${skill}/." "${staging}/"
+              [ -f LICENSE ] && cp LICENSE "${staging}/LICENSE"
+              [ -f NOTICE.md ] && cp NOTICE.md "${staging}/NOTICE.md"
+              (cd "${staging}" && zip -r "${GITHUB_WORKSPACE}/dist/${zipname}" . -x "*.DS_Store" "__MACOSX/*")
+              rm -rf "${staging}"
               COUNT=$((COUNT + 1))
             fi
           done

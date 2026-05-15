@@ -224,3 +224,7 @@ Die fünfzehn Zustände nach PHB 2024 (offizielle WotC-Begriffe):
 - Ziel ist liegend (im Fernkampf)
 - Schlechte Sicht
 - Ungewohnte Rüstung
+
+---
+
+*Zustände, Todesrettungswurf-Mechanik, Crit-Regel, Deckungswerte und weitere Regelaussagen sind aus dem System Reference Document 5.2.1 (Wizards of the Coast LLC) abgeleitet, lizenziert unter [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Details siehe `NOTICE.md` im Repository-Root.*
