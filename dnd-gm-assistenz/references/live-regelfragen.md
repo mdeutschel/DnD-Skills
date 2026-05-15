@@ -33,14 +33,15 @@ Maximal acht bis zehn Zeilen. Wenn der Fall komplexer ist, das offen sagen und v
 
 ## Heimlichkeit und Wahrnehmung
 
-**Regel:** Heimlichkeit (GES) gegen passive Wahrnehmung — falls der Beobachter aktiv sucht, würfelt er Wahrnehmung (WIS) statt der passiven.
+**Regel (Verstecken-Aktion, PHB 2024):** Verstecken ist eine Aktion. Voraussetzung: der Charakter ist **stark verdeckt** (Heavily Obscured), hat **dreiviertel oder volle Deckung** und ist **außerhalb der direkten Sichtlinie** aller Feinde, die ihn entdecken könnten. Ein DEX(Heimlichkeit)-Wurf gegen DC 15 (oder höher, je nach Beobachter) bestimmt, ob das Verstecken klappt.
 
 **Mechanik:**
-- Heimlichkeit ist möglich, wenn der Charakter **stark verdeckt** ist oder **außer Sicht** des Beobachters.
-- Bei Bewegung in normaler Sicht ist keine Heimlichkeit möglich, außer der Beobachter ist abgelenkt.
+- Bei Erfolg ist der Charakter **Unsichtbar** (Zustand) bis er sich entdeckt.
+- Aufgedeckt wird er, wenn er angreift, einen Zauber mit V-Komponente wirkt, lauter als ein Flüstern Geräusche macht, oder ein Feind ihn mit einem Wahrnehmungswurf gegen seine Heimlichkeitsprobe entdeckt.
 - Schwere Rüstung gibt Nachteil auf Heimlichkeit, falls der Charakter darin nicht geübt ist.
+- Bei reiner Bewegung außerhalb der Verstecken-Aktion (z.B. an einer Wache vorbei) gilt: Heimlichkeit gegen passive Wahrnehmung des Beobachters.
 
-**Was am Tisch zu tun ist:** Beobachter-passive Wahrnehmung als DC nehmen, Spieler würfelt Heimlichkeit. Bei aktiver Suche durch Beobachter: gegnerischer Wahrnehmungswurf statt passiv.
+**Was am Tisch zu tun ist:** Erst prüfen, ob die Voraussetzungen für Verstecken erfüllt sind (verdeckt, außer Sicht). Wenn ja, DC 15 oder passive Wahrnehmung des wachsamsten Beobachters als DC nehmen — der höhere Wert gilt. Bei aktiver Suche durch Beobachter: gegnerischer Wahrnehmungswurf statt passiv.
 
 **Häufige Sonderfälle:**
 - Mehrere Beobachter: höchste passive Wahrnehmung gilt.
@@ -99,20 +100,25 @@ Maximal acht bis zehn Zeilen. Wenn der Fall komplexer ist, das offen sagen und v
 
 Die wichtigsten Zustände auf einen Blick:
 
+Die fünfzehn Zustände nach PHB 2024:
+
 | Zustand | Wichtigste Effekte |
 |---|---|
 | **Vergiftet** | Nachteil auf Angriffe und Fähigkeitsproben |
 | **Bezaubert** | kann Bezauberer nicht angreifen, Bezauberer hat Vorteil auf Soziales |
-| **Verängstigt** | Nachteil auf Angriffe und Proben, solange Quelle in Sicht |
-| **Geblendet** | Nachteil auf Angriffe, Angriffe gegen sind im Vorteil; sieht nichts |
+| **Verängstigt** | Nachteil auf Angriffe und Proben, solange Quelle in Sicht; kann sich nicht freiwillig auf Quelle zubewegen |
+| **Geblendet** | sieht nichts; automatischer Fehlschlag bei sichtanspruchsvollen Proben; Nachteil auf Angriffe, Angriffe gegen sind im Vorteil |
 | **Taub** | hört nichts; automatischer Fehlschlag bei höranspruchsvollen Proben |
+| **Unsichtbar** | kann nicht gesehen werden; Vorteil auf Angriffe, Angriffe gegen sind im Nachteil; bleibt im Initiative-Reihenfolge enthalten |
 | **Festgehalten** | Geschwindigkeit 0; Nachteil auf Angriffe und GES-Rettungen; Angreifer im Vorteil |
-| **Reglos** | wie Festgehalten plus automatisch Fehlschlag bei STR/GES-Rettungen; Angreifer trifft kritisch bei Nahkampf in 1,5 m |
+| **Reglos** | wie Festgehalten plus automatisch Fehlschlag bei STR/GES-Rettungen; Angreifer trifft kritisch bei Nahkampf in 1,5 m; handlungsunfähig |
 | **Liegend** | Bewegung halbiert; Nachteil auf Angriffe; Nahkampfangreifer im Vorteil, Fernkampfangreifer im Nachteil |
 | **Erfasst** | Geschwindigkeit 0; siehe Erfassen-Aktion |
-| **Vergeblich** (Stunned) | wie Reglos minus automatischen Fehlschlag — kein autom. krit |
-| **Bewusstlos** | wie Reglos plus liegend; krit auch bei Nahkampf in 1,5 m |
-| **Erschöpft** | Stufenweise: Probennachteil pro Stufe, ab Stufe 3 Bewegung halbiert, ab Stufe 5 Geschwindigkeit 0, Stufe 6 = Tod |
+| **Vergeblich** (Stunned) | handlungsunfähig, kann sich nicht bewegen, automatischer Fehlschlag bei STR/GES-Rettungen, Angreifer im Vorteil |
+| **Bewusstlos** | handlungsunfähig, liegend, lässt Halt los; STR/GES-Rettung autom. Fehlschlag; Angriffe gegen im Vorteil; krit bei Nahkampf in 1,5 m |
+| **Versteinert** | wie Bewusstlos plus Verwandlung in Stein, Resistenz gegen alle Schadensarten, immun gegen Gift und Krankheit |
+| **Handlungsunfähig** | kann keine Aktionen, Bonusaktionen oder Reaktionen ausführen; Konzentration bricht; Vorgängerzustand vieler härterer Zustände |
+| **Erschöpft** | Stufenweise (1–6): pro Stufe −2 auf D20-Tests und Rettungs-DCs; ab Stufe 3 Bewegung halbiert; ab Stufe 5 Geschwindigkeit 0; Stufe 6 = Tod |
 
 **Was am Tisch zu tun ist:** Zustand auf Token oder Tisch-Notiz markieren, am Rundenende Wirkungsdauer prüfen. Bei mehreren Zuständen gleichzeitig die Effekte addieren.
 

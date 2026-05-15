@@ -1,59 +1,79 @@
 # Encounter-Skalierung
 
-Skalierung von Kampfbegegnungen an Gruppengröße und Stufe nach den 2024er-Regeln.
+Skalierung von Kampfbegegnungen an Gruppengröße und Stufe nach den 2024er-Regeln. Quelle: DMG 2024 („Plan Encounters", Kapitel Creating Adventures), MM 2025 (Stat Blocks und CR-zu-XP-Werte).
 
 ## Grundprinzip 2024
 
-Das Dungeon Master Handbuch 2024 nutzt **XP-Budgets pro Charakter und Stufe** für drei Schwierigkeitsgrade: **Niedrig, Moderat, Hoch**.
+Das DMG 2024 nutzt **XP-Budgets pro Charakter und Stufe** für drei Schwierigkeitsgrade: **Niedrig (Low) / Moderat (Moderate) / Hoch (High)**.
 
 **Die Formel:**
 
 ```
-Gruppen-Budget = (XP-Budget pro Char auf Stufe X für gewünschte Schwierigkeit) × Anzahl Charaktere
+Gruppen-Budget = (XP-Budget pro Char auf Stufe X für Schwierigkeit Y) × Anzahl Charaktere
 Encounter-Soll = Summe der XP-Werte aller Gegner nach CR
 Encounter-Soll ≤ Gruppen-Budget
 ```
 
-**Wichtig gegenüber 5e-2014:** Es gibt **keinen Gruppengrößen-Multiplikator** mehr und **keinen Schwierigkeitsmultiplikator pro Gegnerzahl** (im Sinne von „×1,5 wenn 3 Gegner, ×2 wenn 4–6"). Reine Summe der Monster-XP gegen das Gruppen-Budget.
+**Vergleich zu 5e-2014:** Die 2014er-Encounter-Multiplikatoren (×1,5 für 3 Gegner, ×2 für 4–6 etc.) tauchen im DMG 2024 nicht mehr auf. Stattdessen wird einfach die XP-Summe direkt mit dem Gruppen-Budget verglichen. Das DMG sagt das nicht explizit als „abgeschafft", die alte Mechanik fehlt aber im neuen Encounter-Building-Kapitel.
 
-Die XP-Tabellen pro Stufe und Schwierigkeit liegen im DMG 2024 (Encounter-Building-Kapitel). Wenn die Tabellen nicht im aktiven Projekt-Wissen verfügbar sind, per Web-Recherche prüfen oder aus internem Wissen mit Stand kennzeichnen — **die exakten Werte hier nicht aus dem Gedächtnis nennen, sondern nachschlagen.**
+## XP-Budget pro Charakter (DMG 2024, Auszug)
 
-**Rechenbeispiel (vorausgesetzt, das XP-Budget für Stufe 4 Moderat liegt im DMG bei 500 pro Char):**
+| Stufe | Niedrig | Moderat | Hoch |
+|---:|---:|---:|---:|
+| 1 | 50 | 75 | 100 |
+| 2 | 100 | 150 | 200 |
+| 3 | 150 | 225 | 400 |
+| 4 | 250 | 375 | 500 |
+| 5 | 500 | 750 | 1.100 |
+| 6 | 600 | 1.000 | 1.400 |
+| 7 | 750 | 1.300 | 1.700 |
+| 8 | 1.000 | 1.700 | 2.100 |
+| 9 | 1.300 | 2.000 | 2.600 |
+| 10 | 1.600 | 2.300 | 3.100 |
+| 15 | 3.300 | 5.400 | 7.800 |
+| 20 | 6.400 | 13.200 | 22.000 |
+
+Volle Tabelle (Stufen 1–20) im DMG 2024, Kapitel „Plan Encounters".
+
+## CR-zu-XP-Konvertierung (MM 2025)
+
+Identisch mit 5e-2014:
+
+| CR | XP | CR | XP | CR | XP |
+|---:|---:|---:|---:|---:|---:|
+| 0 | 0 oder 10 | 5 | 1.800 | 14 | 11.500 |
+| 1/8 | 25 | 6 | 2.300 | 15 | 13.000 |
+| 1/4 | 50 | 7 | 2.900 | 16 | 15.000 |
+| 1/2 | 100 | 8 | 3.900 | 17 | 18.000 |
+| 1 | 200 | 9 | 5.000 | 20 | 25.000 |
+| 2 | 450 | 10 | 5.900 | 25 | 75.000 |
+| 3 | 700 | 11 | 7.200 | 30 | 155.000 |
+| 4 | 1.100 | 13 | 10.000 | | |
+
+## Rechenbeispiel
 
 > Gruppe: 3 Charaktere Stufe 4, gewünschte Schwierigkeit Moderat.
-> Gruppen-Budget = 500 × 3 = 1.500 XP.
-> Encounter: 1× Räuberhauptmann (CR 2, 450 XP) + 3× Räuber (CR 1/8, 25 XP) = 525 XP.
-> 525 ≪ 1.500 → die Begegnung ist deutlich unter Moderat, eher Niedrig. Aufstocken oder härtere Gegner.
-
-Wert für CR-XP-Konvertierung im DMG 2024 / MM 2025 nachschlagen, nicht aus dem Gedächtnis.
-
-## Schnellverfahren ohne XP-Tabellen
-
-Wenn am Tisch keine Tabellen verfügbar sind, hilft eine pragmatische Faustregel:
-
-| Schwierigkeit | Beschreibung |
-|---|---|
-| **Trivial** | wahrscheinlich keine Ressourcennutzung — drei bis vier Mooks unter der Gruppenstufe |
-| **Niedrig** | leichte Ressourcennutzung — Gegner mit CR ungefähr ein Viertel der Gruppenstufe pro Charakter |
-| **Moderat** | spürbare Ressourcennutzung, ein Charakter eventuell stark angeschlagen — CR-Summe etwa der Gruppenstufe entsprechend |
-| **Hoch** | echte Gefahr, Niederlage möglich bei Pech — CR-Summe deutlich über Gruppenstufe |
-
-Konkrete Werte am Tisch: lieber CR-Summe etwas zu niedrig als zu hoch ansetzen, weil 2024er-Charaktere robust sind und Boss-Gegner schnell zu hart werden.
+> Gruppen-Budget = 375 × 3 = **1.125 XP**.
+> Encounter-Variante A: 1× Räuberhauptmann (CR 2, 450 XP) + 3× Räuber (CR 1/8, 25 XP) = 525 XP → unter Niedrig (Niedrig wäre 250 × 3 = 750), eher leichter Filler.
+> Encounter-Variante B: 1× Räuberhauptmann (450) + 1× Schläger (CR 1/2, 100) + 4× Räuber (4×25) = 650 XP → noch unter Moderat, leicht-bis-mittel.
+> Encounter-Variante C: 2× Räuberhauptmann (900) + 2× Räuber (50) = 950 XP → solide Moderat.
 
 ## Anpassung an Gruppengröße
 
-Standard-Encounter sind oft auf vier Charaktere ausgelegt. Bei drei Charakteren:
+Die Budget-Formel skaliert linear mit der Charakterzahl, das ist die Hauptanpassung. Darüber hinaus pragmatisch (nicht aus dem DMG, sondern als Tisch-Erfahrung):
 
-- **Gegnerzahl reduzieren**, nicht CR senken. Drei statt vier Räuber, zwei statt drei Goblins.
+Bei drei Charakteren statt vier:
+
+- **Gegnerzahl reduzieren**, nicht CR senken. Drei statt vier Räuber, zwei statt drei Goblins. Senkt das gesamte Encounter-XP, ohne den Boss seines Gewichts zu berauben.
 - **Bei Bosskämpfen**: Boss bleibt, Begleitung wird halbiert. Der Boss soll erkennbar Boss bleiben.
 - **Eine Reaktion pro Runde des Bosses streichen**, falls der Kampf zu drückend wird.
 
 Bei fünf Charakteren:
 
 - **Gegnerzahl erhöhen**, eine Mook-Gruppe oder einen Lieutenant ergänzen.
-- **Bei Bosskämpfen**: Boss bekommt Begleitung dazu oder eine zweite Boss-Phase mit erhöhten HP.
+- **Bei Bosskämpfen**: Boss bekommt Begleitung dazu, oder die HP werden um 25–50 % erhöht.
 
-## Anpassung an Stufe-Lücken innerhalb der Gruppe
+## Anpassung an Stufen-Lücken innerhalb der Gruppe
 
 Wenn ein Charakter eine Stufe niedriger ist als der Rest, am Encounter selbst nichts ändern, aber:
 
@@ -61,7 +81,7 @@ Wenn ein Charakter eine Stufe niedriger ist als der Rest, am Encounter selbst ni
 - nicht alle Gegner auf den schwächsten Charakter fokussieren
 - bei Boss-Sondereffekten dem unteren Charakter eher Vorteilssituationen anbieten
 
-## Faktoren, die einen Encounter härter machen, als die CR-Summe vermuten lässt
+## Faktoren, die einen Encounter härter machen, als die XP-Summe vermuten lässt
 
 - **Begrenzter Raum** ohne Bewegungsoptionen — keine Deckung, kein Abstand möglich
 - **Mehrere gleichzeitige Bedrohungen** (Gegner plus Falle plus Umweltgefahr)
@@ -82,31 +102,33 @@ Wenn zwei oder mehr dieser Faktoren zusammenkommen, eine Stufe herunterstufen (H
 
 ## Boss-Encounter-Design
 
+Best-Practice am Tisch (das DMG 2024 hat dazu kein eigenes Designkapitel — diese Tipps sind erprobte GM-Praxis, nicht Regelwerk):
+
 Ein einzelner Boss gegen die ganze Gruppe ist taktisch schwierig — die Aktion-Ökonomie ist gegen ihn. Drei Lösungsansätze:
 
-1. **Begleitung dazugeben**: zwei bis vier Mooks als Schadenspuffer und Aktion-Ökonomie-Ausgleich.
-2. **Lair-Aktionen** und Initiativen-zwischen-Spielern, sodass der Boss zwei bis drei Mal pro Runde handelt.
-3. **Phasen-Boss**: Phase 1 mit normalen HP, dann Wechsel zu Phase 2 mit neuen Fähigkeiten und teilweise zurückgesetzten HP.
+1. **Begleitung dazugeben**: zwei bis vier Mooks als Schadenspuffer und Aktion-Ökonomie-Ausgleich. Einfachste Lösung, immer geeignet.
+2. **Lair-Aktionen** (wenn der Boss als Stat Block solche hat — viele MM-2025-Bosse haben sie) und Initiativen-zwischen-Spielern, sodass der Boss zwei bis drei Mal pro Runde handelt.
+3. **Phasen-Boss** (Hausregel): Phase 1 mit normalen HP, dann Wechsel zu Phase 2 mit neuen Fähigkeiten und teilweise zurückgesetzten HP. Nicht im DMG kodifiziert — als optionale Variante markieren, wenn es im Drehbuch genutzt wird.
 
-Für die Gruppe gefährlich, aber fair: 1. ist am einfachsten umzusetzen.
+Für die Gruppe gefährlich, aber fair: Ansatz 1 ist am einfachsten umzusetzen.
 
-## Für drei Charaktere Stufe 4 (Beispielgruppe)
+## Beispielgruppe 3 Charaktere Stufe 4
 
-Als grober Anker, ohne Tabellen-Verifikation:
+Budget pro Schwierigkeit (3 × XP/Char):
 
-| Schwierigkeit | Anhaltspunkt |
-|---|---|
-| Niedrig | drei Räuber (CR 1/8) plus ein Schläger (CR 1/2) |
-| Moderat | vier Räuber plus ein Schläger, oder ein Räuberhauptmann (CR 2) plus zwei Räuber |
-| Hoch | ein Räuberhauptmann plus drei Räuber, oder ein einzelner Gegner CR 4 plus zwei Mooks |
+| Schwierigkeit | XP-Budget | Anhaltspunkt |
+|---|---:|---|
+| Niedrig | 750 | drei Räuber (75) plus ein Schläger (100) = 175 → noch deutlich darunter; eher 1× Räuberhauptmann (450) + 4× Räuber (100) = 550 |
+| Moderat | 1.125 | 2× Räuberhauptmann (900) + 2× Räuber (50) = 950, knapp unter Moderat |
+| Hoch | 1.500 | 1× Räuberhauptmann (450) + 1× Schläger (100) + 1× Gegner CR 4 (1.100) = 1.650 → leicht über Hoch |
 
-Diese Werte sind ohne Web-Verifikation und sollten am Tisch je nach Gruppenstärke nachjustiert werden.
+Werte im konkreten Encounter immer gegen die offizielle DMG-Tabelle und die Stat-Block-XP im MM 2025 prüfen.
 
 ## Live-Modus: Standardform für Skalierungsanfragen
 
 > Originalbegegnung: [Gegnerliste]
 > Empfohlene Anpassung für [Gruppengröße/Stufe]: [konkret]
-> Begründung: [ein Halbsatz zu Aktion-Ökonomie oder CR-Summe]
+> Begründung: [ein Halbsatz zu Aktion-Ökonomie oder XP-Summe]
 > Wenn die Gruppe Probleme bekommt: [Notbremse]
 
 **Beispiel:**

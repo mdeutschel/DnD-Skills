@@ -116,7 +116,7 @@ Knapp, fokussiert, entscheidungsorientiert. **Immer inline im Chat**, keine Date
 | Format | Max. Zeilen | Inhalt |
 |---|:---:|---|
 | **Regelfrage** | 6 | Probe oder Mechanik / DC oder Wert / Quelle / Effekt bei Erfolg und Fehlschlag / Sonderfall falls relevant |
-| **DC-Vorschlag** | 3 | konkreter Wert + Halbsatz-Begründung (Skala: 10 leicht, 13 mittel, 16 schwer, 19 sehr schwer) |
+| **DC-Vorschlag** | 3 | konkreter Wert + Halbsatz-Begründung (Skala PHB/DMG 2024: 5 sehr leicht, 10 leicht, 15 mittel, 20 schwer, 25 sehr schwer, 30 nahezu unmöglich) |
 | **NSC-Improvisation** | 8 | Name, ein Satz Erscheinung, Antrieb, Sprachbild, Statblock-Verweis |
 | **Encounter-Schnellskalierung** | 4 | Originalbegegnung / Anpassung / Begründung / Notbremse |
 | **„Was passiert, wenn Spieler X tut?"** | 5 | wahrscheinliche Folge, mögliche Probe, was offen bleibt |

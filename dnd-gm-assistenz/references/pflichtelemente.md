@@ -149,7 +149,7 @@ Details in `nsc-werkzeugkasten.md`.
 
 Spalten: **Probe / DC / Wirkung.**
 
-DC-Skala 2024: 10 leicht, 13 mittel, 16 schwer, 19 sehr schwer. Details und Anwendungsbeispiele in `dc-skala-2024.md`.
+DC-Skala PHB/DMG 2024: 5 sehr leicht, 10 leicht, 15 mittel, 20 schwer, 25 sehr schwer, 30 nahezu unmöglich. Default 15 (mittel). Details und Anwendungsbeispiele in `dc-skala-2024.md`.
 
 Pro Test eine Zeile. Wirkung knapp formulieren, nicht im Sinne von „Erfolg / Fehlschlag", sondern was konkret passiert.
 
@@ -157,9 +157,9 @@ Pro Test eine Zeile. Wirkung knapp formulieren, nicht im Sinne von „Erfolg / F
 
 | Probe | DC | Wirkung |
 |---|---:|---|
-| Motiv erkennen (CHA-basiert) | 13 | Al'e merkt: Claude verschweigt etwas Wichtiges über Karl |
-| Nachforschen (Karte) | 13 | Raiku erkennt zweiten Höhleneingang im Norden |
-| Überzeugen (Honorar) | 16 | Claude geht auf 200 hoch, plus Spesen |
+| Motiv erkennen (WIS) | 15 | Al'e merkt: Claude verschweigt etwas Wichtiges über Karl |
+| Nachforschen (INT, Karte) | 15 | Raiku erkennt zweiten Höhleneingang im Norden |
+| Überzeugen (CHA, Honorar) | 20 | Claude geht auf 200 hoch, plus Spesen |
 
 ## 8. Charakter-Spotlights
 

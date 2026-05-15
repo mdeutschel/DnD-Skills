@@ -51,6 +51,7 @@ Die Liste ist nicht vollständig — sie enthält die häufigsten Begriffe, die 
 | Hilfeleistung | Help |
 | Rückzug | Disengage |
 | Sprinten | Dash |
+| Ausweichen | Dodge |
 | Sich-bereithalten | Ready |
 | Versuchen (Beeinflussen) | Influence |
 | Aufmerksam-suchen | Search |
@@ -58,6 +59,7 @@ Die Liste ist nicht vollständig — sie enthält die häufigsten Begriffe, die 
 | Erfassen | Grapple |
 | Schubsen | Shove |
 | Verstecken | Hide |
+| Magisches Objekt nutzen | Utilize |
 | Gelegenheitsangriff | Opportunity Attack |
 
 ## Attribute
@@ -104,6 +106,7 @@ Die Liste ist nicht vollständig — sie enthält die häufigsten Begriffe, die 
 | Erschöpft | Exhausted |
 | Festgehalten | Restrained |
 | Geblendet | Blinded |
+| Handlungsunfähig | Incapacitated |
 | Liegend | Prone |
 | Reglos | Paralyzed |
 | Taub | Deafened |
@@ -154,8 +157,8 @@ Die Liste ist nicht vollständig — sie enthält die häufigsten Begriffe, die 
 |---|---|
 | Fokuspunkte (Mönch) | Focus Points |
 | Glückspunkte (Schurke / Bard / etc.) | Luck Points |
-| Inspiration | Inspiration |
-| Bardische Inspiration | Bardic Inspiration |
+| Heroische Inspiration (Spielerbelohnung, 2024er-Begriff) | Heroic Inspiration |
+| Bardische Inspiration (Bard-Klassenfähigkeit) | Bardic Inspiration |
 | Wut (Barbar) | Rage |
 | Zaubervorbereitung | Spell Preparation |
 | Zauberplatz | Spell Slot |
@@ -240,6 +243,7 @@ Die Liste ist nicht vollständig — sie enthält die häufigsten Begriffe, die 
 | Hintergrund | Background |
 | Talent / Begabung | Feat |
 | Herkunftstalent | Origin Feat |
+| Bastion (Spieler-Festung, DMG 2024 Kapitel 8) | Bastion |
 
 ---
 

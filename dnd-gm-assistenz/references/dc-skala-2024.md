@@ -1,6 +1,6 @@
 # DC-Skala 2024 mit Anwendungsbeispielen
 
-Die DC-Skala für 2024er-Regeln. Quelle: Spielerhandbuch 2024 / Dungeon Master Handbuch 2024. Die Skala ist absichtlich knapp — fünf Stufen, klare Anwendungslogik.
+Die DC-Skala für 2024er-Regeln. Quelle: PHB 2024 („Typical Difficulty Classes", Kapitel D20 Tests), DMG 2024 („Typical DCs", Kapitel Resolving Outcomes). Offiziell sechs Stufen, klare Anwendungslogik.
 
 ## Die Skala
 
@@ -8,12 +8,12 @@ Die DC-Skala für 2024er-Regeln. Quelle: Spielerhandbuch 2024 / Dungeon Master H
 |---|---:|---|
 | Sehr leicht | 5 | nahezu jeder schafft es ohne Probe — meist sollte gar kein Wurf nötig sein |
 | Leicht | 10 | gelernte Tätigkeit unter Stress; ungeübt mit etwas Glück |
-| Mittel | 13 | normale Anforderung im Abenteurer-Alltag |
-| Schwer | 16 | spezialisiertes Können oder günstige Umstände nötig |
-| Sehr schwer | 19 | Expertise plus Vorbereitung oder Glück |
-| Nahezu unmöglich | 25 | außergewöhnliche Fähigkeiten plus Glück |
+| Mittel | 15 | normale Anforderung im Abenteurer-Alltag |
+| Schwer | 20 | spezialisiertes Können oder günstige Umstände nötig |
+| Sehr schwer | 25 | Expertise plus Vorbereitung oder Glück |
+| Nahezu unmöglich | 30 | außergewöhnliche Fähigkeiten plus großes Glück |
 
-Default-DCs für offene Anfragen: **13 (mittel)** als Ausgangspunkt, dann situativ verschieben.
+Default-DC für offene Anfragen: **15 (mittel)** als Ausgangspunkt, dann situativ verschieben.
 
 ## Wann gar nicht würfeln lassen
 
@@ -25,15 +25,23 @@ Bevor ein DC gesetzt wird, prüfen ob ein Wurf überhaupt sinnvoll ist:
 
 Eine Probe ist nur sinnvoll, wenn **Erfolg ungewiss ist und Fehlschlag eine Konsequenz hat**.
 
+## DC-Berechnung in Sondersituationen
+
+Drei Standardformeln aus dem DMG 2024:
+
+- **Passive Probe** = 10 + alle Modifikatoren, die normalerweise gelten würden. Beispiel: passive Wahrnehmung = 10 + WIS-Mod + Übungsbonus (falls geübt).
+- **Konteste** (eine Probe gegen die andere): die eine Probe ist DC für die andere. Beispiel: Heimlichkeit gegen passive Wahrnehmung des Wachpostens; Erfasser-STR-Athletik gegen Geschicklichkeits-Akrobatik des Ziels.
+- **Berechneter DC** für Charakterfähigkeiten = 8 + Attributmodifikator + Übungsbonus. Wird genutzt für Zauber-Rettungswürfe und Spezialfähigkeiten („target makes a save against your DC").
+
 ## Modifikatoren situativ
 
 Der DC kann verschoben werden:
 
-- **Günstige Umstände** (gute Werkzeuge, Ruhe, Vorwissen, gute Lichtverhältnisse): −2 bis −3
-- **Ungünstige Umstände** (Zeitdruck, Lärm, schlechte Sicht, Verletzung): +2 bis +3
+- **Günstige Umstände** (gute Werkzeuge, Ruhe, Vorwissen, gute Lichtverhältnisse): −5 oder Vorteil
+- **Ungünstige Umstände** (Zeitdruck, Lärm, schlechte Sicht, Verletzung): +5 oder Nachteil
 - **Vorteil/Nachteil** statt DC-Verschiebung, wenn der Umstand mehr „mal passiert es, mal nicht" ist als „grundsätzlich leichter/schwerer".
 
-Faustregel: Lieber Vorteil/Nachteil verteilen als am DC schrauben — das ist näher am 2024er-Designprinzip.
+Faustregel: Lieber Vorteil/Nachteil verteilen als am DC schrauben — das ist näher am 2024er-Designprinzip. Wenn doch am DC geschraubt wird, in 5er-Schritten denken (passt zur Skala).
 
 ## Anwendungsbeispiele nach Probe
 
@@ -41,18 +49,18 @@ Faustregel: Lieber Vorteil/Nachteil verteilen als am DC schrauben — das ist n�
 
 | Situation | DC | Anmerkung |
 |---|---:|---|
-| Versteckte Tür im normalen Mauerwerk entdecken | 13 | bei aktiver Suche |
-| Hinterhalt im offenen Gelände bemerken | 13 | passive Wahrnehmung gegen die Heimlichkeitsprobe der Angreifer |
-| Hinterhalt im dichten Wald bemerken | 16 | erschwert durch Sicht und Lärmkulisse |
-| Sehr gut versteckte Falle finden | 16–19 | je nach Konstrukteur |
-| Magische Spuren ohne Zauber bemerken | 19 | sehr schwer ohne Zauber wie *Magie entdecken* |
+| Versteckte Tür im normalen Mauerwerk entdecken | 15 | bei aktiver Suche |
+| Hinterhalt im offenen Gelände bemerken | passive Wahrnehmung gegen Heimlichkeit der Angreifer | Kontest, kein fester DC |
+| Hinterhalt im dichten Wald bemerken | wie oben, +5 oder Nachteil für Beobachter | erschwert durch Sicht und Lärmkulisse |
+| Sehr gut versteckte Falle finden | 20 | hochwertig konstruiert |
+| Magische Spuren ohne Zauber bemerken | 20 | sehr schwer ohne Zauber wie *Magie entdecken* |
 
 ### Heimlichkeit
 
 | Situation | DC | Anmerkung |
 |---|---:|---|
-| An wachsamem Wachposten vorbeischleichen | passive Wahrnehmung des Wachpostens | meist 12–14 |
-| Sich anschleichen, während Feinde abgelenkt sind | passive Wahrnehmung −5 | als Vorteil oder DC-Reduktion |
+| An wachsamem Wachposten vorbeischleichen | passive Wahrnehmung des Wachpostens | Standardwert 10–15 je nach NSC |
+| Sich anschleichen, während Feinde abgelenkt sind | passive Wahrnehmung −5 oder Vorteil auf den Wurf | |
 | Mit Rüstung schleichen ohne Übung | Nachteil auf den Wurf | unabhängig vom DC |
 
 ### Motiv erkennen / Überzeugen / Einschüchtern / Täuschen
@@ -61,53 +69,61 @@ DCs hängen stark von der NSC-Disposition ab.
 
 | Disposition | Überzeugen-DC | Einschüchtern-DC | Täuschen-DC |
 |---|---:|---:|---:|
-| freundlich | 10 | 16 | 13 |
-| neutral | 13 | 13 | 16 |
-| feindselig | 16 | 13 | 19 |
-| eindeutig misstrauisch (z.B. der NSC weiß bereits, dass die Gruppe lügen könnte) | +3 zu allen | +3 | +3 |
+| freundlich | 10 | 20 | 15 |
+| neutral | 15 | 15 | 20 |
+| feindselig | 20 | 15 | 25 |
+| eindeutig misstrauisch (z.B. der NSC weiß bereits, dass die Gruppe lügen könnte) | +5 zu allen | +5 | +5 |
 
-**Motiv erkennen** als Probe gegen NSC-Täuschen: wenn der NSC nicht aktiv lügt, ist 13 mittel. Wenn der NSC trainierter Lügner oder Betrüger ist, eher 16 oder höher.
+**Motiv erkennen** als Probe gegen NSC-Täuschen: wenn der NSC nicht aktiv lügt, ist 15 mittel. Wenn der NSC trainierter Lügner oder Betrüger ist, eher 20 oder höher — oder als Kontest gegen die Täuschen-Probe des NSC.
 
 ### Athletik / Akrobatik
 
 | Situation | DC | Anmerkung |
 |---|---:|---|
 | Über einen Bach mit unsicheren Steinen | 10 | Sturz bedeutet nass, kein Schaden |
-| Eine glatte Mauer hochklettern | 16 | mit Werkzeug eher 13 |
-| Sturz aus 6 m abrollen | 13 | Erfolg halbiert Sturzschaden |
+| Eine glatte Mauer hochklettern | 20 | mit Werkzeug eher 15 |
+| Sturz aus 6 m abrollen | 15 | Erfolg halbiert Sturzschaden |
 | Über einen 3-m-Spalt springen | 10 | Standardsprung 2024 |
-| Über einen 4–5-m-Spalt springen | 13–16 | mit Anlauf |
+| Über einen 4–5-m-Spalt springen | 15–20 | mit Anlauf |
 
 ### Nachforschen
 
 | Situation | DC | Anmerkung |
 |---|---:|---|
 | Spuren am Tatort lesen, eindeutig | 10 | offensichtliche Hinweise |
-| Verstecktes Detail in einem Raum finden | 13 | bei aktiver Suche |
-| Geheimfach in einem Möbelstück finden | 16 | je nach Verarbeitung |
-| Zusammenhang aus Indizien rekonstruieren | 13–16 | je nach Komplexität |
+| Verstecktes Detail in einem Raum finden | 15 | bei aktiver Suche |
+| Geheimfach in einem Möbelstück finden | 20 | je nach Verarbeitung |
+| Zusammenhang aus Indizien rekonstruieren | 15–20 | je nach Komplexität |
 
 ### Geschicklichkeit (Schlösser, Fallen entschärfen, Diebeswerkzeug)
 
 | Situation | DC | Anmerkung |
 |---|---:|---|
-| Einfaches Schloss | 13 | mit Diebeswerkzeug |
-| Hochwertiges Schloss | 16 | Stadtwache-Niveau |
-| Handwerklich exzellentes Schloss | 19 | Meister-Niveau |
-| Einfache Falle entschärfen | 13 | mechanisch |
-| Magische Falle entschärfen | 16+ | je nach Zauber |
+| Einfaches Schloss | 15 | mit Diebeswerkzeug |
+| Hochwertiges Schloss | 20 | Stadtwache-Niveau |
+| Handwerklich exzellentes Schloss | 25 | Meister-Niveau |
+| Einfache Falle entschärfen | 15 | mechanisch |
+| Magische Falle entschärfen | 20+ | je nach Zauber |
 
 ## Mehrere Charaktere helfen
 
 **Hilfeleistung-Aktion:** Ein Helfer gibt Vorteil auf den Wurf des Hauptcharakters, wenn er plausibel helfen kann. Mehrere Helfer geben **nicht** mehrfachen Vorteil.
 
-**Gruppenproben:** Wenn alle gemeinsam etwas tun (z.B. heimlich an einer Wache vorbei), würfeln alle. Mindestens die Hälfte der Gruppe muss bestehen, dann gilt die Aktion als erfolgreich.
+**Gruppenproben:** Wenn alle gemeinsam etwas tun (z.B. heimlich an einer Wache vorbei klettern), würfeln alle. Mindestens die Hälfte der Gruppe muss bestehen, dann gilt die Aktion als erfolgreich.
+
+**Gruppenproben sind nicht für jede Situation geeignet** (DMG 2024): Wenn ein Fehler eines Einzelnen die ganze Gruppe verraten oder gefährden würde — etwa Heimlichkeit unter wachsamen Wachen oder Wahrnehmungsproben gegen einen Hinterhalt — sollten Einzelproben gewürfelt werden, nicht die Gruppenprobe. Faustregel: Gruppenprobe nur, wenn der Erfolg gemeinsam erarbeitet wird (Recherche, Klettern als Seilschaft, Gemeinschaftsritual).
+
+## Heroische Inspiration
+
+Wenn ein Charakter Heroische Inspiration hat (PHB 2024), darf er einen W20-Wurf neu würfeln und das Ergebnis seiner Wahl behalten. Wird **nach** dem Wurf, aber **vor** dem Ergebnis-Effekt eingelöst. Wirkt sich nicht auf den DC selbst aus, sondern auf die Probe des Spielers.
+
+Am Tisch: nach Bekanntgabe des DC und Wurf kurz prüfen, ob der Spieler Inspiration einsetzen will, bevor das Ergebnis verkündet wird.
 
 ## DC bei mehreren Versuchen
 
 - Wenn die Situation gleich bleibt und Zeit ist, **kein erneuter Wurf** nötig: Erfolg ist Frage der Zeit.
 - Wenn die Situation sich ändert (Lärm wäre ein Problem, Zeit drängt), **neuer Wurf gerechtfertigt**.
-- Bei sozialen Proben: nach einem Fehlschlag ist die Disposition oft schlechter, der DC steigt.
+- Bei sozialen Proben: nach einem Fehlschlag ist die Disposition oft schlechter, der DC steigt um 5.
 
 ## Zwei-Probe-Konstellationen
 
