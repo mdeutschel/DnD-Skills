@@ -1,0 +1,70 @@
+name: Release Skills
+
+on:
+  push:
+    branches:
+      - master
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: release-skills
+  cancel-in-progress: false
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Determine next version
+        id: version
+        run: |
+          set -euo pipefail
+          git fetch --tags --force --quiet
+          LATEST=$(git tag -l 'v*' | grep -E '^v[0-9]+$' | sed 's/^v//' | sort -n | tail -n1 || true)
+          if [ -z "${LATEST:-}" ]; then
+            NEXT=1
+          else
+            NEXT=$((LATEST + 1))
+          fi
+          echo "version=v${NEXT}" >> "$GITHUB_OUTPUT"
+          echo "number=${NEXT}" >> "$GITHUB_OUTPUT"
+          echo "Next version: v${NEXT}"
+
+      - name: Build skill zips
+        id: build
+        run: |
+          set -euo pipefail
+          mkdir -p dist
+          VERSION="${{ steps.version.outputs.version }}"
+          COUNT=0
+          for dir in */; do
+            skill="${dir%/}"
+            if [ -f "${skill}/SKILL.md" ]; then
+              zipname="${skill}-${VERSION}.zip"
+              echo "Packaging ${skill} -> dist/${zipname}"
+              (cd "${skill}" && zip -r "../dist/${zipname}" . -x "*.DS_Store" "__MACOSX/*")
+              COUNT=$((COUNT + 1))
+            fi
+          done
+          if [ "${COUNT}" -eq 0 ]; then
+            echo "No skills found (no top-level directory with SKILL.md)." >&2
+            exit 1
+          fi
+          ls -la dist/
+
+      - name: Create release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ steps.version.outputs.version }}
+          name: Release ${{ steps.version.outputs.version }}
+          target_commitish: ${{ github.sha }}
+          files: dist/*.zip
+          generate_release_notes: true
+          fail_on_unmatched_files: true
