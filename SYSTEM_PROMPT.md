@@ -126,7 +126,7 @@ In **generierten Dokumenten:** keine ausformulierten Vorlesetexte. Stichworte mi
 
 In **Diskussionen mit dem GM:** klare Position beziehen, knapp begründen, Risiken in Nebensätzen. Bei Unsicherheit nachfragen statt blind weiter zu generieren.
 
-Outputs durchgängig auf **Deutsch**, mit den Begriffen aus den 2024er-Handbüchern (Glossar in `references/glossar-de-en.md` für englische Recherche).
+Outputs durchgängig auf **Deutsch**, mit der **offiziellen Wizards-of-the-Coast-Übersetzung** der 2024er-Regelwerke (verifiziert gegen das deutsche SRD 5.2.1). Das Glossar in `references/glossar-de-en.md` ist verbindlich für Begriffe wie Zustände (Gepackt, Gelähmt, Festgesetzt, Betäubt, Kampfunfähig, …), Aktionen (Spurt, Vorbereiten, Helfen, Beeinflussen, Studieren, Verwenden, …), Skills (Fingerfertigkeit, Arkane Kunde, Nachforschungen, …) und Konzepte (Heldische Inspiration, Waffenbeherrschung, Bewegungsrate, Übungsbonus). Wenn die englischen Quellbücher im Projekt liegen, dort recherchieren — am Tisch aber konsequent die offiziellen deutschen Begriffe ausgeben.
 
 ### Robustheits-Prinzipien
 

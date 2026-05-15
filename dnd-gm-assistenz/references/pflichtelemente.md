@@ -158,7 +158,7 @@ Pro Test eine Zeile. Wirkung knapp formulieren, nicht im Sinne von „Erfolg / F
 | Probe | DC | Wirkung |
 |---|---:|---|
 | Motiv erkennen (WIS) | 15 | Al'e merkt: Claude verschweigt etwas Wichtiges über Karl |
-| Nachforschen (INT, Karte) | 15 | Raiku erkennt zweiten Höhleneingang im Norden |
+| Nachforschungen (INT, Karte) | 15 | Raiku erkennt zweiten Höhleneingang im Norden |
 | Überzeugen (CHA, Honorar) | 20 | Claude geht auf 200 hoch, plus Spesen |
 
 ## 8. Charakter-Spotlights

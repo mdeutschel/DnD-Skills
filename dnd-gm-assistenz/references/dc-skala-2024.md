@@ -30,7 +30,7 @@ Eine Probe ist nur sinnvoll, wenn **Erfolg ungewiss ist und Fehlschlag eine Kons
 Drei Standardformeln aus dem DMG 2024:
 
 - **Passive Probe** = 10 + alle Modifikatoren, die normalerweise gelten würden. Beispiel: passive Wahrnehmung = 10 + WIS-Mod + Übungsbonus (falls geübt).
-- **Konteste** (eine Probe gegen die andere): die eine Probe ist DC für die andere. Beispiel: Heimlichkeit gegen passive Wahrnehmung des Wachpostens; Erfasser-STR-Athletik gegen Geschicklichkeits-Akrobatik des Ziels.
+- **Konteste** (eine Probe gegen die andere): die eine Probe ist DC für die andere. Beispiel: Heimlichkeit gegen passive Wahrnehmung des Wachpostens; STR-Athletik des Packenden gegen GES-Akrobatik oder STR-Athletik des Ziels.
 - **Berechneter DC** für Charakterfähigkeiten = 8 + Attributmodifikator + Übungsbonus. Wird genutzt für Zauber-Rettungswürfe und Spezialfähigkeiten („target makes a save against your DC").
 
 ## Modifikatoren situativ
@@ -86,7 +86,7 @@ DCs hängen stark von der NSC-Disposition ab.
 | Über einen 3-m-Spalt springen | 10 | Standardsprung 2024 |
 | Über einen 4–5-m-Spalt springen | 15–20 | mit Anlauf |
 
-### Nachforschen
+### Nachforschungen
 
 | Situation | DC | Anmerkung |
 |---|---:|---|
@@ -107,15 +107,15 @@ DCs hängen stark von der NSC-Disposition ab.
 
 ## Mehrere Charaktere helfen
 
-**Hilfeleistung-Aktion:** Ein Helfer gibt Vorteil auf den Wurf des Hauptcharakters, wenn er plausibel helfen kann. Mehrere Helfer geben **nicht** mehrfachen Vorteil.
+**Helfen-Aktion:** Ein Helfer gibt Vorteil auf den Wurf des Hauptcharakters, wenn er plausibel helfen kann. Mehrere Helfer geben **nicht** mehrfachen Vorteil.
 
 **Gruppenproben:** Wenn alle gemeinsam etwas tun (z.B. heimlich an einer Wache vorbei klettern), würfeln alle. Mindestens die Hälfte der Gruppe muss bestehen, dann gilt die Aktion als erfolgreich.
 
 **Gruppenproben sind nicht für jede Situation geeignet** (DMG 2024): Wenn ein Fehler eines Einzelnen die ganze Gruppe verraten oder gefährden würde — etwa Heimlichkeit unter wachsamen Wachen oder Wahrnehmungsproben gegen einen Hinterhalt — sollten Einzelproben gewürfelt werden, nicht die Gruppenprobe. Faustregel: Gruppenprobe nur, wenn der Erfolg gemeinsam erarbeitet wird (Recherche, Klettern als Seilschaft, Gemeinschaftsritual).
 
-## Heroische Inspiration
+## Heldische Inspiration
 
-Wenn ein Charakter Heroische Inspiration hat (PHB 2024), darf er einen W20-Wurf neu würfeln und das Ergebnis seiner Wahl behalten. Wird **nach** dem Wurf, aber **vor** dem Ergebnis-Effekt eingelöst. Wirkt sich nicht auf den DC selbst aus, sondern auf die Probe des Spielers.
+Wenn ein Charakter Heldische Inspiration hat (PHB 2024), darf er einen W20-Wurf neu würfeln und das Ergebnis seiner Wahl behalten. Wird **nach** dem Wurf, aber **vor** dem Ergebnis-Effekt eingelöst. Wirkt sich nicht auf den DC selbst aus, sondern auf die Probe des Spielers.
 
 Am Tisch: nach Bekanntgabe des DC und Wurf kurz prüfen, ob der Spieler Inspiration einsetzen will, bevor das Ergebnis verkündet wird.
 
@@ -129,7 +129,7 @@ Am Tisch: nach Bekanntgabe des DC und Wurf kurz prüfen, ob der Spieler Inspirat
 
 Wenn zwei Charaktere parallel etwas tun (z.B. einer schleicht, einer lauscht), würfeln beide getrennt. Die Probe des einen beeinflusst nicht den DC des anderen, wenn die Aktionen unabhängig sind.
 
-Wenn die Aktionen interagieren (einer lenkt ab, einer schleicht), kann der ablenkende Charakter mit einer Probe **Vorteil** für den anderen erzeugen — siehe Hilfeleistung.
+Wenn die Aktionen interagieren (einer lenkt ab, einer schleicht), kann der ablenkende Charakter mit einer Probe **Vorteil** für den anderen erzeugen — siehe Helfen-Aktion.
 
 ## Live-Modus: Standardantwort-Form für DC-Anfragen
 

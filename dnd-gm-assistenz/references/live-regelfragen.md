@@ -100,25 +100,25 @@ Maximal acht bis zehn Zeilen. Wenn der Fall komplexer ist, das offen sagen und v
 
 Die wichtigsten Zustände auf einen Blick:
 
-Die fünfzehn Zustände nach PHB 2024:
+Die fünfzehn Zustände nach PHB 2024 (offizielle WotC-Begriffe):
 
 | Zustand | Wichtigste Effekte |
 |---|---|
-| **Vergiftet** | Nachteil auf Angriffe und Fähigkeitsproben |
-| **Bezaubert** | kann Bezauberer nicht angreifen, Bezauberer hat Vorteil auf Soziales |
-| **Verängstigt** | Nachteil auf Angriffe und Proben, solange Quelle in Sicht; kann sich nicht freiwillig auf Quelle zubewegen |
-| **Geblendet** | sieht nichts; automatischer Fehlschlag bei sichtanspruchsvollen Proben; Nachteil auf Angriffe, Angriffe gegen sind im Vorteil |
-| **Taub** | hört nichts; automatischer Fehlschlag bei höranspruchsvollen Proben |
-| **Unsichtbar** | kann nicht gesehen werden; Vorteil auf Angriffe, Angriffe gegen sind im Nachteil; bleibt im Initiative-Reihenfolge enthalten |
-| **Festgehalten** | Geschwindigkeit 0; Nachteil auf Angriffe und GES-Rettungen; Angreifer im Vorteil |
-| **Reglos** | wie Festgehalten plus automatisch Fehlschlag bei STR/GES-Rettungen; Angreifer trifft kritisch bei Nahkampf in 1,5 m; handlungsunfähig |
-| **Liegend** | Bewegung halbiert; Nachteil auf Angriffe; Nahkampfangreifer im Vorteil, Fernkampfangreifer im Nachteil |
-| **Erfasst** | Geschwindigkeit 0; siehe Erfassen-Aktion |
-| **Vergeblich** (Stunned) | handlungsunfähig, kann sich nicht bewegen, automatischer Fehlschlag bei STR/GES-Rettungen, Angreifer im Vorteil |
-| **Bewusstlos** | handlungsunfähig, liegend, lässt Halt los; STR/GES-Rettung autom. Fehlschlag; Angriffe gegen im Vorteil; krit bei Nahkampf in 1,5 m |
-| **Versteinert** | wie Bewusstlos plus Verwandlung in Stein, Resistenz gegen alle Schadensarten, immun gegen Gift und Krankheit |
-| **Handlungsunfähig** | kann keine Aktionen, Bonusaktionen oder Reaktionen ausführen; Konzentration bricht; Vorgängerzustand vieler härterer Zustände |
-| **Erschöpft** | Stufenweise (1–6): pro Stufe −2 auf D20-Tests und Rettungs-DCs; ab Stufe 3 Bewegung halbiert; ab Stufe 5 Geschwindigkeit 0; Stufe 6 = Tod |
+| **Vergiftet** (Poisoned) | Nachteil auf Angriffe und Fähigkeitsproben |
+| **Bezaubert** (Charmed) | kann Bezauberer nicht angreifen, Bezauberer hat Vorteil auf Soziales |
+| **Verängstigt** (Frightened) | Nachteil auf Angriffe und Proben, solange Quelle in Sicht; kann sich nicht freiwillig auf Quelle zubewegen |
+| **Blind** (Blinded) | sieht nichts; automatischer Fehlschlag bei sichtanspruchsvollen Proben; Nachteil auf Angriffe, Angriffe gegen sind im Vorteil |
+| **Taub** (Deafened) | hört nichts; automatischer Fehlschlag bei höranspruchsvollen Proben |
+| **Unsichtbar** (Invisible) | kann nicht gesehen werden; Vorteil auf Angriffe, Angriffe gegen sind im Nachteil; bleibt in Initiative-Reihenfolge |
+| **Festgesetzt** (Restrained) | Geschwindigkeit 0; Nachteil auf Angriffe und GES-Rettungen; Angreifer im Vorteil |
+| **Gelähmt** (Paralyzed) | kampfunfähig, kann sich nicht bewegen oder sprechen; automatischer Fehlschlag bei STR/GES-Rettungen; Angriffe im Vorteil; krit bei Nahkampf in 1,5 m |
+| **Liegend** (Prone) | Bewegung halbiert; Nachteil auf Angriffe; Nahkampfangreifer im Vorteil, Fernkampfangreifer im Nachteil |
+| **Gepackt** (Grappled) | Geschwindigkeit 0; Nachteil auf Angriffe gegen alles außer dem Packenden; siehe Packen-Option des Angriffs |
+| **Betäubt** (Stunned) | kampfunfähig, kann sich nicht bewegen, automatischer Fehlschlag bei STR/GES-Rettungen, Angriffe im Vorteil |
+| **Bewusstlos** (Unconscious) | kampfunfähig, liegend, lässt Halt los; STR/GES-Rettung autom. Fehlschlag; Angriffe gegen im Vorteil; krit bei Nahkampf in 1,5 m |
+| **Versteinert** (Petrified) | wie Bewusstlos plus Verwandlung in Stein, Resistenz gegen alle Schadensarten, immun gegen Gift und Krankheit |
+| **Kampfunfähig** (Incapacitated) | kann keine Aktionen, Bonusaktionen oder Reaktionen ausführen; Konzentration bricht; Vorgängerzustand vieler härterer Zustände |
+| **Erschöpft** (Exhausted) | Stufenweise (1–6): pro Stufe −2 auf D20-Tests und Rettungs-DCs; ab Stufe 3 Bewegung halbiert; ab Stufe 5 Geschwindigkeit 0; Stufe 6 = Tod |
 
 **Was am Tisch zu tun ist:** Zustand auf Token oder Tisch-Notiz markieren, am Rundenende Wirkungsdauer prüfen. Bei mehreren Zuständen gleichzeitig die Effekte addieren.
 
@@ -134,13 +134,13 @@ Die fünfzehn Zustände nach PHB 2024:
 
 **Was am Tisch zu tun ist:** Wenn ein Spieler etwas tun will, klären: welche Aktionsart? Bei Unklarheit lieber großzügig auslegen — die meisten taktischen Manöver sind Aktionen, kosmetische Bewegungen sind frei.
 
-**Häufige Aktionen:** Angreifen, Zaubern, Hilfeleistung, Rückzug, Sich-bereithalten, Aufmerksam-suchen (Suchen), Beeinflussen (Versuchen).
+**Häufige Aktionen (2024er-Standardliste):** Angriff, Magie, Helfen, Rückzug, Ausweichen, Spurt, Vorbereiten, Suchen, Verstecken, Beeinflussen, Studieren, Verwenden. Packen und Stoßen sind keine eigenen Aktionen mehr, sondern Optionen der Angriff-Aktion.
 
 **Häufige Bonusaktionen:** zweite-Hand-Angriff (Zweihandkampfstil), bestimmte Zauber, Klassenfähigkeiten (Inspirations-Bonus, Wut-Aktivierung etc.).
 
 **Häufige Reaktionen:** Gelegenheitsangriff, Schildreaktion, Konter-Zauber, Klassenreaktionen.
 
-**Sonderfall: Sich-bereithalten:** Aktion, um eine vorgespeicherte Aktion bei einem Auslöser auszulösen — kostet die Aktion **dieser** Runde und wird in der nächsten Runde als Reaktion ausgelöst.
+**Sonderfall: Vorbereiten:** Aktion, um eine Aktion auf einen Auslöser hin auszulösen — kostet die Aktion **dieser** Runde, wird beim Auslöser als Reaktion ausgeführt.
 
 ---
 
@@ -177,7 +177,7 @@ Die fünfzehn Zustände nach PHB 2024:
 **Was am Tisch zu tun ist:** Vor dem Wurf klären, ob Vorteil oder Nachteil greift. Bei Unklarheit lieber dem Spieler den Vorteil geben — das fördert kreative Beschreibung von Aktionen.
 
 **Häufige Quellen für Vorteil:**
-- Hilfeleistung-Aktion eines Verbündeten
+- Helfen-Aktion eines Verbündeten
 - Ziel ist verängstigt durch den Angreifer
 - Angreifer ist verborgen
 - Ziel ist liegend (im Nahkampf)

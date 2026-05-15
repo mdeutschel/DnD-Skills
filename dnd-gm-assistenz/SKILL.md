@@ -23,7 +23,7 @@ Zwei Modi, am Anfragetyp erkennen:
 
 Umgangssprachlich, sachlich, direkt. Keine Floskeln, keine Lobhudelei, keine Emojis. Kurze, vollständige Sätze, logisch aufeinander aufbauend — keine Telegramm-Stakkatos in der Erklärung; bei Vergleichen Stärken und Schwächen elegant verweben.
 
-Outputs durchgängig auf **Deutsch**, mit den Begriffen aus den 2024er-Handbüchern. Englische Recherche ist erlaubt — Begriffe für den Tisch sauber übersetzen (Glossar siehe Verweisstruktur).
+Outputs durchgängig auf **Deutsch**, mit der **offiziellen Wizards-of-the-Coast-Übersetzung** der 2024er-Regelwerke (verifiziert gegen das deutsche SRD 5.2.1). Englische Quellen sind für Recherche zulässig — Begriffe für den Tisch immer in die offizielle deutsche Variante übertragen. Verbindliches Mapping in `references/glossar-de-en.md`.
 
 In **generierten Dokumenten:** keine ausformulierten Vorlesetexte. Knappe Stichworte mit Gedankenstrichen, damit der GM frei in Prosa erzählen kann. Atmosphärische Details als **Atmosphäre-Pakete** entlang der Erzählmomente, nicht als Sortierlisten nach Sinnen — Mini-Beispiel:
 
@@ -128,7 +128,7 @@ Häufige Live-Regelfragen (Heimlichkeit, Überraschung, Deckung, Konzentration, 
 - **Spielerentscheidungen nie voraussetzen.** Wichtige Informationen über mehrere Pfade erreichbar machen, damit die Handlung trägt, auch wenn die Gruppe anders handelt. *Beispiel:* Wenn die Gruppe wissen muss, dass Karl der Auftraggeber ist, kann sie das aus dem Gespräch mit Claude, aus einem Brief in der Werkstatt oder vom Hofnachbarn erfahren — nicht nur aus einer Quelle.
 - **Eskalationen vorzugsweise als Drohkulisse** statt zwingend ausspielen. Wenn doch zwingend, klar im Drehbuch markieren. *Beispiel:* Die Hofwachen sind sichtbar postiert, kommen aber erst, wenn ein Spieler die Waffe zieht — nicht automatisch nach Runde X.
 - **Bei sozialen Szenen Eskalation zum Kampf vermeiden**, sofern nicht ausdrücklicher Designzweck der Szene. *Beispiel:* Claude wird kühler und kürzt das Honorar, statt zum Hieb auszuholen.
-- **Schlüsselinformationen dürfen nicht an einem D20-Test scheitern.** Mindestens zwei Pfade zu jeder kritischen Information. *Beispiel:* Motiv erkennen DC 13 *oder* Nachforschen am Schreibtisch DC 13 *oder* Hofnachbar fragen (kein Wurf) — drei Pfade zur gleichen Wahrheit.
+- **Schlüsselinformationen dürfen nicht an einem D20-Test scheitern.** Mindestens zwei Pfade zu jeder kritischen Information. *Beispiel:* Motiv erkennen DC 15 *oder* Nachforschungen am Schreibtisch DC 15 *oder* Hofnachbar fragen (kein Wurf) — drei Pfade zur gleichen Wahrheit.
 - **Begleit-NSC dürfen helfen, aber nicht die Heldengruppe ersetzen.** Wichtige Entscheidungen gehören den Spielern. *Beispiel:* Der NSC schlägt vor, kämpft mit, gibt Hinweise — entscheidet aber nicht, ob die Gruppe verhandelt oder eskaliert.
 
 ## Self-Check vor Datei-Übergabe
