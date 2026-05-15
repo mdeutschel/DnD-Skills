@@ -33,7 +33,7 @@ Maximal acht bis zehn Zeilen. Wenn der Fall komplexer ist, das offen sagen und v
 
 ## Heimlichkeit und Wahrnehmung
 
-**Regel (Verstecken-Aktion, PHB 2024):** Verstecken ist eine Aktion. Voraussetzung: der Charakter ist **stark verdeckt** (Heavily Obscured), hat **dreiviertel oder volle Deckung** und ist **außerhalb der direkten Sichtlinie** aller Feinde, die ihn entdecken könnten. Ein GES-Wurf (Heimlichkeit) gegen DC 15 (oder höher, je nach Beobachter) bestimmt, ob das Verstecken klappt.
+**Regel (Verstecken-Aktion, PHB 2024):** Verstecken ist eine Aktion. Voraussetzung: der Charakter ist **stark verdeckt** (Heavily Obscured), hat **dreiviertel oder volle Deckung** und ist **außerhalb der direkten Sichtlinie** aller Feinde, die ihn entdecken könnten. Ein GES-Wurf (Heimlichkeit) gegen SG 15 (oder höher, je nach Beobachter) bestimmt, ob das Verstecken klappt.
 
 **Mechanik:**
 - Bei Erfolg ist der Charakter **Unsichtbar** (Zustand) bis er sich entdeckt.
@@ -41,12 +41,12 @@ Maximal acht bis zehn Zeilen. Wenn der Fall komplexer ist, das offen sagen und v
 - Schwere Rüstung gibt Nachteil auf Heimlichkeit, falls der Charakter darin nicht geübt ist.
 - Bei reiner Bewegung außerhalb der Verstecken-Aktion (z.B. an einer Wache vorbei) gilt: Heimlichkeit gegen passive Wahrnehmung des Beobachters.
 
-**Was am Tisch zu tun ist:** Erst prüfen, ob die Voraussetzungen für Verstecken erfüllt sind (verdeckt, außer Sicht). Wenn ja, DC 15 oder passive Wahrnehmung des wachsamsten Beobachters als DC nehmen — der höhere Wert gilt. Bei aktiver Suche durch Beobachter: gegnerischer Wahrnehmungswurf statt passiv.
+**Was am Tisch zu tun ist:** Erst prüfen, ob die Voraussetzungen für Verstecken erfüllt sind (verdeckt, außer Sicht). Wenn ja, SG 15 oder passive Wahrnehmung des wachsamsten Beobachters als SG nehmen — der höhere Wert gilt. Bei aktiver Suche durch Beobachter: gegnerischer Wahrnehmungswurf statt passiv.
 
 **Häufige Sonderfälle:**
 - Mehrere Beobachter: höchste passive Wahrnehmung gilt.
-- Beobachter abgelenkt (Gespräch, Wache mit Gerede): Vorteil auf Heimlichkeit, oder DC −5.
-- Charakter hat Vorteil aus Tarnung (Dunkelheit gegen Lebenswesen ohne Dunkelsicht): zusätzlich zum DC-System Vorteil auf den Wurf.
+- Beobachter abgelenkt (Gespräch, Wache mit Gerede): Vorteil auf Heimlichkeit, oder SG −5.
+- Charakter hat Vorteil aus Tarnung (Dunkelheit gegen Lebenswesen ohne Dunkelsicht): zusätzlich zum SG-System Vorteil auf den Wurf.
 
 ---
 
@@ -83,22 +83,20 @@ Maximal acht bis zehn Zeilen. Wenn der Fall komplexer ist, das offen sagen und v
 
 ## Konzentration
 
-**Regel:** Bei Schaden während eines Konzentrationszaubers: **Konstitutionsrettung**, DC ist halber erhaltener Schaden, mindestens 10.
+**Regel:** Bei Schaden während eines Konzentrationszaubers: **Konstitutionsrettung**, SG ist halber erhaltener Schaden, mindestens 10.
 
 **Mechanik:**
 - Pro Schadensereignis (auch jeder Treffer eines Mehrfachangriffs) ein eigener Wurf.
 - Falls der Charakter einen neuen Konzentrationszauber wirkt, endet der vorherige automatisch.
 - Bewusstlosigkeit beendet Konzentration.
 
-**Was am Tisch zu tun ist:** Sobald ein Konzentrationszauber im Spiel ist, am Tisch markieren (Token, Notiz). Bei Schaden: KON-Wurf gegen DC max(10, halber Schaden) ansagen.
+**Was am Tisch zu tun ist:** Sobald ein Konzentrationszauber im Spiel ist, am Tisch markieren (Token, Notiz). Bei Schaden: KON-Wurf gegen SG max(10, halber Schaden) ansagen.
 
 **Häufiger Fehler:** Eine Heilung durch Verbündete bricht Konzentration **nicht** — Konzentration bricht nur bei Schaden.
 
 ---
 
 ## Zustände (Conditions)
-
-Die wichtigsten Zustände auf einen Blick:
 
 Die fünfzehn Zustände nach PHB 2024 (offizielle WotC-Begriffe):
 
@@ -118,7 +116,7 @@ Die fünfzehn Zustände nach PHB 2024 (offizielle WotC-Begriffe):
 | **Bewusstlos** (Unconscious) | kampfunfähig, liegend, lässt Halt los; STÄ/GES-Rettung autom. Fehlschlag; Angriffe gegen im Vorteil; krit bei Nahkampf in 1,5 m |
 | **Versteinert** (Petrified) | wie Bewusstlos plus Verwandlung in Stein, Resistenz gegen alle Schadensarten, immun gegen Gift und Krankheit |
 | **Kampfunfähig** (Incapacitated) | kann keine Aktionen, Bonusaktionen oder Reaktionen ausführen; Konzentration bricht; Vorgängerzustand vieler härterer Zustände |
-| **Erschöpft** (Exhausted) | Stufenweise (1–6): pro Stufe −2 auf D20-Tests und Rettungs-DCs; ab Stufe 3 Bewegung halbiert; ab Stufe 5 Geschwindigkeit 0; Stufe 6 = Tod |
+| **Erschöpft** (Exhausted) | Stufenweise (1–6): pro Stufe −2 auf D20-Tests und Rettungs-SGs; ab Stufe 3 Bewegung halbiert; ab Stufe 5 Geschwindigkeit 0; Stufe 6 = Tod |
 
 **Was am Tisch zu tun ist:** Zustand auf Token oder Tisch-Notiz markieren, am Rundenende Wirkungsdauer prüfen. Bei mehreren Zuständen gleichzeitig die Effekte addieren.
 

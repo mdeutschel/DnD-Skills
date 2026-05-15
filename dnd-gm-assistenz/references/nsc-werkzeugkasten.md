@@ -170,14 +170,14 @@ Wenn keiner passt, den nächstpassenden wählen und am Bogen oder im MM 2025 pr�
 
 ## Beziehungslagen
 
-Pro NSC eine grobe Disposition zur Gruppe festhalten — beeinflusst soziale DCs (siehe `dc-skala-2024.md`).
+Pro NSC eine grobe Disposition zur Gruppe festhalten — beeinflusst soziale SGs (siehe `dc-skala-2024.md`).
 
 | Disposition | Bedeutung |
 |---|---|
 | freundlich | hilft auf Anfrage, glaubt zunächst |
 | neutral | wartet ab, prüft Aussagen, kein Bonus oder Malus |
-| misstrauisch | rechnet mit Lügen, höhere DCs auf Täuschen |
-| feindselig | hilft nicht, höhere DCs auf Überzeugen, niedrigere auf Einschüchtern |
+| misstrauisch | rechnet mit Lügen, höhere SGs auf Täuschen |
+| feindselig | hilft nicht, höhere SGs auf Überzeugen, niedrigere auf Einschüchtern |
 | eigennützig | reagiert auf Vorteile, nicht auf Argumente |
 
 Disposition kann sich im Verlauf der Szene verändern — das im Drehbuch als Verzweigung markieren.

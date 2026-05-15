@@ -1,7 +1,7 @@
 ---
 name: dnd-gm-assistenz
 description: >-
-  Methodik für D&D-Spielleitung mit den 2024/2025-Regelwerken. Nutze diesen Skill, sobald der User D&D-Vorbereitung, Drehbücher, Sitzungspläne, NSC-Steckbriefe, Encounter-Skalierung, DC-Festlegungen, Quests, Kampagnen oder Live-Regelfragen am Spieltisch anspricht. Trigger auch implizit: Stichworte wie Quest, Sitzung, Drehbuch, GM, Spielleiter, Pen-and-Paper-Vorbereitung, „Spieler will X, was wirfst du?". Erzeugt durchgängig deutsche Outputs auf Basis der 2024er-Begrifflichkeit.
+  Methodik für D&D-Spielleitung mit den 2024/2025-Regelwerken. Nutze diesen Skill, sobald der User D&D-Vorbereitung, Drehbücher, Sitzungspläne, NSC-Steckbriefe, Encounter-Skalierung, SG-Festlegungen, Quests, Kampagnen oder Live-Regelfragen am Spieltisch anspricht. Trigger auch implizit: Stichworte wie Quest, Sitzung, Drehbuch, GM, Spielleiter, Pen-and-Paper-Vorbereitung, „Spieler will X, was wirfst du?". Erzeugt durchgängig deutsche Outputs auf Basis der 2024er-Begrifflichkeit.
 ---
 
 # D&D-GM-Assistenz
@@ -15,7 +15,7 @@ Zwei Modi, am Anfragetyp erkennen:
 | Wenn der GM… | Modus | Output |
 |---|---|---|
 | etwas außerhalb der Sitzung plant („Schreib mir ein Drehbuch", „Sitzung X vorbereiten", „NSC-Steckbrief für…", „Kampagnenchronik aktualisieren") | **Vorbereitung** | Markdown-Datei + Chat-Zusammenfassung (2–4 Sätze) |
-| etwas in Sekunden bis Minuten braucht („Was wirfst du, wenn…", „Welcher DC für…", „Spieler tut X", knappe Regelfrage) | **Live** | Inline im Chat, hart begrenzte Länge |
+| etwas in Sekunden bis Minuten braucht („Was wirfst du, wenn…", „Welcher SG für…", „Spieler tut X", knappe Regelfrage) | **Live** | Inline im Chat, hart begrenzte Länge |
 | beides mischt („Spieler lauscht — und falls es eskaliert, brauch ich eine Verfolgungsszene") | erst **Live**, dann Vorbereitungsteil anbieten | Live inline, Datei optional auf Nachfrage |
 | explizit Datei oder explizit Inline fordert | dieser Wunsch hat Vorrang | wie verlangt |
 
@@ -109,26 +109,26 @@ Vollständige Quest-Drehbücher, Übergangs-Drehbücher zwischen Quests, einzeln
 
 Knapp, fokussiert, entscheidungsorientiert. **Immer inline im Chat**, keine Datei — Geschwindigkeit hat Vorrang vor Übergabbarkeit. Datei nur auf ausdrücklichen Wunsch.
 
-**Vor der Antwort kurz prüfen:** Liegt eine Tracker-Datei oder ein aktives Drehbuch im Projekt-Wissen, das gerade gespielt wird? Wenn ja: relevante Werte (NSC-Status, offene Hinweise, vorbereitete DCs) aus dem Tracker übernehmen, statt neu zu erfinden. Nur wenn nichts vorliegt: aus dem Stegreif beantworten.
+**Vor der Antwort kurz prüfen:** Liegt eine Tracker-Datei oder ein aktives Drehbuch im Projekt-Wissen, das gerade gespielt wird? Wenn ja: relevante Werte (NSC-Status, offene Hinweise, vorbereitete SGs) aus dem Tracker übernehmen, statt neu zu erfinden. Nur wenn nichts vorliegt: aus dem Stegreif beantworten.
 
 ### Standardformate mit harten Längengrenzen
 
 | Format | Max. Zeilen | Inhalt |
 |---|:---:|---|
-| **Regelfrage** | 6 | Probe oder Mechanik / DC oder Wert / Quelle / Effekt bei Erfolg und Fehlschlag / Sonderfall falls relevant |
-| **DC-Vorschlag** | 3 | konkreter Wert + Halbsatz-Begründung (Skala PHB/DMG 2024: 5 sehr einfach, 10 einfach, 15 mittel, 20 schwer, 25 sehr schwer, 30 fast unmöglich) |
+| **Regelfrage** | 6 | Probe oder Mechanik / SG oder Wert / Quelle / Effekt bei Erfolg und Fehlschlag / Sonderfall falls relevant |
+| **SG-Vorschlag** | 3 | konkreter Wert + Halbsatz-Begründung (Skala PHB/DMG 2024: 5 sehr einfach, 10 einfach, 15 mittel, 20 schwer, 25 sehr schwer, 30 fast unmöglich) |
 | **NSC-Improvisation** | 8 | Name, ein Satz Erscheinung, Antrieb, Sprachbild, Statblock-Verweis |
 | **Encounter-Schnellskalierung** | 4 | Originalbegegnung / Anpassung / Begründung / Notbremse |
 | **„Was passiert, wenn Spieler X tut?"** | 5 | wahrscheinliche Folge, mögliche Probe, was offen bleibt |
 
-Häufige Live-Regelfragen (Heimlichkeit, Überraschung, Deckung, Konzentration, Zustände) mit Standardantworten in `references/live-regelfragen.md`. DC-Anwendungsbeispiele in `references/dc-skala-2024.md`.
+Häufige Live-Regelfragen (Heimlichkeit, Überraschung, Deckung, Konzentration, Zustände) mit Standardantworten in `references/live-regelfragen.md`. SG-Anwendungsbeispiele in `references/dc-skala-2024.md`.
 
 ## Robustheits-Prinzipien
 
 - **Spielerentscheidungen nie voraussetzen.** Wichtige Informationen über mehrere Pfade erreichbar machen, damit die Handlung trägt, auch wenn die Gruppe anders handelt. *Beispiel:* Wenn die Gruppe wissen muss, dass Karl der Auftraggeber ist, kann sie das aus dem Gespräch mit Claude, aus einem Brief in der Werkstatt oder vom Hofnachbarn erfahren — nicht nur aus einer Quelle.
 - **Eskalationen vorzugsweise als Drohkulisse** statt zwingend ausspielen. Wenn doch zwingend, klar im Drehbuch markieren. *Beispiel:* Die Hofwachen sind sichtbar postiert, kommen aber erst, wenn ein Spieler die Waffe zieht — nicht automatisch nach Runde X.
 - **Bei sozialen Szenen Eskalation zum Kampf vermeiden**, sofern nicht ausdrücklicher Designzweck der Szene. *Beispiel:* Claude wird kühler und kürzt das Honorar, statt zum Hieb auszuholen.
-- **Schlüsselinformationen dürfen nicht an einem D20-Test scheitern.** Mindestens zwei Pfade zu jeder kritischen Information. *Beispiel:* Motiv erkennen DC 15 *oder* Nachforschungen am Schreibtisch DC 15 *oder* Hofnachbar fragen (kein Wurf) — drei Pfade zur gleichen Wahrheit.
+- **Schlüsselinformationen dürfen nicht an einem D20-Test scheitern.** Mindestens zwei Pfade zu jeder kritischen Information. *Beispiel:* Motiv erkennen SG 15 *oder* Nachforschungen am Schreibtisch SG 15 *oder* Hofnachbar fragen (kein Wurf) — drei Pfade zur gleichen Wahrheit.
 - **Begleit-NSC dürfen helfen, aber nicht die Heldengruppe ersetzen.** Wichtige Entscheidungen gehören den Spielern. *Beispiel:* Der NSC schlägt vor, kämpft mit, gibt Hinweise — entscheidet aber nicht, ob die Gruppe verhandelt oder eskaliert.
 
 ## Self-Check vor Datei-Übergabe
@@ -166,8 +166,8 @@ Referenzen werden bei Bedarf gelesen, nicht alle auf einmal.
 | `references/pflichtelemente.md` | Die 10 Szenen-Elemente, Wahrheits-Tabelle, Tiefen-Matrix | vor jedem Drehbuch |
 | `references/drehbuch-tiefen.md` | Auswahllogik der drei Tiefen, Beispiele | bei Tiefenwahl unklar |
 | `references/atmosphaere-pakete.md` | Aufbau und Beispiele | beim Schreiben von Szenen |
-| `references/dc-skala-2024.md` | DC-Skala mit Anwendungsbeispielen | Live-DC-Fragen, Drehbuch-D20-Tabellen |
-| `references/encounter-skalierung.md` | XP-Budget-Logik, Skalierung an Gruppe und Stufe | jede Kampfvorbereitung |
+| `references/dc-skala-2024.md` | SG-Skala mit Anwendungsbeispielen | Live-SG-Fragen, Drehbuch-D20-Tabellen |
+| `references/encounter-skalierung.md` | EP-Budget-Logik, Skalierung an Gruppe und Stufe | jede Kampfvorbereitung |
 | `references/nsc-werkzeugkasten.md` | NSC-Schnellgenerierung, Antriebe, Sprachbilder | NSC-Erstellung |
 | `references/live-regelfragen.md` | Häufige Regelfragen mit Standardantworten | Live-Modus, Regelfrage |
 | `references/nachbereitung.md` | Nachbereitung und Kampagnenchronik | nach der Sitzung |

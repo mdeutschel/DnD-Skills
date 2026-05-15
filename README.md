@@ -4,7 +4,7 @@ Sammelort für Anthropic-Agent-Skills rund um D&D 5e (2024/2025-Regelwerke). Akt
 
 ## Inhalt
 
-- **`dnd-gm-assistenz/`** — Methodik-Skill für Spielleitung. Vorbereitungs-Modus liefert Drehbücher, Tracker, NSC-Steckbriefe, Sitzungspläne; Live-Modus knappe Antworten am Tisch (DCs, Encounter-Skalierung, Regelfragen). Outputs durchgängig auf Deutsch nach den 2024er-Begriffen.
+- **`dnd-gm-assistenz/`** — Methodik-Skill für Spielleitung. Vorbereitungs-Modus liefert Drehbücher, Tracker, NSC-Steckbriefe, Sitzungspläne; Live-Modus knappe Antworten am Tisch (SGs, Encounter-Skalierung, Regelfragen). Outputs durchgängig auf Deutsch nach den 2024er-Begriffen.
 - **`SYSTEM_PROMPT.md`** — System-Prompt zum Einsatz des Skills in anderen Tools (Custom GPTs, Anthropic Console, andere Agenten-Plattformen). Beschreibt, wie die Skill-Dateien und die offiziellen Handbücher als Quellen genutzt werden sollen.
 
 ## Verwendung

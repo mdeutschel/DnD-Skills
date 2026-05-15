@@ -120,7 +120,7 @@
 
 ### D20-Tests
 
-| Probe | DC | Wirkung |
+| Probe | SG | Wirkung |
 |---|---:|---|
 | … | … | … |
 | … | … | … |

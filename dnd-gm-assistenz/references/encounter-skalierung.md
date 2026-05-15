@@ -1,22 +1,22 @@
 # Encounter-Skalierung
 
-Skalierung von Kampfbegegnungen an Gruppengröße und Stufe nach den 2024er-Regeln. Quelle: DMG 2024 („Plan Encounters", Kapitel Creating Adventures), MM 2025 (Stat Blocks und CR-zu-XP-Werte).
+Skalierung von Kampfbegegnungen an Gruppengröße und Stufe nach den 2024er-Regeln. Quelle: DMG 2024 („Plan Encounters", Kapitel Creating Adventures), MM 2025 (Stat Blocks und HG-zu-EP-Werte).
 
 ## Grundprinzip 2024
 
-Das DMG 2024 nutzt **XP-Budgets pro Charakter und Stufe** für drei Schwierigkeitsgrade: **Niedrig (Low) / Mittel (Moderate) / Hoch (High)**.
+Das DMG 2024 nutzt **EP-Budgets pro Charakter und Stufe** für drei Schwierigkeitsgrade: **Niedrig (Low) / Mittel (Moderate) / Hoch (High)**.
 
 **Die Formel:**
 
 ```
-Gruppen-Budget = (XP-Budget pro Char auf Stufe X für Schwierigkeit Y) × Anzahl Charaktere
-Encounter-Soll = Summe der XP-Werte aller Gegner nach CR
+Gruppen-Budget = (EP-Budget pro Char auf Stufe X für Schwierigkeit Y) × Anzahl Charaktere
+Encounter-Soll = Summe der EP-Werte aller Gegner nach HG
 Encounter-Soll ≤ Gruppen-Budget
 ```
 
-**Vergleich zu 5e-2014:** Die 2014er-Encounter-Multiplikatoren (×1,5 für 3 Gegner, ×2 für 4–6 etc.) tauchen im DMG 2024 nicht mehr auf. Stattdessen wird einfach die XP-Summe direkt mit dem Gruppen-Budget verglichen. Das DMG sagt das nicht explizit als „abgeschafft", die alte Mechanik fehlt aber im neuen Encounter-Building-Kapitel.
+**Vergleich zu 5e-2014:** Die 2014er-Encounter-Multiplikatoren (×1,5 für 3 Gegner, ×2 für 4–6 etc.) tauchen im DMG 2024 nicht mehr auf. Stattdessen wird einfach die EP-Summe direkt mit dem Gruppen-Budget verglichen. Das DMG sagt das nicht explizit als „abgeschafft", die alte Mechanik fehlt aber im neuen Encounter-Building-Kapitel.
 
-## XP-Budget pro Charakter (DMG 2024, Auszug)
+## EP-Budget pro Charakter (DMG 2024, Auszug)
 
 | Stufe | Niedrig | Mittel | Hoch |
 |---:|---:|---:|---:|
@@ -35,11 +35,11 @@ Encounter-Soll ≤ Gruppen-Budget
 
 Volle Tabelle (Stufen 1–20) im DMG 2024, Kapitel „Plan Encounters".
 
-## CR-zu-XP-Konvertierung (MM 2025)
+## HG-zu-EP-Konvertierung (MM 2025)
 
 Identisch mit 5e-2014:
 
-| CR | XP | CR | XP | CR | XP |
+| HG | EP | HG | EP | HG | EP |
 |---:|---:|---:|---:|---:|---:|
 | 0 | 0 oder 10 | 5 | 1.800 | 14 | 11.500 |
 | 1/8 | 25 | 6 | 2.300 | 15 | 13.000 |
@@ -53,10 +53,10 @@ Identisch mit 5e-2014:
 ## Rechenbeispiel
 
 > Gruppe: 3 Charaktere Stufe 4, gewünschte Schwierigkeit Mittel.
-> Gruppen-Budget = 375 × 3 = **1.125 XP**.
-> Encounter-Variante A: 1× Räuberhauptmann (CR 2, 450 XP) + 3× Räuber (CR 1/8, 25 XP) = 525 XP → unter Niedrig (Niedrig wäre 250 × 3 = 750), eher leichter Filler.
-> Encounter-Variante B: 1× Räuberhauptmann (450) + 1× Schläger (CR 1/2, 100) + 4× Räuber (4×25) = 650 XP → noch unter Mittel, leicht-bis-mittel.
-> Encounter-Variante C: 2× Räuberhauptmann (900) + 2× Räuber (50) = 950 XP → solide Mittel.
+> Gruppen-Budget = 375 × 3 = **1.125 EP**.
+> Encounter-Variante A: 1× Räuberhauptmann (HG 2, 450 EP) + 3× Räuber (HG 1/8, 25 EP) = 525 EP → unter Niedrig (Niedrig wäre 250 × 3 = 750), eher leichter Filler.
+> Encounter-Variante B: 1× Räuberhauptmann (450) + 1× Schläger (HG 1/2, 100) + 4× Räuber (4×25) = 650 EP → noch unter Mittel, leicht-bis-mittel.
+> Encounter-Variante C: 2× Räuberhauptmann (900) + 2× Räuber (50) = 950 EP → solide Mittel.
 
 ## Anpassung an Gruppengröße
 
@@ -64,7 +64,7 @@ Die Budget-Formel skaliert linear mit der Charakterzahl, das ist die Hauptanpass
 
 Bei drei Charakteren statt vier:
 
-- **Gegnerzahl reduzieren**, nicht CR senken. Drei statt vier Räuber, zwei statt drei Goblins. Senkt das gesamte Encounter-XP, ohne den Boss seines Gewichts zu berauben.
+- **Gegnerzahl reduzieren**, nicht HG senken. Drei statt vier Räuber, zwei statt drei Goblins. Senkt das gesamte Encounter-EP, ohne den Boss seines Gewichts zu berauben.
 - **Bei Bosskämpfen**: Boss bleibt, Begleitung wird halbiert. Der Boss soll erkennbar Boss bleiben.
 - **Eine Reaktion pro Runde des Bosses streichen**, falls der Kampf zu drückend wird.
 
@@ -81,7 +81,7 @@ Wenn ein Charakter eine Stufe niedriger ist als der Rest, am Encounter selbst ni
 - nicht alle Gegner auf den schwächsten Charakter fokussieren
 - bei Boss-Sondereffekten dem unteren Charakter eher Vorteilssituationen anbieten
 
-## Faktoren, die einen Encounter härter machen, als die XP-Summe vermuten lässt
+## Faktoren, die einen Encounter härter machen, als die EP-Summe vermuten lässt
 
 - **Begrenzter Raum** ohne Bewegungsoptionen — keine Deckung, kein Abstand möglich
 - **Mehrere gleichzeitige Bedrohungen** (Gegner plus Falle plus Umweltgefahr)
@@ -114,21 +114,21 @@ Für die Gruppe gefährlich, aber fair: Ansatz 1 ist am einfachsten umzusetzen.
 
 ## Beispielgruppe 3 Charaktere Stufe 4
 
-Budget pro Schwierigkeit (3 × XP/Char):
+Budget pro Schwierigkeit (3 × EP/Char):
 
-| Schwierigkeit | XP-Budget | Anhaltspunkt |
+| Schwierigkeit | EP-Budget | Anhaltspunkt |
 |---|---:|---|
 | Niedrig | 750 | drei Räuber (75) plus ein Schläger (100) = 175 → noch deutlich darunter; eher 1× Räuberhauptmann (450) + 4× Räuber (100) = 550 |
 | Mittel | 1.125 | 2× Räuberhauptmann (900) + 2× Räuber (50) = 950, knapp unter Mittel |
-| Hoch | 1.500 | 1× Räuberhauptmann (450) + 1× Schläger (100) + 1× Gegner CR 4 (1.100) = 1.650 → leicht über Hoch |
+| Hoch | 1.500 | 1× Räuberhauptmann (450) + 1× Schläger (100) + 1× Gegner HG 4 (1.100) = 1.650 → leicht über Hoch |
 
-Werte im konkreten Encounter immer gegen die offizielle DMG-Tabelle und die Stat-Block-XP im MM 2025 prüfen.
+Werte im konkreten Encounter immer gegen die offizielle DMG-Tabelle und die Stat-Block-EP im MM 2025 prüfen.
 
 ## Live-Modus: Standardform für Skalierungsanfragen
 
 > Originalbegegnung: [Gegnerliste]
 > Empfohlene Anpassung für [Gruppengröße/Stufe]: [konkret]
-> Begründung: [ein Halbsatz zu Aktion-Ökonomie oder XP-Summe]
+> Begründung: [ein Halbsatz zu Aktion-Ökonomie oder EP-Summe]
 > Wenn die Gruppe Probleme bekommt: [Notbremse]
 
 **Beispiel:**

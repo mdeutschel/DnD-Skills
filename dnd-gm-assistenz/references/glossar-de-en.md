@@ -29,7 +29,9 @@ Die Liste ist nicht vollständig — sie enthält die häufigsten Begriffe, die 
 |---|---|
 | Probe | Check |
 | Rettungswurf | Saving Throw |
-| Schwierigkeitsgrad (DC) | Difficulty Class (DC) |
+| Schwierigkeitsgrad (SG) | Difficulty Class (DC) |
+| Erfahrungspunkte (EP) | Experience Points (XP) |
+| Herausforderungsgrad (HG) | Challenge Rating (CR) |
 | Übungsbonus | Proficiency Bonus |
 | Vorteil | Advantage |
 | Nachteil | Disadvantage |
