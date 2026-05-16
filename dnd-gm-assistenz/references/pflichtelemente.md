@@ -244,3 +244,18 @@ Pro Stufe ein bis drei Stichworte. Konkret, nicht abstrakt.
 | Verzweigungstabelle | 2–3 Varianten | 3–4 Varianten | 4–5 Varianten |
 | Konsequenzen | knapp | vollständig | ausgebaut |
 | GM-Spickzettel am Ende | nein | kompakt | ausführlich |
+
+---
+
+## Anti-Patterns
+
+Typische Fehler, die im Drehbuch sichtbar werden — beim Schreiben vermeiden, beim Self-Check gegenchecken.
+
+- **Zu viel Lore am Anfang.** Spieler brauchen zu Beginn nur: wo sind sie, warum dort, was ist auffällig, welche Handlung möglich.
+- **Zu lange Vorlesetexte.** Nach drei bis vier Sätzen verlieren Spieler Details.
+- **Schlüsselinformation hinter einem einzigen Würfelwurf.** Mindestens zwei Pfade zu jeder kritischen Information.
+- **Kämpfe ohne Gegnerziel.** Gegner wollen Beute, Schutz, Flucht, Rache, Zeitgewinn oder Gefangene — selten „bis zum Tod".
+- **Sitzungen mitten in komplexen Zuständen beenden.** Besser nach Entscheidung, Kampf, vor einem neuen Ort oder bei klarem Cliffhanger.
+- **DM-Charaktere zu wichtig machen.** Begleit-NSCs helfen, ersetzen aber nicht die Heldengruppe.
+- **Statblöcke ins Drehbuch kopieren.** Statt referenzieren — siehe Quellen-First.
+- **Atmosphäre als Sortierliste nach Sinnen.** Stattdessen erzählbare Pakete entlang der Erzählmomente.

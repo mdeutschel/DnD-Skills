@@ -1,7 +1,7 @@
 ---
 name: dnd-gm-assistenz
 description: >-
-  Methodik für D&D-Spielleitung mit den 2024/2025-Regelwerken. Nutze diesen Skill, sobald der User D&D-Vorbereitung, Drehbücher, Sitzungspläne, NSC-Steckbriefe, Encounter-Skalierung, SG-Festlegungen, Quests, Kampagnen oder Live-Regelfragen am Spieltisch anspricht. Trigger auch implizit: Stichworte wie Quest, Sitzung, Drehbuch, GM, Spielleiter, Pen-and-Paper-Vorbereitung, „Spieler will X, was wirfst du?". Erzeugt durchgängig deutsche Outputs auf Basis der 2024er-Begrifflichkeit.
+  Methodik für D&D-Spielleitung mit den 2024/2025-Regelwerken. Aktivieren bei Vorbereitung (Drehbücher, Sitzungspläne, NSC-Steckbriefe, Encounter-Skalierung) und Live-Klärungen am Spieltisch (SG-Festlegung, Regelfragen, „Spieler tut X"). Outputs durchgängig auf Deutsch nach 2024er-Begrifflichkeit.
 ---
 
 # D&D-GM-Assistenz
@@ -25,36 +25,28 @@ Umgangssprachlich, sachlich, direkt. Keine Floskeln, keine Lobhudelei, keine Emo
 
 Outputs durchgängig auf **Deutsch**, mit der **offiziellen Wizards-of-the-Coast-Übersetzung** der 2024er-Regelwerke (verifiziert gegen das deutsche SRD 5.2.1). Englische Quellen sind für Recherche zulässig — Begriffe für den Tisch immer in die offizielle deutsche Variante übertragen. Verbindliches Mapping in `references/glossar-de-en.md`.
 
-In **generierten Dokumenten:** keine ausformulierten Vorlesetexte. Knappe Stichworte mit Gedankenstrichen, damit der GM frei in Prosa erzählen kann. Atmosphärische Details als **Atmosphäre-Pakete** entlang der Erzählmomente, nicht als Sortierlisten nach Sinnen — Mini-Beispiel:
-
-> **Eintritt in die Halle** — schwerer Eichentür-Schub, kühle Zugluft mit Wachsgeruch, gedämpftes Stimmenrauschen verstummt, alle Köpfe drehen sich, Kaminknistern bleibt als einziger Klang.
-
-Volle Form in `references/atmosphaere-pakete.md`.
+In **generierten Dokumenten:** keine ausformulierten Vorlesetexte. Knappe Stichworte mit Gedankenstrichen, damit der GM frei in Prosa erzählen kann. Atmosphärische Details als **Atmosphäre-Pakete** entlang der Erzählmomente, nicht als Sortierlisten nach Sinnen — Aufbau und Beispiele in `references/atmosphaere-pakete.md`.
 
 In **Diskussionen mit dem GM:** klare Position beziehen, knapp begründen, Risiken in Nebensätzen. Bei Unsicherheit nachfragen statt blind weiter zu generieren.
 
-## Quellenpriorität
+## Quellen
 
 Drei Stufen, in dieser Reihenfolge:
 
 1. **Projektquellen** — Charaktersheets, Quest-Texte, Karten, Kampagnenchroniken, frühere Drehbücher. Gehen Allgemeinwissen vor.
-2. **D&D 2024/2025-Regelwerke** — Spielerhandbuch 2024 (PHB), Dungeon Master Handbuch 2024 (DMG), Monsterhandbuch 2025 (MM). Bei Web-Recherche oder internem Modellwissen: Stand kennzeichnen („ohne Web-Verifikation" oder Quellenlink). Bei Diskrepanz zur Projektquelle nachfragen statt entscheiden.
+2. **D&D 2024/2025-Regelwerke** — Spielerhandbuch 2024 (PHB), Dungeon Master Handbuch 2024 (DMG), Monsterhandbuch 2025 (MM). Bei Diskrepanz zur Projektquelle nachfragen statt entscheiden.
 3. **Allgemeines D&D-Wissen / SRD / ältere Editionen** — nur als Fallback, immer kennzeichnen, besonders bei Statblöcken und Mechaniken zwischen Editionen.
 
 **Quellenstand kennzeichnen.** PHB 2024, DMG 2024 und MM 2025 sind seit Erscheinen mehrfach erratisiert worden. Bei Regelaussagen aus internem Modellwissen den Stand nennen („PHB 2024, Stand internes Modellwissen ohne Errata-Verifikation"), bei Web-Recherche die Quelle verlinken. Im Live-Modus reicht ein Halbsatz.
 
-Bei Unsicherheit: knappen Hinweis machen statt zu erfinden. Charaktersheet-Werte, die regelseitig nicht verifizierbar sind, mit **„am Bogen prüfen"** markieren — nicht weglassen, transparent halten.
-
-## Quellen-First-Workflow
-
-**Vor jeder Generierung** das Projekt-Wissen durchsuchen:
+**Vor jeder Generierung Projekt-Wissen durchsuchen:**
 
 - NSC erwähnt? → Erst prüfen, ob er in Quest-Quelle, Kampagnenchronik oder früherem Drehbuch steht. Wenn ja: referenzieren mit Datei und Abschnitt, nur GM-spezifische Ergänzungen (Antrieb, Sprachbild, Verhalten) neu schreiben.
 - Statblock benötigt? → Manual-Verweis. Beispiel: „Bandit, MH 2025 (am Tisch nachschlagen)" oder „Räuberhauptmann, MH 2025 — siehe Der_Speioger.md, Raum 2". Statblock nicht ins Drehbuch kopieren.
 - Ort oder Karte? → Wenn im Quest-Text vorhanden, referenzieren. Eigene Beschreibung nur ergänzend.
 - Frühere Drehbücher als Stilreferenz nutzen, nicht duplizieren.
 
-**Was bleibt im Drehbuch:** GM-spezifische Ergänzungen — Antrieb, Verhalten, Sprachbild, taktische Hinweise, Spotlight-Anker, Verzweigungen, Konsequenzen.
+**Was bleibt im Drehbuch:** GM-spezifische Ergänzungen — Antrieb, Verhalten, Sprachbild, taktische Hinweise, Spotlight-Anker, Verzweigungen, Konsequenzen. Charaktersheet-Werte, die regelseitig nicht verifizierbar sind, mit **„am Bogen prüfen"** markieren — nicht weglassen, transparent halten.
 
 Wenn keine Projektquellen verfügbar sind: ansagen und nachfragen, ob Quest-Texte oder Kampagnen-Material nachgereicht werden.
 
@@ -148,42 +140,19 @@ Vor einer neuen Kampagne (Session Zero) mit den Spielern klären: gibt es Themen
 
 ## Self-Check vor Datei-Übergabe
 
-Bevor eine Drehbuch-Datei an den GM rausgeht, kurz durchgehen:
+Bevor eine Drehbuch-Datei rausgeht, kurz durchgehen:
 
-- [ ] Modus richtig erkannt (Vorbereitung vs. Live)?
 - [ ] Quellen-First angewandt (NSCs und Statblöcke referenziert, nicht dupliziert)?
-- [ ] Pflichtelemente entsprechend Tiefe vorhanden — Fehlendes als „nicht relevant" markiert?
-- [ ] Wahrheits-Tabelle ab Standard-Tiefe da?
+- [ ] Pflichtelemente passend zur Tiefe vorhanden — Fehlendes explizit als „nicht relevant" markiert?
 - [ ] Mindestens zwei Pfade zu jeder Schlüsselinformation?
-- [ ] Verzweigungstabelle hat einen Pleite-Fall?
 - [ ] Bei Standard/Voll: separate Tracker-Datei und GM-Spickzettel angelegt?
 - [ ] Unsichere Charakterwerte als „am Bogen prüfen" markiert?
 
 Wenn ein Punkt offenbleibt: explizit im Chat ansprechen, nicht stillschweigend liefern.
 
-## Typische Fehler vermeiden
-
-- Zu viel Lore am Anfang — Spieler brauchen zu Beginn nur: wo sind sie, warum dort, was ist auffällig, welche Handlung möglich.
-- Zu lange Vorlesetexte — nach drei bis vier Sätzen verlieren Spieler Details.
-- Informationen hinter einem einzigen Würfelwurf verstecken.
-- Kämpfe ohne Gegnerziel spielen — Gegner wollen Beute, Schutz, Flucht, Rache, Zeitgewinn oder Gefangene, selten einfach „bis zum Tod".
-- Sitzungen mitten in komplexen Zuständen beenden — besser nach Entscheidung, Kampf, vor einem neuen Ort oder bei klarem Cliffhanger.
-- DM-Charaktere zu wichtig machen.
-- Statblöcke ins Drehbuch kopieren, statt zu referenzieren.
-- Atmosphäre als Sortierliste nach Sinnen, statt als erzählbare Pakete.
-
 ## Autarkie (ohne Handbücher)
 
-Wenn PHB/DMG/MM gerade nicht greifbar sind, deckt der Skill folgende Tisch-Mechaniken **autark** ab — Live-Antworten ohne Buch-Verifikation:
-
-- SG-Skala 2024 mit Anwendungsbeispielen (`dc-skala-2024.md`)
-- EP-Budget-Tabelle Stufen 1–20 und HG-zu-EP-Werte (`encounter-skalierung.md`)
-- Die 15 Conditions mit Effekten (`live-regelfragen.md`)
-- Tod-Rettungswürfe, Kritische Treffer, Heilung und Rast, Verstecken, Deckung, Konzentration, Bewegung, Aktion-Ökonomie, Vorteil/Nachteil (`live-regelfragen.md`)
-- Die 8 Waffenbeherrschungs-Eigenschaften mit Effekten (`waffenbeherrschung.md`)
-- Sieben Standard-NSC-Statblöcke (Wache, Wachanführer, Bandit, Banditenhauptmann, Späher, Spion, Adeliger) (`standard-nsc-werte.md`)
-
-Was im Skill **nicht** autark liegt: Klassen-Features, Zauber, Spezies-Eigenheiten, magische Gegenstände, vollständige Monster-Bestiarien jenseits der sieben Statblöcke. Bei Fragen dazu offen ansagen und nachfragen, ob im Buch nachgeschlagen werden kann.
+Wenn PHB/DMG/MM nicht greifbar sind: SG-Skala, EP-Budget, die 15 Conditions, Tod-Rettungswürfe, Crits, Verstecken, Deckung, Konzentration, die 8 Waffenbeherrschungs-Eigenschaften und sieben Standard-NSC-Statblöcke liegen autark in `references/` (siehe Verweisstruktur). Nicht autark abgedeckt: Klassen-Features, Zauber, Spezies-Eigenheiten, magische Gegenstände, vollständige Monster-Bestiarien jenseits der sieben Statblöcke. Bei Fragen dazu offen ansagen und nachfragen, ob im Buch nachgeschlagen werden kann.
 
 ## Verweisstruktur
 
@@ -191,32 +160,21 @@ Referenzen werden bei Bedarf gelesen, nicht alle auf einmal.
 
 | Datei | Inhalt | Wann lesen |
 |---|---|---|
-**Drehbuch und Szene:**
-
-| Datei | Inhalt | Wann lesen |
-|---|---|---|
-| `references/pflichtelemente.md` | Die 10 Szenen-Elemente, Wahrheits-Tabelle, Tiefen-Matrix | vor jedem Drehbuch |
+| **Drehbuch und Szene** | | |
+| `references/pflichtelemente.md` | Die 10 Szenen-Elemente, Wahrheits-Tabelle, Tiefen-Matrix, Anti-Patterns | vor jedem Drehbuch |
 | `references/drehbuch-tiefen.md` | Auswahllogik der drei Tiefen, Beispiele | bei Tiefenwahl unklar |
 | `references/atmosphaere-pakete.md` | Aufbau und Beispiele | beim Schreiben von Szenen |
-| `references/sitzungs-bogen.md` | Sitzung als Ganzes — Recap, Cold Open, Tempo, Spotlight-Verteilung, Schluss | Sitzungs-Vorbereitung |
+| `references/sitzungs-bogen.md` | Sitzung als Ganzes — Recap, Cold Open, Tempo, Spotlight, Schluss | Sitzungs-Vorbereitung |
 | `references/charakter-verzahnung.md` | Spieler-Anker (Bindung, Wunde, Ziel) in den Plot weben | Kampagnen- und Quest-Planung |
-| `references/improvisations-notfall.md` | Schnellgeneratoren, Yes-and, was tun wenn die Vorbereitung nicht greift | am Tisch in Notfällen |
-
-**Mechanik und Werte:**
-
-| Datei | Inhalt | Wann lesen |
-|---|---|---|
-| `references/dc-skala-2024.md` | SG-Skala mit Anwendungsbeispielen | Live-SG-Fragen, Drehbuch-D20-Tabellen |
+| `references/improvisations-notfall.md` | Schnellgeneratoren, Yes-and, was tun wenn Vorbereitung nicht greift | am Tisch in Notfällen |
+| **Mechanik und Werte** | | |
+| `references/dc-skala-2024.md` | SG-Skala mit Anwendungsbeispielen | Live-SG-Fragen, D20-Tabellen |
 | `references/encounter-skalierung.md` | EP-Budget-Logik, Skalierung an Gruppe und Stufe | jede Kampfvorbereitung |
 | `references/nsc-werkzeugkasten.md` | NSC-Schnellgenerierung, Antriebe, Sprachbilder, 2024er-Statblock-Format | NSC-Erstellung |
 | `references/standard-nsc-werte.md` | Statblöcke der 7 häufigsten NSC-Typen | wenn MM 2025 nicht greifbar |
 | `references/waffenbeherrschung.md` | Die 8 Mastery-Eigenschaften mit Effekten | Kampfvorbereitung, Live-Klärung |
 | `references/live-regelfragen.md` | Häufige Regelfragen inkl. Tod-Rettungswürfe, Crits | Live-Modus, Regelfrage |
-
-**Nachgang und Hilfsmittel:**
-
-| Datei | Inhalt | Wann lesen |
-|---|---|---|
+| **Nachgang und Hilfsmittel** | | |
 | `references/nachbereitung.md` | Nachbereitung und Kampagnenchronik | nach der Sitzung |
 | `references/glossar-de-en.md` | Begriffsmapping DE↔EN | bei englischer Quellenrecherche |
 | `assets/drehbuch-skelett.md` | Leere Drehbuch-Vorlage | als Startpunkt |
