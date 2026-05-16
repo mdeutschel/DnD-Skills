@@ -118,7 +118,7 @@ Die fünfzehn Zustände nach PHB 2024 (offizielle WotC-Begriffe):
 | **Bewusstlos** (Unconscious) | kampfunfähig, liegend, lässt Halt los; STÄ/GES-Rettung autom. Fehlschlag; Angriffe gegen im Vorteil; krit bei Nahkampf in 1,5 m |
 | **Versteinert** (Petrified) | wie Bewusstlos plus Verwandlung in Stein, Resistenz gegen alle Schadensarten, immun gegen Gift und Krankheit |
 | **Kampfunfähig** (Incapacitated) | kann keine Aktionen, Bonusaktionen oder Reaktionen ausführen; Konzentration bricht; Vorgängerzustand vieler härterer Zustände |
-| **Erschöpft** (Exhausted) | Stufenweise (1–6): pro Stufe −2 auf D20-Tests und Rettungs-SGs; ab Stufe 3 Bewegung halbiert; ab Stufe 5 Geschwindigkeit 0; Stufe 6 = Tod |
+| **Erschöpft** (Exhausted) | Stufenweise kumulativ (1–6): pro Stufe −2 auf alle W20-Prüfungen (Proben, Rettungswürfe, Angriffe); pro Stufe Bewegungsrate um 1,5 m verringert; Stufe 6 = Tod. Heilung: 1 Stufe pro lange Rast |
 
 **Was am Tisch zu tun ist:** Zustand auf Token oder Tisch-Notiz markieren, am Rundenende Wirkungsdauer prüfen. Bei mehreren Zuständen gleichzeitig die Effekte addieren.
 

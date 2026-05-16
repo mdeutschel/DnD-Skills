@@ -113,7 +113,7 @@ Erschöpfung (Exhaustion) heilt mit **einer Erschöpfungsstufe pro lange Rast**.
 
 Effekte pro Stufe nach 2024er-Mechanik (kumulativ, Skala 1–6):
 
-- Beeinträchtigte W20-Prüfungen und Rettungs-SGs für eigene Zauber: −2 pro Erschöpfungsstufe
+- Beeinträchtigte W20-Prüfungen: −2 pro Erschöpfungsstufe auf alle Proben, Rettungswürfe und Angriffe
 - Verringerte Bewegungsrate: −1,5 m pro Erschöpfungsstufe
 - Sechs Erschöpfungsstufen = Tod
 
