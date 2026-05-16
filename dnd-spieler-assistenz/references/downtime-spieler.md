@@ -19,9 +19,10 @@ Grundlagen (Aktivitäten, Lebenshaltung, Würfel-Heuristik, drei Abwicklungsmodi
 
 Bevor die Downtime-Phase startet, kurz mit dem GM klären:
 
-1. **Wie lange?** Tage, Wochen, Monate? Davon hängt ab, was überhaupt geht (Sprache lernen braucht Wochen, Brief schreiben einen Tag).
+1. **Wie lange?** Tage, Wochen, Monate? Davon hängt ab, was überhaupt geht (Training als Mark of Prestige braucht 30 Tage, Magic Item Crafting nach Seltenheit zwischen 5 und 250 Tagen, Brief schreiben einen Tag).
 2. **Wie wird das am Tisch abgewickelt?** Erzählung in fünf Minuten, strukturierte Runde, oder eigene Downtime-Sitzung (siehe `downtime.md`)? Das bestimmt, wie tief vorbereitet sein lohnt.
-3. **Was darf alles, was nicht?** Crafting magischer Gegenstände, Talent über Training, Multiclass-Vorbereitung — manche Tische erlauben das, manche nicht. Hausregeln einmal aussprechen.
+3. **Spielen wir mit Bastions?** Wenn ja (DMG 2024 Kapitel 8, ab Stufe 5), läuft viel — Crafting, Forschung, Beziehungen, Defender — über Bastion-Facilities und Bastion-Turns alle 7 Tage. Dann ist die Bastion-Order-Wahl wichtiger als freie Aktivitäts-Formulierung.
+4. **Was ist als Hausregel offen?** „Talent über Training" steht im DMG 2024 nicht — wenn du das willst, ausdrücklich erfragen, nicht annehmen. Gleiches gilt für andere Erweiterungen (zusätzliche Crafting-Optionen, Multiclass-Vorbereitung über Downtime, Special-Trainer für ungewöhnliche Skills).
 
 **Faustregel:** Wer ohne Plan in die Downtime geht, bekommt „zwei Wochen später" und nichts. Wer drei Sätze Plan mitbringt, bekommt eine kleine Szene und ein Ergebnis.
 
@@ -76,20 +77,47 @@ Großes Ziel: „Ich will herausfinden, was mit der *Albatros* passiert ist." Do
 
 ---
 
-## Mechanische Ziele: Training, Talent, Sprache
+## Mechanische Ziele: Training, Crafting, Bastion
 
-Wer in der Downtime einen mechanischen Effekt anstrebt (neues Werkzeug, Sprache, Fertigkeit, Talent über Training), sollte vier Punkte vor der Downtime klären:
+Wer in der Downtime einen mechanischen Effekt anstrebt, sollte vor der Downtime klären, welche kodifizierte Aktivität greift.
+
+### Training als Mark of Prestige (DMG 2024)
+
+**30 Tage mit einem Trainer.** Gewährt **eine** Belohnung aus: Skill Proficiency, Tool Proficiency, oder eine neue Sprache. **Kein Talent** — das ist in DMG 2024 nicht vorgesehen.
+
+Vor der Phase klären:
 
 | Punkt | Worum es geht |
 |---|---|
-| **Dauer** | Wie viele Wochen oder Monate sind nötig? Hängt vom Tisch ab — Standard PHB 2024: Sprache und Werkzeug mehrere Wochen, Talent länger. |
-| **Lehrer oder Quelle** | Wer bringt es bei? Gibt es eine Buch-Alternative? Lehrer kosten Geld und können selbst Anker werden. |
-| **Kosten** | Lehrer pro Tag, Materialien, evtl. Reisekosten. Vor der Downtime aufrechnen, ob das Budget reicht. |
-| **Abbruchbedingung** | Was passiert, wenn die Downtime früher endet (z. B. Quest-Notruf)? Wird der Fortschritt halbiert, geht verloren, oder pausiert? GM-Frage. |
+| **Trainer** | Wer? Spezialtraining ist nicht allgemein verfügbar — der Trainer ist Plot-Material. |
+| **Kosten** | Lehrer-Gebühren, Materialien, evtl. Reisekosten. PHB 2024 gibt „Skilled hireling 2 gm/Tag" als Default — ein 30-Tage-Training also etwa 60 gm Lehrer plus Lebenshaltung. |
+| **Abbruchbedingung** | Was passiert, wenn die 30 Tage unterbrochen werden? GM-Frage. |
 
-**Talent über Training:** Nicht jeder Tisch erlaubt das. Vor der Downtime ausdrücklich fragen — „Wenn ich drei Monate trainiere, könnte ich Polearm Master als Talent erwerben?" — und Antwort schriftlich notieren.
+**Wenn du ein Talent willst:** Talente kommen über Stufenaufstieg, nicht über Downtime. Wer „Talent über Training" als Hausregel braucht, vor der Downtime ausdrücklich fragen — „Wenn ich drei Monate trainiere, könnte ich Polearm Master erwerben?" — und Antwort schriftlich notieren. Kein Default.
 
-**Multiclass-Vorbereitung:** Wenn der nächste Stufenaufstieg ein Multiclass ist, in der Downtime narrativ vorbereiten (Mentor finden, erste Lektionen, passende Ausrüstung beschaffen). Die mechanische Voraussetzung (Mindest-Attribut) muss schon vorher stehen — Downtime ersetzt das nicht.
+### Crafting Nonmagical Items (PHB 2024)
+
+Voraussetzungen: passendes Werkzeug + Übung damit, Material = halber Verkaufspreis, Zeit = Verkaufspreis ÷ 10 in Tagen (8 Stunden/Tag). Beispiel: Kettenhemd (75 gm) → 37,50 gm Material + 7,5 Tage. Wer einen Assistenten hat, halbiert die Zeit.
+
+### Crafting Magic Items (DMG 2024)
+
+Voraussetzungen: Arcana-Übung, passendes Tool nach Item-Kategorie (Tabelle in DMG Kapitel 7), bei jedem Crafting-Tag müssen die Item-Zauber vorbereitet sein, Material-Verfügbarkeits-Check (Stadt 75 %, Siedlung 25 %).
+
+Zeit/Kosten nach Seltenheit (8 Stunden/Tag, halbiert für Konsumgüter):
+
+| Seltenheit | Tage | Kosten |
+|---|---:|---:|
+| Common | 5 | 50 gm |
+| Uncommon | 10 | 200 gm |
+| Rare | 50 | 2.000 gm |
+| Very Rare | 125 | 20.000 gm |
+| Legendary | 250 | 100.000 gm |
+
+### Bastion-Orders (DMG 2024, ab Stufe 5)
+
+Wenn am Tisch Bastions verwendet werden: pro 7 Tage In-Game-Zeit ein Bastion-Turn — entweder Maintain-Order (passiv, Bastion-Events-Wurf) oder gezielte Orders an Special Facilities (Craft, Empower, Recruit, Research, Trade, Harvest, ...). Bastion-Turns laufen **auch** ab, wenn der Charakter abwesend ist — also bei jeder mehrtägigen Reise mitführen.
+
+**Multiclass-Vorbereitung:** Wenn der nächste Stufenaufstieg ein Multiclass ist, in der Downtime narrativ vorbereiten (Mentor finden, erste Lektionen, passende Ausrüstung beschaffen). Die mechanische Voraussetzung (Mindest-Attribut nach PHB 2024 Kapitel 2) muss schon vorher stehen — Downtime ersetzt das nicht.
 
 ---
 
@@ -110,13 +138,13 @@ Drei Beobachtungen pro Downtime-Phase:
 Vor der Downtime-Sitzung (oder vor der Tischrunde, wenn Downtime in fünf Minuten abgewickelt wird) eine **kurze Notiz** vorbereiten — fünf bis zehn Zeilen reichen:
 
 ```
-Downtime: 3 Wochen Sturmkrone
+Downtime: 30 Tage Sturmkrone
 
 1. Brief an Mira — kein Absender, 20 gm beigelegt, Zeile zur Lage. (Bindungs-Pflege)
-2. Stadtarchiv: was war im Hafen, als die Albatros verschwand? (Ziel-Schritt, INT-Probe wenn nötig)
-3. Fechtunterricht bei Bertram, 3 Wochen, 15 gm — Vorbereitung Polearm Master. (Training)
-4. Lebenshaltung mäßig: ~21 gm, gedeckt.
-5. Offen: Karric-Recherche (Wunde) — diese Phase nicht, nächste vielleicht.
+2. Stadtarchiv: was war im Hafen, als die Albatros verschwand? (Ziel-Schritt, INT-Probe wenn noetig)
+3. Training mit Bertram, volle 30 Tage, Ziel: Tool Proficiency Navigator's Tools (Mark of Prestige). 60 gm Lehrer.
+4. Lebenshaltung modest: 30 Tage x 1 gm = 30 gm, gedeckt.
+5. Offen: Karric-Recherche (Wunde) — diese Phase nicht, naechste vielleicht.
 ```
 
 **Was das dem GM gibt:**
