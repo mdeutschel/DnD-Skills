@@ -1,0 +1,10 @@
+# Build-Manifest für den ZIP-Release. Listet Shared-References auf, die
+# beim Build aus _shared/references/ nach references/ kopiert werden.
+# Doku: README.md, Abschnitt "Architektur: Shared-Inhalte zwischen Skills".
+
+shared:
+  references:
+    - glossar-de-en.md
+    - live-regelfragen.md
+    - dc-skala-2024.md
+    - waffenbeherrschung.md
