@@ -105,6 +105,7 @@ An wen oder was der Charakter gebunden ist — Eid, Orden, Gilde, Idee. Beeinflu
 - **Neue Anker kommen dazu.** NSC-Begegnungen, Quest-Verstrickungen, eigene Entscheidungen erzeugen neue Bindungen.
 - **Abgeschlossene Anker werden archiviert, nicht gelöscht.** Sie bleiben Teil der Charakter-Geschichte und können später wieder aufgerufen werden.
 - **An den GM kommunizieren.** Wenn ein Anker sich verschiebt (z. B. „ich will Mira jetzt eigentlich nicht mehr sehen, sie soll mich vergessen"), dem GM kurz Bescheid geben — sonst plant er weiter mit dem alten Status.
+- **Downtime ist Pflege-Slot.** Stadtphasen und Reise-Wochen sind der natürliche Ort, um Bindungen zu pflegen, Wunden zu adressieren, Ziele in Schritten zu verfolgen — Vorbereitung und Notiz-Format an den GM in `downtime-spieler.md`.
 
 ## Übergabe an den GM
 
@@ -121,3 +122,5 @@ Anker gehören in eine kurze Notizdatei, die der GM bekommt. Format-Vorschlag im
 - **Lass das Moment wirken.** Wenn der GM einen NSC einführt, der die Bindung kennt, oder eine Szene baut, die die Wunde berührt — nicht reflexhaft drumherum spielen. Das ist genau das, wofür der Anker da ist.
 - **Investiere, auch wenn es weh tut.** Spielfiguren, die alles abprallen lassen, sind langweilig. Wenn die Wunde aufbricht, darf der Charakter erschüttert sein.
 - **Bedanke dich beim GM** nach der Sitzung. Anker einzubauen ist Vorbereitungs-Arbeit, das wird selten gesehen.
+
+Ausgearbeitete Reaktions-Patterns für die typischen Auslöser-Typen (NSC kennt einen aus der Vergangenheit, Ort weckt Erinnerung, Quest berührt das Ziel, Wunde wird direkt angesprochen) in `live-notfall.md`.

@@ -151,9 +151,16 @@ Eine **eigene Datei**, die kontinuierlich gepflegt wird:
 | Ereignis | Wann | Wer weiß davon | Konsequenz |
 |---|---|---|---|
 | Brand auf Hof Hofer | vor Quest 1 | Greta, Gruppe | offene Schuld |
+
+## Downtime-Phasen
+
+| Phase | Dauer | Charakter | Aktivität | Stand |
+|---|---|---|---|---|
+| nach Quest 2 | 3 Wochen Sturmkrone | Naeris | Archivsuche Albatros | Teilantwort, Folgehinweis offen |
+| nach Quest 2 | 3 Wochen Sturmkrone | Raiku | Fechtunterricht Bertram | abgeschlossen, Polearm Master verfügbar |
 ```
 
-Diese Datei wird **bei jeder Sitzung aktualisiert**, nicht nur bei Quest-Abschluss.
+Diese Datei wird **bei jeder Sitzung aktualisiert**, nicht nur bei Quest-Abschluss. Downtime-Phasen pro Charakter laufend mitführen — sonst gehen Anker-Pflege-Schritte, offene Trainings und Lebenshaltungs-Stand zwischen Sitzungen verloren. Methodik in `downtime.md`.
 
 ## Übergang zur nächsten Vorbereitung
 

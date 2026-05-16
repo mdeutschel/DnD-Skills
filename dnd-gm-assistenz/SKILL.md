@@ -156,7 +156,7 @@ Wenn ein Punkt offenbleibt: explizit im Chat ansprechen, nicht stillschweigend l
 
 ## Autarkie (ohne Handbücher)
 
-Wenn PHB/DMG/MM nicht greifbar sind: SG-Skala, EP-Budget, die 15 Conditions, Tod-Rettungswürfe, Crits, Verstecken, Deckung, Konzentration, die 8 Waffenbeherrschungs-Eigenschaften und sieben Standard-NSC-Statblöcke liegen autark in `references/` (siehe Verweisstruktur). Nicht autark abgedeckt: Klassen-Features, Zauber, Spezies-Eigenheiten, magische Gegenstände, vollständige Monster-Bestiarien jenseits der sieben Statblöcke. Bei Fragen dazu offen ansagen und nachfragen, ob im Buch nachgeschlagen werden kann.
+Wenn PHB/DMG/MM nicht greifbar sind: SG-Skala, EP-Budget, die 15 Conditions, Tod-Rettungswürfe, Crits, Verstecken, Deckung, Konzentration, die 8 Waffenbeherrschungs-Eigenschaften und sieben Standard-NSC-Statblöcke liegen autark in `references/` (siehe Verweisstruktur). Downtime-**Methodik** (Aktivitäten, Abwicklungsmodi, Anker-Verzahnung, Anti-Patterns) liegt autark in `downtime.md`; konkrete Werte (Lebenshaltung in gm pro Tag, Erschöpfungs-Heilraten, Trainings-Dauern, Crafting-Bedingungen) sind dort als Orientierung formuliert und sollen vor Tisch-Nutzung gegen PHB 2024 / DMG 2024 verifiziert werden. Nicht autark abgedeckt: Klassen-Features, Zauber, Spezies-Eigenheiten, magische Gegenstände, vollständige Monster-Bestiarien jenseits der sieben Statblöcke. Bei Fragen dazu offen ansagen und nachfragen, ob im Buch nachgeschlagen werden kann.
 
 ## Verweisstruktur
 

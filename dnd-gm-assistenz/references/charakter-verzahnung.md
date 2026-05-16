@@ -66,6 +66,8 @@ Vor jeder Sitzung **mindestens drei der Anker** durchgehen und prüfen:
 
 **Faustregel:** Pro Charakter mindestens **alle 2–3 Sitzungen einen Anker-Moment** — sonst fühlen sich Charakter-Hintergründe wie Verzierung an, nicht wie aktiv genutztes Material.
 
+**Downtime als Pflege-Slot:** Stadtphasen, Reisen und Wartezeiten sind die natürliche Stelle, an der Spieler Anker selbst adressieren (Brief an die Bindung, Recherche zur Wunde, Schritt Richtung Ziel). Jede Spieler-Aktivität, die einen Anker berührt, soll **mindestens eine spürbare Reaktion** der Spielwelt zurückbekommen — nicht zwingend Auflösung, aber Bewegung. Methodik und Abwicklungsmodi in `downtime.md`.
+
 ## Spotlight-Szenen mit Verzahnung
 
 Die Spotlight-Szene eines Charakters (siehe `sitzungs-bogen.md`) ist die natürliche Stelle für Anker-Aktivierung. Vorbereitungs-Logik:

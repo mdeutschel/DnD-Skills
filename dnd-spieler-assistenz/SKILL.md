@@ -119,7 +119,7 @@ Wenn ein Punkt offen bleibt: explizit im Chat ansprechen, nicht stillschweigend 
 
 ## Autarkie (ohne Handbücher)
 
-Wenn das PHB nicht greifbar ist: SG-Skala, die 15 Zustände, Tod-Rettungswürfe, Crits, Verstecken, Deckung, Konzentration, die 8 Waffenbeherrschungs-Eigenschaften, die Charaktererstellungs-Reihenfolge und die Stufen-Meilensteine pro Klasse liegen autark in `references/`. **Nicht autark abgedeckt:** vollständige Klassen-Feature-Texte, einzelne Zauberbeschreibungen, Spezies-Eigenheiten, Hintergrund-Talente im Detail, Subklassen jenseits der Namen. Bei Fragen dazu offen ansagen und nachfragen, ob im PHB nachgeschlagen werden kann.
+Wenn das PHB nicht greifbar ist: SG-Skala, die 15 Zustände, Tod-Rettungswürfe, Crits, Verstecken, Deckung, Konzentration, die 8 Waffenbeherrschungs-Eigenschaften, die Charaktererstellungs-Reihenfolge und die Stufen-Meilensteine pro Klasse liegen autark in `references/`. Downtime-**Methodik** (Aktivitäten konkret formulieren, Anker-Pflege, Übergabe-Notiz an den GM) liegt autark in `downtime.md` und `downtime-spieler.md`; konkrete Werte (Lebenshaltung, Trainings-Dauern) sind dort als Orientierung formuliert und sollen vor Tisch-Nutzung gegen PHB 2024 verifiziert werden. **Nicht autark abgedeckt:** vollständige Klassen-Feature-Texte, einzelne Zauberbeschreibungen, Spezies-Eigenheiten, Hintergrund-Talente im Detail, Subklassen jenseits der Namen. Bei Fragen dazu offen ansagen und nachfragen, ob im PHB nachgeschlagen werden kann.
 
 ## Verweisstruktur
 
