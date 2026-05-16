@@ -97,6 +97,10 @@ Pflicht ab Standard-Tiefe:
 
 Vollständige Quest-Drehbücher, Übergangs-Drehbücher zwischen Quests, einzelne Szenen, Sitzungspläne, NSC-Steckbriefe (`references/nsc-werkzeugkasten.md`), Kampfskalierungen (`references/encounter-skalierung.md`), Nachbereitungen und Kampagnenchroniken (`references/nachbereitung.md`). Skelette in `assets/drehbuch-skelett.md` und `assets/tracker-skelett.md`.
 
+### Downtime zwischen Quests
+
+Wochen oder Monate zwischen Sitzungen sind eigene Vorbereitungs-Einheiten: Lebenshaltung, Aktivitäten der Spieler, Anker-Verzahnung, Reaktionen der Spielwelt. Methodik in `references/downtime.md` (rollenübergreifend). Default-Abwicklungsmodus pro Sitzung ansagen, nicht improvisieren.
+
 ## Live-Modus
 
 Knapp, fokussiert, entscheidungsorientiert. **Immer inline im Chat**, keine Datei — Geschwindigkeit hat Vorrang vor Übergabbarkeit. Datei nur auf ausdrücklichen Wunsch.
@@ -176,6 +180,7 @@ Referenzen werden bei Bedarf gelesen, nicht alle auf einmal.
 | `references/live-regelfragen.md` | Häufige Regelfragen inkl. Tod-Rettungswürfe, Crits | Live-Modus, Regelfrage |
 | **Nachgang und Hilfsmittel** | | |
 | `references/nachbereitung.md` | Nachbereitung und Kampagnenchronik | nach der Sitzung |
+| `references/downtime.md` | Aktivitäten, Lebenshaltung, Würfel-Heuristik, Anker-Verzahnung | bei Stadtphasen, Reisen, Zwischen-Quest-Pausen |
 | `references/glossar-de-en.md` | Begriffsmapping DE↔EN | bei englischer Quellenrecherche |
 | `assets/drehbuch-skelett.md` | Leere Drehbuch-Vorlage | als Startpunkt |
 | `assets/tracker-skelett.md` | Tracker-Vorlage | ab Standard-Tiefe |

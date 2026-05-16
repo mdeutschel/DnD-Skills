@@ -71,6 +71,10 @@ Was muss am Bogen stehen, was wird oft vergessen (passive Wahrnehmung, Initiativ
 
 Bindung, Wunde, Ziel als Material für den GM — kurz formuliert, konkret genug zum Andocken. Anleitung und Beispiele in `references/spieler-anker.md`. Skelett zum Ausfüllen in `assets/charakterkonzept-skelett.md`.
 
+### Downtime zwischen Quests
+
+Wochen zwischen Sitzungen als eigene Vorbereitungs-Einheit: Aktivitäten konkret formulieren, Anker pflegen, mechanische Ziele (Training, Talent über Training, Sprache) sauber anstoßen. Rollenübergreifende Grundlagen in `references/downtime.md`, Spieler-Spitze (Vorbereitung, Notiz an den GM) in `references/downtime-spieler.md`.
+
 ## Live-Modus
 
 Knapp, fokussiert, entscheidungsorientiert. **Immer inline im Chat**, keine Datei — Geschwindigkeit hat Vorrang. Datei nur auf ausdrücklichen Wunsch.
@@ -131,11 +135,13 @@ Referenzen werden bei Bedarf gelesen, nicht alle auf einmal.
 | `references/zauberauswahl.md` | Bekannte vs. vorbereitete Zauber, Slots, Konzentration | bei Zauberfragen |
 | `references/charakterbogen-checkliste.md` | Konsistenz, was oft vergessen wird | bei Bogen-Pflege, neuer Stufe |
 | `references/spieler-anker.md` | Bindung/Wunde/Ziel als Material für den GM | Session Zero, Charakterkonzept |
+| `references/downtime-spieler.md` | Vorbereitung der Downtime, Anker-Pflege, Notiz an den GM | vor Stadtphasen, Reisen, Zwischen-Quest-Pausen |
 | **Mechanik und Werte (shared)** | | |
 | `references/dc-skala-2024.md` | SG-Skala mit Anwendungsbeispielen | Live-SG-Fragen, Proben-Einschätzung |
 | `references/waffenbeherrschung.md` | Die 8 Mastery-Eigenschaften | Waffen-Auswahl, Live-Klärung |
 | `references/live-regelfragen.md` | Häufige Regelfragen inkl. Tod-Rettungswürfe, Crits, Konzentration | Live-Modus |
 | `references/live-notfall.md` | Spieler-Block, ausgelöster Anker, Spotlight-Konflikt, Regelunsicherheit | Live-Modus, Klemme am Tisch |
+| `references/downtime.md` | Aktivitäten, Lebenshaltung, Würfel-Heuristik (shared) | bei Downtime-Vorbereitung |
 | `references/glossar-de-en.md` | Begriffsmapping DE↔EN | bei englischer Quellenrecherche |
 | **Skelette** | | |
 | `assets/charakterkonzept-skelett.md` | Leeres Charakterkonzept für Session Zero | bei neuer Kampagne |
