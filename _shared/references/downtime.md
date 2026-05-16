@@ -8,11 +8,11 @@ Diese Datei beschreibt erstens, was im PHB/DMG 2024 tatsächlich kodifiziert ist
 
 - [Wann Downtime entsteht](#wann-downtime-entsteht)
 - [Was im PHB/DMG 2024 kodifiziert ist](#was-im-phbdmg-2024-kodifiziert-ist)
-  - [Lifestyle Expenses (PHB 2024, Kapitel 6)](#lifestyle-expenses-phb-2024-kapitel-6)
-  - [Crafting Nonmagical Items (PHB 2024, Kapitel 6)](#crafting-nonmagical-items-phb-2024-kapitel-6)
-  - [Brewing Potions of Healing und Scribing Spell Scrolls (PHB 2024)](#brewing-potions-of-healing-und-scribing-spell-scrolls-phb-2024)
+  - [Lebenshaltungskosten / Lifestyle Expenses (PHB 2024, Kapitel 6)](#lebenshaltungskosten--lifestyle-expenses-phb-2024-kapitel-6--srd-521)
+  - [Nichtmagische Gegenstände herstellen (PHB 2024, Kapitel 6)](#nichtmagische-gegenstände-herstellen-phb-2024-kapitel-6--srd-521)
+  - [Heiltränke brauen und Zauberschriftrollen verfassen (PHB 2024)](#heiltränke-brauen-und-zauberschriftrollen-verfassen-phb-2024-kapitel-6--srd-521)
   - [Training als Mark of Prestige (DMG 2024, Kapitel 3)](#training-als-mark-of-prestige-dmg-2024-kapitel-3)
-  - [Crafting Magic Items (DMG 2024, Kapitel 7)](#crafting-magic-items-dmg-2024-kapitel-7)
+  - [Magische Gegenstände herstellen (DMG 2024, Kapitel 7)](#magische-gegenstände-herstellen-dmg-2024-kapitel-7--srd-521)
   - [Bastions (DMG 2024, Kapitel 8)](#bastions-dmg-2024-kapitel-8)
   - [Erschöpfungs-Heilung](#erschöpfungs-heilung)
 - [Nicht kodifizierte Aktivitäten (Methodik)](#nicht-kodifizierte-aktivitäten-methodik)
@@ -39,35 +39,37 @@ Drei typische Situationen:
 
 ## Was im PHB/DMG 2024 kodifiziert ist
 
-### Lifestyle Expenses (PHB 2024, Kapitel 6)
+### Lebenshaltungskosten / Lifestyle Expenses (PHB 2024, Kapitel 6 — SRD 5.2.1)
 
-Wahl **am Anfang jeder Woche oder jedes Monats** (GM-Entscheidung). Sieben Stufen:
+Wahl **am Anfang jeder Woche oder jedes Monats** (GM-Entscheidung). Sieben Lebensstile mit den offiziellen deutschen Bezeichnungen aus SRD 5.2.1:
 
-| Stufe | Kosten pro Tag | Was es bedeutet |
+| Lebensstil | Kosten pro Tag | Was es bedeutet |
 |---|---:|---|
-| **Wretched (Elend)** | gratis | überleben durch Zufall und Almosen, schläft oft draußen |
-| **Squalid (Armselig)** | 1 sm | absolute Minimum, ausgesetzt an ungesunde Bedingungen und Gelegenheits-Kriminelle |
-| **Poor (Ärmlich)** | 2 sm | sparsam, deckt das Nötigste |
-| **Modest (Mäßig)** | 1 gm | Standard, durchschnittliches Leben — Default für Abenteurer |
-| **Comfortable (Behaglich)** | 2 gm | etwas Luxus, gute Unterkunft |
-| **Wealthy (Wohlhabend)** | 4 gm | gehobener Standard, evtl. Bedienstete |
-| **Aristocratic (Adlig)** | 10 gm | das Beste, sichtbarer Reichtum mit eigenen Risiken |
+| **Jämmerlich** (Wretched) | gratis | überleben durch Zufall und Mildtätigkeit, schläft draußen, Naturgefahren ausgesetzt |
+| **Ärmlich** (Squalid) | 1 SM | Minimum für grundlegendste Bedürfnisse, ungesunde Bedingungen und Gelegenheitsverbrecher |
+| **Schlecht** (Poor) | 2 SM | sparsame Versorgung der Bedürfnisse |
+| **Einfach** (Modest) | 1 GM | durchschnittlicher Lebensstil — Default für Abenteurer |
+| **Komfortabel** (Comfortable) | 2 GM | etwas Luxus, gute Unterkunft |
+| **Wohlhabend** (Wealthy) | 4 GM | feinere Seiten des Lebens, evtl. Bedienstete |
+| **Edel** (Aristocratic) | 10 GM | das Beste, sichtbarer Reichtum mit eigenen Risiken |
 
-**Wichtig:** PHB 2024 sagt ausdrücklich „Lifestyles have no inherent consequences" — sie wirken **nicht** mechanisch auf Krankheits-Saves, Heilung oder ähnliches. Der GM kann sie aber für Risiko-Einschätzung und NSC-Wahrnehmung berücksichtigen.
+**Achtung Übersetzungs-Falle:** „Ärmlich" und „Schlecht" sind in der offiziellen WotC-DE-Übersetzung gegenüber der intuitiven Erwartung umgekehrt — Ärmlich (1 SM) entspricht dem englischen Squalid, Schlecht (2 SM) dem englischen Poor. Mapping in `glossar-de-en.md`.
 
-**Am Tisch:** Pro Stadtaufenthalt einmal pauschal abrechnen („zwei Wochen mäßig macht 14 gm, du hast 87"), nicht täglich nachhalten. Die deutschen Stufenbezeichnungen in Klammern folgen der gängigen Übersetzung — bei abweichender Wizards-Übersetzung dort anpassen.
+**Wichtig:** SRD 5.2.1 DE sagt ausdrücklich „Ein Lebensstil hat an sich keine Konsequenzen" — wirkt **nicht** mechanisch auf Krankheits-Saves, Heilung oder ähnliches. Der GM kann den Lebensstil bei Risiko-Einschätzung und dem Eindruck auf andere NSCs berücksichtigen.
 
-### Crafting Nonmagical Items (PHB 2024, Kapitel 6)
+**Am Tisch:** Pro Stadtaufenthalt einmal pauschal abrechnen („zwei Wochen einfach macht 14 GM, du hast 87"), nicht täglich nachhalten.
 
-- **Tools:** Charakter braucht passendes Werkzeug und Übung damit (Werkzeug-Liste in PHB Kapitel 6). Assistenten brauchen ebenfalls Übung.
-- **Raw Materials:** Hälfte des Verkaufspreises in gm. Beispiel: Plattenpanzer (1.500 gm) → 750 gm Material.
-- **Zeit:** Verkaufspreis ÷ 10 = Tage Arbeit (je 8 Stunden). Beispiel: schwere Armbrust (50 gm) → 5 Tage. Tage müssen nicht zusammenhängend sein.
-- **Assistenten:** Zeit teilbar durch Anzahl der Mitwirkenden. Standard: ein Assistent zusätzlich, GM kann mehr erlauben.
+### Nichtmagische Gegenstände herstellen (PHB 2024, Kapitel 6 — SRD 5.2.1)
 
-### Brewing Potions of Healing und Scribing Spell Scrolls (PHB 2024)
+- **Werkzeug:** Charakter braucht passendes Werkzeug und Übung im Umgang damit (Werkzeug-Liste in PHB Kapitel 6). Helfer brauchen ebenfalls Übung.
+- **Rohmaterial:** Hälfte des Verkaufspreises in GM, abgerundet. Beispiel: Ritterrüstung (1.500 GM) → 750 GM Rohmaterial.
+- **Zeit:** Verkaufspreis ÷ 10 = Tage Arbeit (je 8 Stunden), angebrochene Tage aufgerundet. Beispiel: schwere Armbrust (50 GM) → 5 Tage. Tage müssen nicht zusammenhängend sein.
+- **Helfer:** Zeit teilbar durch Anzahl der Mitwirkenden. Standard: ein Helfer zusätzlich, GM kann mehr erlauben.
 
-- **Heiltrank:** Übung mit Herbalism Kit, 25 gm Material, 1 Tag (8 Stunden) Arbeit.
-- **Spell Scroll:** Übung in Arcana **oder** mit Calligrapher's Supplies, Zauber pro Tag vorbereitet, Material-Komponenten verfügbar. Zeit und Kosten nach Spell-Level-Tabelle in PHB Kapitel 6 (z. B. Stufe 1: 1 Tag / 25 gm).
+### Heiltränke brauen und Zauberschriftrollen verfassen (PHB 2024, Kapitel 6 — SRD 5.2.1)
+
+- **Heiltrank brauen:** Übung im Umgang mit Kräuterkundeausrüstung (Herbalism Kit), 25 GM Rohmaterial, 1 Tag (8 Stunden) Arbeit.
+- **Zauberschriftrolle verfassen:** Übung in der Fertigkeit Arkane Kunde (Arcana) **oder** im Umgang mit Kalligrafiewerkzeug (Calligrapher's Supplies), Zauber an jedem Tag des Verfassens vorbereitet, Materialkomponenten verfügbar. Verbrauchskomponenten werden erst bei Fertigstellung verbraucht. Zeit und Kosten nach Tabelle „Kosten für Zauberschriftrollen" (Stufe 1: 1 Tag / 25 GM bis Stufe 9: 120 Tage / 50.000 GM).
 
 ### Training als Mark of Prestige (DMG 2024, Kapitel 3)
 
@@ -79,23 +81,23 @@ Spezialtraining, das nicht allgemein verfügbar ist. **30 Tage mit Trainer**, ge
 
 **Wichtig:** DMG 2024 nennt **kein** „Talent durch Training". Die Talent-Erwerbung über Downtime aus älteren Editionen ist nicht offiziell übernommen; wenn das am Tisch gewollt ist, **ausdrückliche Hausregel** mit dem GM klären, nicht als selbstverständlich annehmen.
 
-### Crafting Magic Items (DMG 2024, Kapitel 7)
+### Magische Gegenstände herstellen (DMG 2024, Kapitel 7 — SRD 5.2.1)
 
-- **Voraussetzung:** Arcana-Übung bei Crafter und allen Assistenten.
-- **Tools:** je nach Item-Kategorie (z. B. Ring → Jeweler's Tools, Wand → Woodcarver's Tools, Trank → Alchemist's Supplies oder Herbalism Kit) — Tabelle in DMG Kapitel 7.
-- **Material-Verfügbarkeit:** Stadt 75 %, Siedlung 25 %; wenn nicht verfügbar, mindestens 7 Tage warten bis zum nächsten Check.
-- **Zeit und Kosten nach Seltenheit** (8 Stunden Arbeit pro Tag, halbiert für Konsumgüter außer Spell Scrolls):
+- **Voraussetzung:** Übung in der Fertigkeit Arkane Kunde bei Hersteller und allen Helfern.
+- **Werkzeug:** je nach Kategorie (z. B. Ring → Juwelierwerkzeug, Zauberstab → Holzschnitzwerkzeug, Trank → Alchemistenausrüstung oder Kräuterkundeausrüstung) — Tabelle „Werkzeug für magische Gegenstände" im DMG.
+- **Material-Verfügbarkeit:** Stadt 75 %, andere Siedlungen 25 %; wenn nicht verfügbar, mindestens 7 Tage warten bis zur nächsten Prüfung.
+- **Dauer und Kosten nach Seltenheit** (8 Stunden Arbeit pro Tag, halbiert für Verbrauchsgegenstände außer Zauberschriftrollen):
 
-| Seltenheit | Tage | Kosten |
+| Seltenheit | Dauer | Kosten |
 |---|---:|---:|
-| Common | 5 | 50 gm |
-| Uncommon | 10 | 200 gm |
-| Rare | 50 | 2.000 gm |
-| Very Rare | 125 | 20.000 gm |
-| Legendary | 250 | 100.000 gm |
+| Gewöhnlich (Common) | 5 Tage | 50 GM |
+| Ungewöhnlich (Uncommon) | 10 Tage | 200 GM |
+| Selten (Rare) | 50 Tage | 2.000 GM |
+| Sehr selten (Very Rare) | 125 Tage | 20.000 GM |
+| Legendär (Legendary) | 250 Tage | 100.000 GM |
 
-- **Wenn das Item ein Basis-Item enthält** (z. B. +1 Armor (Plate)), Basiskosten zusätzlich oder Basis-Item selbst herstellen.
-- **Wenn das Item Zauber wirkt:** alle diese Zauber müssen an jedem Crafting-Tag vorbereitet sein.
+- **Wenn der magische Gegenstand einen Basisgegenstand mit Kaufpreis enthält** (z. B. Rüstung +1 (Ritterrüstung)), Basiskosten zusätzlich zahlen oder Basisgegenstand selbst herstellen. SRD-Beispiel: Rüstung +1 (Ritterrüstung) — entweder 3.500 GM zahlen (2.000 GM Crafting + 1.500 GM Ritterrüstung) oder 2.000 GM zahlen und die Ritterrüstung selbst herstellen.
+- **Wenn der Gegenstand Zauber wirkt:** alle diese Zauber müssen an jedem Herstellungstag vorbereitet sein.
 
 ### Bastions (DMG 2024, Kapitel 8)
 
@@ -105,11 +107,17 @@ Optionales System, vom GM zugelassen oder nicht. Charaktere bekommen ab **Stufe 
 
 **Was das für Downtime bedeutet:** Wenn am Tisch Bastions verwendet werden, sind sie das **primäre** Downtime-System ab Stufe 5. Vieles, was in dieser Datei als „nicht kodifiziert" geführt wird (Forschen, Magic Item Crafting, Beziehung pflegen, Geldverdienen), läuft dann über Bastion-Facilities und ihre Orders. Detail-Mechanik in DMG Kapitel 8 (Facility-Liste, Bastion-Events-Tabelle, Bastion-Tracker).
 
-### Erschöpfungs-Heilung
+### Erschöpfungs-Heilung (PHB 2024 / SRD 5.2.1)
 
-Erschöpfung (Exhaustion) heilt nach PHB 2024 mit **einer Stufe pro Long Rest**. Es gibt keine zusätzliche „pro Tag in zivilisierter Umgebung"-Beschleunigung über die Druckregeln hinaus. Wer mit drei Stufen Exhaustion in eine Stadtphase geht, braucht mindestens drei Tage Ruhe.
+Erschöpfung (Exhaustion) heilt mit **einer Erschöpfungsstufe pro lange Rast**. Es gibt keine zusätzliche „pro Tag in zivilisierter Umgebung"-Beschleunigung über die Druckregeln hinaus. Wer mit drei Erschöpfungsstufen in eine Stadtphase geht, braucht mindestens drei lange Rasten zur Genesung.
 
-Effekte pro Stufe: −2 auf D20-Tests und Rettungs-SGs (Spell Save DC), Stufe 3+ Bewegung halbiert, Stufe 5+ Geschwindigkeit 0, Stufe 6 = Tod (Volltext in `live-regelfragen.md`).
+Effekte pro Stufe nach 2024er-Mechanik (kumulativ, Skala 1–6):
+
+- Beeinträchtigte W20-Prüfungen und Rettungs-SGs für eigene Zauber: −2 pro Erschöpfungsstufe
+- Verringerte Bewegungsrate: −1,5 m pro Erschöpfungsstufe
+- Sechs Erschöpfungsstufen = Tod
+
+Achtung: Die ältere 2014er-Mechanik (Stufe 3 halbiert Bewegung, Stufe 5 setzt Geschwindigkeit auf 0) gilt in 2024 **nicht** mehr.
 
 ---
 
@@ -121,7 +129,7 @@ Für nicht-Bastion-Tische funktioniert folgende Methodik:
 
 ### Beruf ausüben
 
-Charakter geht einer Tätigkeit nach, die Geld bringt oder die Lebenshaltung deckt. Eine Probe auf ein passendes Werkzeug oder eine Fertigkeit. Erfolg deckt die Lebenshaltung einer GM-festgelegten Stufe. **SGs:** GM-Ermessen — als Anhalt 10/15/20 für Modest/Comfortable/Wealthy.
+Charakter geht einer Tätigkeit nach, die Geld bringt oder die Lebenshaltung deckt. Eine Probe auf ein passendes Werkzeug oder eine Fertigkeit. Erfolg deckt die Lebenshaltung eines GM-festgelegten Lebensstils. **SGs:** GM-Ermessen — als Anhalt 10/15/20 für Einfach/Komfortabel/Wohlhabend.
 
 **Beispiele:**
 - Schmied in Werkstatt — Werkzeug-Probe (Schmiedewerkzeug).
@@ -210,7 +218,7 @@ Eine ganze Sitzung wird der Downtime gewidmet — Stadtphase, Training, Recherch
 - **„Zwei Wochen später."** Pauschale Zeitsprünge ohne Spieler-Beitrag verschenken Material und Anker-Pflege. Mindestens drei Sätze pro Charakter sollten gefallen sein.
 - **Buchhaltung über Drama.** Wenn Downtime nur Würfeln von Proben und Lebenshaltungs-Abzügen ist, langweilt sie. Eine kleine Szene pro Aktivität reicht oft.
 - **Anker ignorieren.** Drei Wochen Downtime ohne Bindungs-Pflege erodiert die Bindung — und es kommt nichts dafür zurück. Das ist verschenkt.
-- **Crafting magischer Gegenstände als Selbstbedienungsladen.** Tabelle aus DMG Kapitel 7 ist verbindlich (Arcana-Übung, Tool, Material-Verfügbarkeits-Check, Zauber-Vorbereitung) — Material-Knappheit (75 % Stadt / 25 % Siedlung) ist ein wichtiger Bremsfaktor und sollte nicht stillschweigend gestrichen werden.
+- **Magische Gegenstände herstellen als Selbstbedienungsladen.** Tabelle aus DMG Kapitel 7 ist verbindlich (Übung in Arkaner Kunde, Werkzeug, Material-Verfügbarkeits-Prüfung, Zauber-Vorbereitung) — Material-Knappheit (75 % Stadt / 25 % andere Siedlung) ist ein wichtiger Bremsfaktor und sollte nicht stillschweigend gestrichen werden.
 - **„Talent über Training" als Selbstverständlichkeit.** DMG 2024 nennt es nicht. Nur als ausdrückliche Hausregel.
 - **Forschung ohne konkrete Frage.** „Ich forsche in der Bibliothek" ohne Ziel ergibt nichts — der GM braucht eine Frage, um eine Antwort zu generieren.
-- **Lifestyle mit erfundenen Konsequenzen.** PHB 2024 sagt klar, Lifestyles haben keine intrinsischen Effekte. Wer Wretched oder Squalid spielt, ist nicht automatisch krank — das ist GM-Ermessen, nicht Regel.
+- **Lebensstil mit erfundenen Konsequenzen.** SRD 5.2.1 DE sagt klar, ein Lebensstil hat an sich keine Konsequenzen. Wer Jämmerlich oder Ärmlich spielt, ist nicht automatisch krank — das ist GM-Ermessen, nicht Regel.
