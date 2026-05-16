@@ -15,6 +15,25 @@ Sammelort für Anthropic-Agent-Skills rund um D&D 5e (2024/2025-Regelwerke). Akt
 
 **Als Projekt-Prompt in anderen Tools:** Den Inhalt von `SYSTEM_PROMPT.md` als Systemnachricht einsetzen und die Quelldateien (`dnd-gm-assistenz/SKILL.md`, alle References und Assets) sowie die offiziellen Handbücher (PHB 2024, DMG 2024, MM 2025) als Projekt- oder Wissens-Dateien hinterlegen.
 
+## Architektur: Shared-Inhalte zwischen Skills
+
+Anthropic-Skills sind monolithische Bundles — jedes ZIP muss selbstgenügsam sein. Einige Referenzen (Glossar, Live-Regelfragen, SG-Skala, Waffenbeherrschung) gelten aber rollenübergreifend und sollen nicht parallel in mehreren Skills gepflegt werden. Lösung: Single Source of Truth in `_shared/`, der Build-Schritt kopiert pro Skill genau die im **Skill-Manifest** gelisteten Dateien ins ZIP-Staging.
+
+**Manifest pro Skill** (optional, in `<skill>/skill.manifest.yml`):
+
+```yaml
+shared:
+  references:
+    - glossar-de-en.md
+    - live-regelfragen.md
+```
+
+Wirkung: jede gelistete Datei wird beim Build von `_shared/references/<name>` nach `<skill>/references/<name>` in die ZIP-Stage kopiert. Skills ohne Manifest verhalten sich wie bisher (keine Shared-Dateien). Kollisionen mit skill-eigenen `references/`-Dateien lassen den Build hart fehlschlagen — Umbenennung in `_shared/` oder im Skill ist erforderlich.
+
+**Lokal arbeiten (ohne ZIP-Build):** `scripts/sync-shared.sh <skill>` kopiert die im Manifest gelisteten Dateien temporär in den Skill-Ordner. Eine pro Skill auto-generierte `<skill>/references/.gitignore` verhindert, dass diese Kopien versehentlich committet werden. Vor dem Push aus dem Skill-Ordner wieder löschen oder einfach ignorieren (das `.gitignore` deckt's ab).
+
+**Build lokal testen:** `scripts/build-zips.sh` macht den Action-Build 1:1 lokal nach (Output in `dist/`), inklusive Manifest-Verarbeitung und Kollisionserkennung.
+
 ## Quellen
 
 Skill nutzt die D&D-2024/2025-Regelwerke als primäre Quelle:
