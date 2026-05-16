@@ -89,6 +89,10 @@ Knapp, fokussiert, entscheidungsorientiert. **Immer inline im Chat**, keine Date
 
 Häufige Live-Regelfragen (Heimlichkeit, Überraschung, Deckung, Konzentration, Zustände, Tod-Rettungswürfe, Crits) mit Standardantworten in `references/live-regelfragen.md`. SG-Anwendungsbeispiele in `references/dc-skala-2024.md`. Waffenbeherrschungs-Eigenschaften in `references/waffenbeherrschung.md`.
 
+### Klemmen am Tisch
+
+Spieler-Block, ausgelöster Anker, Spotlight-Konflikt, akute Regelunsicherheit: Reaktions-Patterns in `references/live-notfall.md`. Im Live-Modus konsultieren, wenn die Situation nicht in die obigen Standardformate passt.
+
 ## Spieler-Robustheits-Prinzipien
 
 - **GM-Entscheidung am Tisch akzeptieren, leise klären.** Regelfragen kurz stellen, beim Nein nicht öffentlich debattieren. Falls regeltechnisch wackelig: nach der Sitzung ansprechen, nicht mitten im Kampf. *Beispiel:* GM lässt eine Mastery anders auslösen als im Buch — anmerken, akzeptieren, später nachfragen.
@@ -131,6 +135,7 @@ Referenzen werden bei Bedarf gelesen, nicht alle auf einmal.
 | `references/dc-skala-2024.md` | SG-Skala mit Anwendungsbeispielen | Live-SG-Fragen, Proben-Einschätzung |
 | `references/waffenbeherrschung.md` | Die 8 Mastery-Eigenschaften | Waffen-Auswahl, Live-Klärung |
 | `references/live-regelfragen.md` | Häufige Regelfragen inkl. Tod-Rettungswürfe, Crits, Konzentration | Live-Modus |
+| `references/live-notfall.md` | Spieler-Block, ausgelöster Anker, Spotlight-Konflikt, Regelunsicherheit | Live-Modus, Klemme am Tisch |
 | `references/glossar-de-en.md` | Begriffsmapping DE↔EN | bei englischer Quellenrecherche |
 | **Skelette** | | |
 | `assets/charakterkonzept-skelett.md` | Leeres Charakterkonzept für Session Zero | bei neuer Kampagne |
