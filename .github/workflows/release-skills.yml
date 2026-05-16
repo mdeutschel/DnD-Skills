@@ -43,6 +43,9 @@ jobs:
           set -euo pipefail
           mkdir -p dist
           VERSION="${{ steps.version.outputs.version }}"
+          SHARED_ROOT="${GITHUB_WORKSPACE}/_shared"
+          # shellcheck source=scripts/lib-shared.sh
+          source "${GITHUB_WORKSPACE}/scripts/lib-shared.sh"
           COUNT=0
           for dir in */; do
             skill="${dir%/}"
@@ -51,6 +54,20 @@ jobs:
               echo "Packaging ${skill} -> dist/${zipname}"
               staging="$(mktemp -d)"
               cp -R "${skill}/." "${staging}/"
+              manifest="${staging}/skill.manifest.yml"
+              if [ -f "${manifest}" ]; then
+                mapfile -t shared_refs < <(manifest_shared_references "${manifest}")
+                if [ "${#shared_refs[@]}" -gt 0 ]; then
+                  mkdir -p "${staging}/references"
+                  validate_shared_references "${skill}" "${SHARED_ROOT}" "${skill}/references" "${shared_refs[@]}"
+                  for name in "${shared_refs[@]}"; do
+                    cp "${SHARED_ROOT}/references/${name}" "${staging}/references/${name}"
+                    echo "  shared: references/${name}"
+                  done
+                fi
+                rm -f "${manifest}"
+              fi
+              [ -f "${staging}/references/.gitignore" ] && rm -f "${staging}/references/.gitignore"
               [ -f LICENSE ] && cp LICENSE "${staging}/LICENSE"
               [ -f NOTICE.md ] && cp NOTICE.md "${staging}/NOTICE.md"
               (cd "${staging}" && zip -r "${GITHUB_WORKSPACE}/dist/${zipname}" . -x "*.DS_Store" "__MACOSX/*")

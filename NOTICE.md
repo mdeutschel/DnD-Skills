@@ -26,11 +26,13 @@ direkt davon abgeleitet sind (Statblöcke, Tabellen, Regelaussagen,
 Begriffsübersetzungen):
 
 - `dnd-gm-assistenz/references/standard-nsc-werte.md` — sieben Standard-NSC-Statblöcke
-- `dnd-gm-assistenz/references/live-regelfragen.md` — Zustände, Todesrettungswurf, Crit, weitere Regelaussagen
-- `dnd-gm-assistenz/references/waffenbeherrschung.md` — die acht Waffenbeherrschungs-Eigenschaften
-- `dnd-gm-assistenz/references/dc-skala-2024.md` — SG-Skala und SG-Berechnungsformeln
 - `dnd-gm-assistenz/references/encounter-skalierung.md` — EP-Budget-Tabelle und HG-zu-EP-Tabelle
-- `dnd-gm-assistenz/references/glossar-de-en.md` — Begriffsmapping nach offizieller deutscher SRD-Übersetzung
+- `_shared/references/live-regelfragen.md` — Zustände, Todesrettungswurf, Crit, weitere Regelaussagen
+- `_shared/references/waffenbeherrschung.md` — die acht Waffenbeherrschungs-Eigenschaften
+- `_shared/references/dc-skala-2024.md` — SG-Skala und SG-Berechnungsformeln
+- `_shared/references/glossar-de-en.md` — Begriffsmapping nach offizieller deutscher SRD-Übersetzung
+
+Dateien unter `_shared/` werden vom Release-Build pro Skill ins ZIP-Staging kopiert (siehe README.md, Abschnitt "Architektur"); im jeweils ausgelieferten Skill landen sie unter `references/`.
 
 Inhalte wurden teilweise gekürzt, neu zusammengestellt und mit eigener
 Methodik kombiniert. Diese Bearbeitungen stehen ebenfalls unter CC BY 4.0.
