@@ -1,6 +1,6 @@
 # SG-Skala 2024 mit Anwendungsbeispielen
 
-Die SG-Skala für 2024er-Regeln. Quelle: PHB 2024 („Typical Difficulty Classes", Kapitel D20 Tests), DMG 2024 („Typical DCs", Kapitel Resolving Outcomes). Offiziell sechs Stufen, klare Anwendungslogik.
+Die SG-Skala für 2024er-Regeln. Quelle: PHB 2024 („Typical Difficulty Classes", Kapitel D20 Tests), DMG 2024 („Setting Difficulty", Tabelle „Typical DCs"). Offiziell sechs Stufen, klare Anwendungslogik.
 
 ## Die Skala
 
@@ -19,7 +19,7 @@ Default-SG für offene Anfragen: **15 (mittel)** als Ausgangspunkt, dann situati
 
 Bevor ein SG gesetzt wird, prüfen ob ein Wurf überhaupt sinnvoll ist:
 
-- **Triviale Aufgaben** (Tür öffnen, ohne dass sie verschlossen ist): kein Wurf, einfach passieren lassen.
+- **Sehr einfache Aufgaben** (Tür öffnen, ohne dass sie verschlossen ist): kein Wurf, einfach passieren lassen.
 - **Aufgaben ohne Konsequenz bei Fehlschlag**: kein Wurf — wenn nichts schiefgehen kann, gibt es nichts zu prüfen.
 - **Aufgaben ohne Zeitdruck und ohne harte Konsequenz**: erlauben, aber Erfolg ohne Wurf.
 
@@ -30,8 +30,8 @@ Eine Probe ist nur sinnvoll, wenn **Erfolg ungewiss ist und Fehlschlag eine Kons
 Drei Standardformeln aus dem DMG 2024:
 
 - **Passive Probe** = 10 + alle Modifikatoren, die normalerweise gelten würden. Beispiel: passive Wahrnehmung = 10 + WEI-Mod + Übungsbonus (falls geübt).
-- **Konteste** (eine Probe gegen die andere): die eine Probe ist SG für die andere. Beispiel: Heimlichkeit gegen passive Wahrnehmung des Wachpostens; STÄ-Athletik des Packenden gegen GES-Akrobatik oder STÄ-Athletik des Ziels.
-- **Berechneter SG** für Charakterfähigkeiten = 8 + Attributmodifikator + Übungsbonus. Wird genutzt für Zauber-Rettungswürfe und Spezialfähigkeiten („target makes a save against your SG").
+- **Konteste** (eine Probe gegen die andere): die eine Probe ist SG für die andere. Beispiel: Heimlichkeit gegen passive Wahrnehmung des Wachpostens.
+- **Berechneter Rettungswurf-SG** für Charakterfähigkeiten und Zauber = 8 + Attributmodifikator + Übungsbonus. Wird genutzt für Zauberrettungswurf-SG (PHB 2024), Spezialfähigkeiten und ähnliche „Ziel macht einen Rettungswurf gegen deinen SG"-Mechaniken. In 2024 ist auch **Packen** so geregelt: Ziel macht STÄ- oder GES-Rettungswurf (nach Wahl) gegen 8 + STÄ-Mod + Übungsbonus des Packenden — kein Athletik/Akrobatik-Kontest mehr.
 
 ## Modifikatoren situativ
 
@@ -83,8 +83,10 @@ SGs hängen stark von der NSC-Disposition ab.
 | Über einen Bach mit unsicheren Steinen | 10 | Sturz bedeutet nass, kein Schaden |
 | Eine glatte Mauer hochklettern | 20 | mit Werkzeug eher 15 |
 | Sturz aus 6 m abrollen | 15 | Erfolg halbiert Sturzschaden |
-| Über einen 3-m-Spalt springen | 10 | Standardsprung 2024 |
-| Über einen 4–5-m-Spalt springen | 15–20 | mit Anlauf |
+| Niedriges Hindernis (Hecke, niedrige Mauer) beim Sprung überwinden | 10 | Athletik, nur falls Hindernis bis ¼ der Sprungweite hoch ist (SRD 5.2.1 „Weitsprung") |
+| In schwierigem Gelände landen | 10 | Akrobatik, sonst Liegend (SRD 5.2.1) |
+
+**Weitsprung in 2024:** Die Sprungweite ist nicht SG-abhängig, sondern hart durch den Stärkewert begrenzt — Sprungdistanz in Metern = STÄ-Wert ÷ 3, sofern mindestens 3 m Anlauf möglich sind; aus dem Stand nur die Hälfte. Jeder gesprungene Meter zählt als 1 m Bewegungsrate. Probe nur für Landung in schwierigem Gelände (SG 10 Akrobatik) oder für Hindernisse im Sprung (SG 10 Athletik). Wer weiter springen muss als sein Stärkewert erlaubt, springt schlicht nicht so weit — auch nicht mit gutem Wurf.
 
 ### Nachforschungen
 
