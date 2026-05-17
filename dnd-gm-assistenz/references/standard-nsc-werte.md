@@ -79,7 +79,7 @@ Die häufigsten Gegner- und NSC-Statblöcke aus dem offiziellen WotC SRD 5.2.1 (
 - **Reaktionen** kosten die Reaktion des NSC — pro Runde nur einmal nutzbar.
 - **Skalierung:** Wenn die Begegnung härter sein soll, lieber Anzahl erhöhen als Werte tunen. Wenn weicher: TP nach unten würfeln (1W8 statt 2W8 etc.).
 
-Für seltenere NSC-Typen (Veteran, Schläger, Bürgerlicher, Magus, Akolyth, Priester) im MM 2025 oder im englischen SRD 5.2.1 nachschlagen — die obigen sieben decken die häufigsten Spontan-Encounter ab.
+Im deutschen SRD 5.2.1 zusätzlich verfügbar (nicht in dieser Datei): **Kriegerveteran** (S. 339), **Priester** (S. 359), **Priester-Akolyth** (S. 359), **Magier**. Für noch seltenere Typen wie **Bürgerlicher** oder **Schläger** im MM 2025 oder im englischen SRD 5.2.1 nachschlagen — die obigen sieben decken die häufigsten Spontan-Encounter ab.
 
 ---
 
