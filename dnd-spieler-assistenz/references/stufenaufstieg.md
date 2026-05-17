@@ -57,18 +57,18 @@ Vor dem Tisch oder zwischen Sitzungen, nicht hektisch währenddessen:
 5. **Übungsbonus prüfen.** Auf Stufe 5, 9, 13, 17 steigt er um +1. Alle Werte am Bogen, die ihn enthalten, neu rechnen: Angriffsbonus, Zauber-SG, Zauber-Angriffsbonus, Fertigkeiten mit Übung, Rettungswürfe mit Übung, Werkzeug-Boni.
 6. **Talent oder Attribut-Erhöhung.** Auf den meisten Klassen-Tabellen-Stufen (4, 8, 12, 16, 19 — manche Klassen früher/später): entweder +2 in einem Attribut, +1 in zwei verschiedenen, oder ein Talent (allgemein, Kampfstil, Epic Boon je nach Stufe). Wenn KON dadurch steigt: TP-Max nachträglich für alle Stufen rechnen (+1 pro Stufe pro +1 KON-Mod).
 7. **Zauber lernen / vorbereiten.** Klassenspezifisch (siehe `zauberauswahl.md`). Caster bekommen meist neue Slots, manchmal höhere Slot-Stufe.
-8. **Subklassen-Merkmale.** Ab Stufe 3 nach Subklassen-Wahl, dann meistens auf 6, 10, 14 weitere Subklassen-Merkmale.
+8. **Subklassen-Merkmale.** Subklassen-Wahl ist 2024 für alle zwölf Klassen auf Stufe 3. Weitere Subklassen-Merkmale je nach Klasse: Wizard/Sorcerer/Bard/Druid/Cleric meistens 6/10/14, Barbar/Paladin/Ranger 7/11/15, Fighter 7/10/15/18, Rogue 9/13/17, Warlock 6/10/14, Mönch 6/11/17. Konkrete Stufen in der jeweiligen Klassen-Tabelle.
 9. **Bogen-Konsistenz prüfen.** Mit `charakterbogen-checkliste.md` durchgehen.
 
 ## Schlüssel-Meilensteine pro Stufenbereich
 
 - **Stufe 3.** Subklasse wird gewählt — Charakter bekommt mechanischen Charakter. Vorher gut überlegen.
 - **Stufe 4.** Erste Attribut-Erhöhung oder erstes allgemeines Talent. Caster meist hauptattribut nach 16/18.
-- **Stufe 5.** Kampfklassen kriegen Extra Attack (zwei Angriffe pro Angriffsaktion). Caster bekommen Stufe-3-Slots (Fireball, Lightning Bolt, Heilen Verbessern, Antimagie nur Magier, etc.). Übungsbonus +3 — viele Werte ändern sich.
-- **Stufe 6.** Subklassen-Merkmal #2.
-- **Stufe 7–8.** Klassen-spezifische Power-Spikes (z. B. Paladin: Heiliges Gelübde-Feature; Kämpfer: drittes Talent oder Indomitable).
-- **Stufe 9.** Übungsbonus +4. Stufe-5-Slots (Erhebung, Versteinern, etc.).
-- **Stufe 11.** Kampfklassen oft mit drittem Angriff (Kämpfer schon, andere klassenabhängig). Stufe-6-Slots.
+- **Stufe 5.** Kampfklassen kriegen Extra Attack (zwei Angriffe pro Angriffsaktion). Caster bekommen Stufe-3-Slots (Feuerball, Blitzschlag, Schnelligkeit, Gegenzauber, Fliegen, etc.). Übungsbonus +3 — viele Werte ändern sich.
+- **Stufe 6.** Subklassen-Merkmal #2 für die meisten Caster (Wizard/Sorcerer/Bard/Druid/Cleric/Warlock); andere Klassen bekommen das auf Stufe 7.
+- **Stufe 7–8.** Klassen-spezifische Power-Spikes (z. B. Paladin Stufe 7: Unterklassen-Merkmal plus Aura-Erweiterung; Kämpfer Stufe 8: dritte Attributswerterhöhung).
+- **Stufe 9.** Übungsbonus +4. Stufe-5-Slots (Tote erwecken, Wiederbeleben, Massen-Heilendes Wort, Wand aus Kraft, etc.). Kämpfer bekommt Unbeugsamkeit.
+- **Stufe 11.** **Nur Kämpfer** bekommt einen dritten Angriff (zwei zusätzliche Angriffe). Caster bekommen Stufe-6-Slots.
 - **Stufe 13–17.** Spätspiel-Features, oft langweiliger in der Vorbereitung, aber stark am Tisch.
 - **Stufe 20.** Klassen-Capstone, häufig der „defining moment" der Klasse.
 
@@ -86,7 +86,7 @@ Multiclass ist auf der Tabelle-Seite erlaubt, aber GM kann es einschränken oder
 - **Übungen.** Beim ersten Stufenaufstieg in einer neuen Klasse gibt's nur einen Teil der Stufe-1-Übungen, nicht alle.
 - **Zauber-Slots** nach Multiclass-Caster-Tabelle (alle Caster-Stufen zusammen, Paladin und Waldläufer zur Hälfte, Eldritch Knight/Arcane Trickster zu einem Drittel). Vorbereitete Zauber bleiben aber pro Klasse separat.
 - **Extra Attack** stapelt sich nicht — wer das Feature aus zwei Klassen hat, bekommt trotzdem nur zwei Angriffe (außer Kämpfer-Stufe 11+).
-- **Rüstungsklasse**-Sonderfälle (Mönch/Sorcerer mit zwei UD-Features): nur eine wirkt, jede Runde wählbar.
+- **Rüstungsklasse**-Sonderfälle (Mönch/Zauberer mit zwei Ungerüstete-Verteidigung-Features): nur eine wirkt, jede Runde wählbar.
 
 **Wann Multiclass sinnvoll:**
 
@@ -107,4 +107,4 @@ Multiclass ist auf der Tabelle-Seite erlaubt, aber GM kann es einschränken oder
 - **Auswahlen aus neuen Merkmalen nicht getroffen.** Manche Features bieten Wahl (Talent vs. Attribut, Subklassen-Spezialisierung), die wird gerne vergessen.
 - **Caster: neue Zauber nicht vorbereitet.** Mit neuer Stufe darf meist ein neuer Zauber gelernt oder die Vorbereitungs-Liste neu zusammengestellt werden.
 - **Subklasse blind gewählt.** Auf Stufe 3 ohne Überlegung gewählte Subklasse begleitet den Charakter bis 20 — vorher konkret mit dem GM und der Konzeptlinie abgleichen.
-- **Talent vs. Attribut zu schnell entschieden.** +2 STÄ klingt nach mehr, aber ein gutes Talent (z. B. Großes Waffenmeister, Polearm Master, Resilient KON) ist oft stärker als der ungerade Statwert.
+- **Talent vs. Attribut zu schnell entschieden.** +2 STÄ klingt nach mehr, aber ein gutes Talent (z. B. Großer Waffenmeister, Stangenwaffenmeister, Robust mit KON) ist oft stärker als der ungerade Statwert.
