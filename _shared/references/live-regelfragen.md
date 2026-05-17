@@ -35,15 +35,15 @@ Maximal acht bis zehn Zeilen. Wenn der Fall komplexer ist, das offen sagen und v
 
 ## Heimlichkeit und Wahrnehmung
 
-**Regel (Verstecken-Aktion, PHB 2024):** Verstecken ist eine Aktion. Voraussetzung: der Charakter ist **stark verdeckt** (Heavily Obscured), hat **dreiviertel oder volle Deckung** und ist **außerhalb der direkten Sichtlinie** aller Feinde, die ihn entdecken könnten. Ein GES-Wurf (Heimlichkeit) gegen SG 15 (oder höher, je nach Beobachter) bestimmt, ob das Verstecken klappt.
+**Regel (Verstecken-Aktion, SRD 5.2.1 / PHB 2024):** Verstecken ist eine Aktion mit **festem SG 15** auf den GES-Wurf (Heimlichkeit). Voraussetzung: der Charakter ist **komplett verschleiert** (Heavily Obscured) **ODER** hat **Dreivierteldeckung oder vollständige Deckung**, und ist **außerhalb der Sichtlinie aller Gegner**.
 
 **Mechanik:**
-- Bei Erfolg ist der Charakter **Unsichtbar** (Zustand) bis er sich entdeckt.
-- Aufgedeckt wird er, wenn er angreift, einen Zauber mit V-Komponente wirkt, lauter als ein Flüstern Geräusche macht, oder ein Feind ihn mit einem Wahrnehmungswurf gegen seine Heimlichkeitsprobe entdeckt.
-- Schwere Rüstung gibt Nachteil auf Heimlichkeit, falls der Charakter darin nicht geübt ist.
-- Bei reiner Bewegung außerhalb der Verstecken-Aktion (z.B. an einer Wache vorbei) gilt: Heimlichkeit gegen passive Wahrnehmung des Beobachters.
+- Bei Erfolg ist der Charakter **Unsichtbar** (Zustand), solange er versteckt bleibt.
+- Das **Gesamtergebnis des Heimlichkeitswurfs** wird notiert — es dient als SG für Wahrnehmungswürfe von Gegnern, die ihn aufspüren wollen.
+- Aufgedeckt wird er, wenn er angreift, einen Zauber mit Verbalkomponente wirkt, ein Geräusch lauter als ein Flüstern macht, oder ein Gegner ihn aufspürt.
+- Schwere Rüstung mit „Nachteil"-Markierung in der Heimlichkeit-Spalte gibt Nachteil auf den Wurf.
 
-**Was am Tisch zu tun ist:** Erst prüfen, ob die Voraussetzungen für Verstecken erfüllt sind (verdeckt, außer Sicht). Wenn ja, SG 15 oder passive Wahrnehmung des wachsamsten Beobachters als SG nehmen — der höhere Wert gilt. Bei aktiver Suche durch Beobachter: gegnerischer Wahrnehmungswurf statt passiv.
+**Was am Tisch zu tun ist:** Erst prüfen, ob die Voraussetzungen erfüllt sind (komplett verschleiert ODER Deckung, plus außer Sicht). Wenn ja, SG 15 würfeln. Wurf-Ergebnis notieren — das ist der SG, gegen den Gegner mit aktiven Wahrnehmungswürfen entdecken müssen. Passive Wahrnehmung ist beim Verstecken **nicht** der Schwellenwert — die Verstecken-Aktion läuft gegen den festen SG 15.
 
 **Häufige Sonderfälle:**
 - Mehrere Beobachter: höchste passive Wahrnehmung gilt.
@@ -104,19 +104,19 @@ Die fünfzehn Zustände nach PHB 2024 (offizielle WotC-Begriffe):
 
 | Zustand | Wichtigste Effekte |
 |---|---|
-| **Vergiftet** (Poisoned) | Nachteil auf Angriffe und Fähigkeitsproben |
+| **Vergiftet** (Poisoned) | Nachteil auf Angriffs- und Attributswürfe |
 | **Bezaubert** (Charmed) | kann Bezauberer nicht angreifen, Bezauberer hat Vorteil auf Soziales |
 | **Verängstigt** (Frightened) | Nachteil auf Angriffe und Proben, solange Quelle in Sicht; kann sich nicht freiwillig auf Quelle zubewegen |
 | **Blind** (Blinded) | sieht nichts; automatischer Fehlschlag bei sichtanspruchsvollen Proben; Nachteil auf Angriffe, Angriffe gegen sind im Vorteil |
 | **Taub** (Deafened) | hört nichts; automatischer Fehlschlag bei höranspruchsvollen Proben |
 | **Unsichtbar** (Invisible) | kann nicht gesehen werden; Vorteil auf Angriffe, Angriffe gegen sind im Nachteil; bleibt in Initiative-Reihenfolge |
-| **Festgesetzt** (Restrained) | Geschwindigkeit 0; Nachteil auf Angriffe und GES-Rettungen; Angreifer im Vorteil |
+| **Festgesetzt** (Restrained) | Bewegungsrate 0; Nachteil auf eigene Angriffe; Angriffe gegen im Vorteil; Nachteil auf GES-Rettungswürfe |
 | **Gelähmt** (Paralyzed) | kampfunfähig, kann sich nicht bewegen oder sprechen; automatischer Fehlschlag bei STÄ/GES-Rettungen; Angriffe im Vorteil; krit bei Nahkampf in 1,5 m |
-| **Liegend** (Prone) | Bewegung halbiert; Nachteil auf Angriffe; Nahkampfangreifer im Vorteil, Fernkampfangreifer im Nachteil |
+| **Liegend** (Prone) | Bewegung nur Kriechen oder Aufstehen (kostet halbe Bewegungsrate); Nachteil auf eigene Angriffe; Angriffe gegen aus 1,5 m im Vorteil, von weiter weg im Nachteil |
 | **Gepackt** (Grappled) | Geschwindigkeit 0; Nachteil auf Angriffe gegen alles außer dem Packenden; siehe Packen-Option des Angriffs |
 | **Betäubt** (Stunned) | kampfunfähig, kann sich nicht bewegen, automatischer Fehlschlag bei STÄ/GES-Rettungen, Angriffe im Vorteil |
 | **Bewusstlos** (Unconscious) | kampfunfähig, liegend, lässt Halt los; STÄ/GES-Rettung autom. Fehlschlag; Angriffe gegen im Vorteil; krit bei Nahkampf in 1,5 m |
-| **Versteinert** (Petrified) | wie Bewusstlos plus Verwandlung in Stein, Resistenz gegen alle Schadensarten, immun gegen Gift und Krankheit |
+| **Versteinert** (Petrified) | kampfunfähig, Bewegungsrate 0, in Stein verwandelt; STÄ/GES-Rettungen autom. Fehlschlag; Angriffe gegen im Vorteil; Resistenz gegen alle Schadensarten; immun gegen Vergiftet (**kein** Auto-Crit, anders als Bewusstlos/Gelähmt) |
 | **Kampfunfähig** (Incapacitated) | kann keine Aktionen, Bonusaktionen oder Reaktionen ausführen; Konzentration bricht; Vorgängerzustand vieler härterer Zustände |
 | **Erschöpft** (Exhausted) | Stufenweise kumulativ (1–6): pro Stufe −2 auf alle W20-Prüfungen (Proben, Rettungswürfe, Angriffe); pro Stufe Bewegungsrate um 1,5 m verringert; Stufe 6 = Tod. Heilung: 1 Stufe pro lange Rast |
 
@@ -160,9 +160,18 @@ Die fünfzehn Zustände nach PHB 2024 (offizielle WotC-Begriffe):
 
 ## Heilung und Rasten
 
-**Kurze Rast:** mindestens eine Stunde Pause. Charaktere können beliebig viele Trefferwürfel ausgeben (1W + KON-Mod pro Würfel, mindestens 1 TP pro Würfel) zur Heilung. Klassenfähigkeiten mit „1×/Kurzrast" werden zurückgesetzt. Trefferwürfel-Pool: 1 Würfel pro Charakterstufe, regeneriert sich teils bei langer Rast.
+**Kurze Rast:** mindestens eine Stunde Pause. Charaktere können beliebig viele Trefferwürfel ausgeben (1W + KON-Mod pro Würfel, mindestens 1 TP pro Würfel) zur Heilung. Klassenfähigkeiten mit „1×/Kurzrast" werden zurückgesetzt. Trefferwürfel-Pool: 1 Würfel pro Charakterstufe. Voraussetzung: mindestens 1 TP zu Beginn.
 
-**Lange Rast:** 8 Stunden Pause, davon 6 schlafend. **TP voll**, **Trefferwürfel bis zur Hälfte der Maximalzahl zurück**, **Zauberplätze und „1×/Lange Rast"-Fähigkeiten zurück**. Eine Kreatur kann nur einmal pro 24 Stunden von einer langen Rast profitieren.
+**Lange Rast:** mindestens 8 Stunden Pause, davon 6 schlafend, max. 2 Stunden leichte Aktivität (Lesen, Reden, Wache halten). Voraussetzung: mindestens 1 TP zu Beginn. Vorzüge nach SRD 5.2.1:
+- **alle Trefferpunkte zurück**
+- **alle verbrauchten Trefferwürfel zurück** (2024er-Änderung — in 2014/2019 war es nur die Hälfte)
+- **Attributswerte wiederhergestellt** (falls verringert)
+- **eine Erschöpfungsstufe verringert**
+- Zauberplätze und „1×/Lange Rast"-Fähigkeiten zurück (über Klassenmerkmale geregelt)
+
+Eine Kreatur kann nur einmal pro 24 Stunden von einer langen Rast profitieren (16 Stunden Pause zwischen zwei langen Rasten nötig).
+
+**Lange Rast unterbrechen:** Initiative auswürfeln, einen Zauber wirken (kein Zaubertrick), Schaden erleiden, oder eine Stunde körperliche Anstrengung. Wer mindestens eine Stunde gerastet hat, bekommt die Vorzüge einer kurzen Rast. Pro Unterbrechung verlängert sich die nötige Restdauer um eine Stunde.
 
 **Temporäre Trefferpunkte:** stapeln sich **nicht** (nimm den höheren Wert), gehen bei nächster langer Rast verloren, werden zuerst aufgebraucht bevor normale TP fallen.
 
@@ -198,7 +207,7 @@ Die fünfzehn Zustände nach PHB 2024 (offizielle WotC-Begriffe):
 **Beispiel:** Langschwert (1W8+3 STÄ) als Crit → 2W8 würfeln + 3 = z. B. 9 + 3 = 12 Schaden.
 
 **Sondereffekte:**
-- Crit bei Nahkampfangriff in 1,5 m gegen Gelähmt/Bewusstlos/Versteinert-Ziel: automatisch.
+- Treffer bei Nahkampfangriff in 1,5 m gegen Gelähmt- oder Bewusstlos-Ziel: automatisch ein kritischer Treffer. (Versteinert **nicht** — anders als die anderen beiden Vorgängerzustände.)
 - Crit gegen sterbenden Charakter (0 TP): zwei Misserfolge auf Todesrettungswürfe.
 
 **2024er-Änderung:** Crits gelten weiterhin nur auf natürliche 20 (nicht auf Treffer-Bereiche wie 19–20 außer durch spezifische Klassenmerkmale wie Champion-Kämpfer). Monster-Angriffe lösen weiterhin Crits aus — keine „nur Spieler-Crits"-Hausregel im Standard.
