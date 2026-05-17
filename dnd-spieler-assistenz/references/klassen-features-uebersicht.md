@@ -1,156 +1,376 @@
-# Klassen-Features-Übersicht
+# Klassen-Meilensteine
 
-Quick-Lookup: welche Klasse bekommt was an welcher Stufe (PHB 2024). Keine vollständigen Feature-Texte — nur Stufen-Marker, damit der Spieler weiß, was beim Stufenaufstieg ansteht und was im Build zu erwarten ist. Volltexte im PHB 2024 nachschlagen.
+Quick-Lookup: welche Klasse bekommt was an welcher Stufe (PHB 2024 / SRD 5.2.1 DE). Keine vollständigen Feature-Texte — nur Stufen-Marker, damit der Spieler weiß, was beim Stufenaufstieg ansteht und was im Build zu erwarten ist. Volltexte im PHB 2024 Kapitel 3 nachschlagen.
 
-## Querschnitt: was alle Klassen bekommen
+Die deutschen Klassenmerkmal-Namen folgen dem SRD 5.2.1 DE. Subklassen-Namen, die nicht im SRD enthalten sind, sind hier mit englischer Originalbezeichnung plus üblicher deutscher Übersetzung gelistet.
 
-- **Stufe 3:** Subklasse wählen.
-- **Stufen 4, 8, 12, 16, 19:** Attribut-Erhöhung oder Talent (manche Klassen früher zusätzlich, siehe unten).
-- **Stufen 6, 10, 14:** weitere Subklassen-Merkmale (Standard für die meisten Klassen).
-- **Stufe 19:** Epic-Boon-Talent (statt regulärer Attribut-Erhöhung wählbar).
+## Querschnitt: was alle zwölf Klassen gemeinsam haben
+
+- **Stufe 3:** Unterklassen-Wahl (für alle Klassen).
+- **Stufen 4, 8, 12, 16, 19:** Attributswerterhöhung oder Talent (Kämpfer zusätzlich auf 6 und 14; Schurke zusätzlich auf 10).
+- **Stufen 5, 9, 13, 17:** Übungsbonus steigt um +1.
+- **Stufe 19:** Wahl eines Epische-Gabe-Talents.
 - **Stufe 20:** Klassen-Capstone.
 
-## Barbar
-
-- **1:** Wut, Ungerüstete Verteidigung (KON), Schurken-Sinn (Tasha-ähnliches Feature, „Weapon Mastery").
-- **2:** Rauflust, Gefahrenwahrnehmung.
-- **3:** Subklasse (Pfad: Berserker, Wildmagie, Welttotem, Zelot).
-- **5:** Extra Attack, Schnelle Bewegung (+3 m Geschwindigkeit ohne schwere Rüstung).
-- **7:** Instinktiver Schlag.
-- **9:** Hirnzermalmender Kritischer Treffer (Crits bei 19–20).
-- **11:** Unaufhaltsame Wut (Wut hält länger ohne Voraussetzungen).
-- **18:** Unverwüstliche Leben.
-- **20:** Primärer Champion (+4 STÄ und KON, Cap 25).
-
-## Barde
-
-- **1:** Bardische Inspiration, Zauberwirken (CHA), Cantrips.
-- **2:** Songs of Restoration, Expertise (zwei Fertigkeiten), Vielseitige Fähigkeit (Jack of all Trades).
-- **3:** Subklasse (Hochschule: Wissen, Glanz, Tanz, Verführung).
-- **5:** Stufe-3-Slots, Gefährte der Helden (Inspiration regeneriert auf kurzer Rast).
-- **6:** Subklassen-Merkmal.
-- **7:** Stufe-4-Slots (Dimensionssprung, etc.).
-- **9:** Stufe-5-Slots, Expertise auf zwei weitere Fertigkeiten.
-- **10:** Magische Geheimnisse (Zauber aus anderen Klassen-Listen).
-- **13:** Stufe-7-Slots.
-- **20:** Bardischer Inspirations-Bonus +1 W12.
-
-## Druide
-
-- **1:** Druidisch (Sprache), Zauberwirken (WEI), Cantrips, Primal Order (Wahl: Heiler oder Kämpfer-Druide).
-- **2:** Wildgestalt (Wild Shape), Wildgesellschaft (Begleiter-Bonus).
-- **3:** Subklasse (Zirkel: Land, Mond, Sterne, Träume).
-- **5:** Stufe-3-Slots.
-- **7:** Stufe-4-Slots.
-- **9:** Stufe-5-Slots.
-- **18:** Zeitloser Körper, Tiergestalten (mehr Wild-Shape-Optionen).
-- **20:** Erzdruide (Wild Shape unbegrenzt).
-
-## Hexenmeister
-
-- **1:** Eldritch Invocations (zwei), Pact Magic (CHA), Cantrips.
-- **2:** Magische Initiative, Pact Boon (Pakt-Geschenk Stufe 2 statt 3).
-- **3:** Subklasse (Patron: Erzfee, Höllenwesen, Großer Alter, Zelestialer).
-- **5:** Stufe-3-Pact-Magic-Slots, neue Invocations.
-- **7:** Stufe-4-Slots.
-- **9:** Stufe-5-Slots, Kontrahende-Invocations.
-- **11:** Mystischer Pakt (Mystic Arcanum — ein Stufe-6-Zauber 1×/lange Rast, ohne Slot).
-- **13–17:** Mystic Arcanum Stufe 7, 8, 9 (je 1×/lange Rast).
-- **20:** Eldritch Master (Slots auf kurzer Rast zurück, 1×/lange Rast).
-
-## Kämpfer
-
-- **1:** Kampfstil, Zweite Atmung.
-- **2:** Aktions-Schub (1× Bonus-Aktion pro kurze Rast — eine zusätzliche Aktion).
-- **3:** Subklasse (Archetyp: Champion, Verteidigender Kämpfer, Eldritch Knight, Krieger des Studiums).
-- **4, 6, 8, 12, 14, 16, 19:** Attribut/Talent — Kämpfer hat zwei extra (auf 6 und 14).
-- **5:** Extra Attack.
-- **9:** Tactical Mind (Indomitable-Vorstufe).
-- **11:** Two Extra Attacks (drei Angriffe pro Angriffsaktion).
-- **13:** Indomitable (Rettungswurf wiederholen).
-- **20:** Three Extra Attacks (vier Angriffe).
-
-## Kleriker
-
-- **1:** Zauberwirken (WEI), Cantrips, Heilige Bestellung (Wahl: Beschützer oder Diener).
-- **2:** Channel Divinity (1×).
-- **3:** Subklasse (Domäne: Krieg, Leben, Licht, Trickster).
-- **5:** Stufe-3-Slots, Vernichten von Untoten Verbessert.
-- **7:** Stufe-4-Slots.
-- **9:** Stufe-5-Slots.
-- **10:** Göttliche Intervention (1×/lange Rast).
-- **20:** Verbesserte Göttliche Intervention (immer, lange Rast).
-
-## Magier
-
-- **1:** Zauberwirken (INT), Cantrips, Zauberbuch (sechs Zauber Stufe 1), Ritualzauber.
-- **2:** Schule der Magie (Subklasse einer Schule — Abjuration, Divination, Evocation, Illusion).
-- **3:** Cantrip Verbessert (mehr Cantrips lernen).
-- **5:** Stufe-3-Slots.
-- **7:** Stufe-4-Slots.
-- **9:** Stufe-5-Slots.
-- **18:** Spell Mastery (zwei Zauber Stufe 1–2 ohne Slot).
-- **20:** Signature Spells (zwei Stufe-3-Zauber je 1×/kurze Rast).
-
-## Mönch
-
-- **1:** Ungerüstete Verteidigung (WEI), Kampfkunst, Cantrips n.a. (kein Caster default).
-- **2:** Mönchsmysterien (Mojo Points), Ungerüstete Bewegung.
-- **3:** Subklasse (Klosterorden: Hand, Schatten, Vier Elemente, Goldenes Drachen).
-- **5:** Extra Attack, Erschütternder Schlag.
-- **6:** Empowered Strikes (Schlag zählt als magisch).
-- **9:** Ungerüstete Bewegung Verbessert (Wandlauf).
-- **10:** Heilige Reinheit (Imm. gegen Gift, Krankheit).
-- **20:** Mönchskörper-Capstone.
-
-## Paladin
-
-- **1:** Heilige Bestätigung (Sense), Lay on Hands (Heil-Pool).
-- **2:** Kampfstil, Zauberwirken (CHA), Göttlicher Smite (Slots für Bonusschaden), Cantrips n.a.
-- **3:** Subklasse (Heiliges Gelübde: Engelsverteidiger, Antike, Vergeltung, Ruhm), Heiliger Schutz.
-- **5:** Extra Attack, Stufe-2-Slots.
-- **6:** Aura of Protection (Rettungswurf-Bonus für Verbündete).
-- **9:** Stufe-3-Slots.
-- **11:** Radiant Strikes (Bonusschaden auf Waffenangriffe).
-- **13:** Stufe-4-Slots.
-- **18:** Aura-Reichweite erhöht.
-- **20:** Subklassen-Capstone.
-
-## Schurke
-
-- **1:** Expertise (zwei Fertigkeiten), Heimtückischer Angriff (W6 / 2 Stufen aufrundend), Diebes-Cant.
-- **2:** Hinterhalt (Bonus-Aktion: Verstecken/Verbergen/Rückzug).
-- **3:** Subklasse (Schurkenpfad: Assassine, Arcane Trickster, Souls Reaver, Thief).
-- **5:** Wachsamer Verteidiger (Reaktion: Nahkampf-Verfehlt → Schaden halbiert).
-- **7:** Ausweichen.
-- **9:** Wachsame Sinne.
-- **11:** Verlässliche Talente (jede Probe min. 10 für Fertigkeiten mit Übung).
-- **14:** Blindsicht.
-- **18:** Schwer einzuschüchtern.
-- **20:** Glücksaufstrich (Wieder rollen 1× pro lange Rast).
-
-## Waldläufer
-
-- **1:** Bevorzugter Feind (Hunter's Mark gratis), Ausgewählter Fluchtweg, Zauberwirken (WEI).
-- **2:** Kampfstil, Erzwungene Markierung.
-- **3:** Subklasse (Konklave: Jäger, Bestiemeister, Düsterer Wanderer, Pfadfinder).
-- **5:** Extra Attack, Stufe-2-Slots.
-- **9:** Stufe-3-Slots, Aura schwächt Hunter's Mark.
-- **13:** Stufe-4-Slots.
-- **18:** Verwandter Geist (höherstufige Markierung).
-- **20:** Foe Slayer (Bonus auf Schaden gegen markiertes Ziel).
-
-## Zauberer
-
-- **1:** Zauberwirken (CHA), Cantrips, Innate Sorcery (1× pro lange Rast).
-- **2:** Magische Quelle (Sorcery Points), Metamagie (zwei Wahlmöglichkeiten).
-- **3:** Subklasse (Sorcerous Origin: Aberrant, Clockwork, Drakonisch, Wild).
-- **5:** Stufe-3-Slots.
-- **7:** Stufe-4-Slots, Sorcerous Restoration (Sorcery Points auf kurzer Rast).
-- **9:** Stufe-5-Slots, dritte Metamagie.
-- **17:** vierte Metamagie.
-- **20:** Source of Magic (Sorcery Points auf 1 lange Rast zurück + 1 SP auf jeder Initiative).
+Weitere Unterklassen-Merkmale liegen klassenabhängig auf unterschiedlichen Stufen (siehe pro Klasse).
 
 ---
 
-**Hinweis:** Die obigen Stufen-Marker decken die häufigsten Power-Spikes ab. Vollständige Klassen-Features inklusive Subklassen-Beschreibungen und Auswahl-Optionen stehen im PHB 2024, Kapitel 3. Vor jeder Subklassen-Wahl oder Talent-Wahl das vollständige Kapitel der Klasse lesen — dieses Übersicht ersetzt das nicht.
+## Barbar
+
+**Trefferwürfel:** W12. **Hauptattribut:** STÄ. **Rettungswurf-Übung:** STÄ, KON. **Zauberwirken:** keines.
+
+| Stufe | Klassenmerkmale |
+|---:|---|
+| 1 | Kampfrausch, Ungerüstete Verteidigung, Waffenbeherrschung (2 Waffen) |
+| 2 | Gefahrengespür, Rücksichtsloser Angriff |
+| 3 | Barbaren-Unterklasse, Urwissen |
+| 4 | Attributswerterhöhung |
+| 5 | Zusätzlicher Angriff, Schnelle Bewegung |
+| 6 | Unterklassenmerkmal |
+| 7 | Instinktiver Sprung, Wilder Instinkt |
+| 8 | Attributswerterhöhung |
+| 9 | Brutaler Hieb |
+| 10 | Unterklassenmerkmal |
+| 11 | Unerbittlicher Kampfrausch |
+| 12 | Attributswerterhöhung |
+| 13 | Verbesserter Brutaler Hieb |
+| 14 | Unterklassenmerkmal |
+| 15 | Anhaltender Kampfrausch |
+| 16 | Attributswerterhöhung |
+| 17 | Verbesserter Brutaler Hieb |
+| 18 | Unbändige Stärke |
+| 19 | Epische Gabe |
+| 20 | Meister der Wildnis |
+
+**Unterklassen (Pfad des/der ...):** Berserker, Wildes Herz (Wild Heart), Weltenbaum (World Tree), Eiferer (Zealot). Unterklassen-Stufen: 3, 6, 10, 14.
+
+---
+
+## Barde
+
+**Trefferwürfel:** W8. **Hauptattribut:** CHA. **Rettungswurf-Übung:** GES, CHA. **Zauberwirken:** Voll-Caster (CHA).
+
+| Stufe | Klassenmerkmale |
+|---:|---|
+| 1 | Bardische Inspiration, Zauberwirken |
+| 2 | Alleskönner, Expertise |
+| 3 | Barden-Unterklasse |
+| 4 | Attributswerterhöhung |
+| 5 | Quelle der Inspiration (Inspirations-Würfel auf kurzer und langer Rast zurück; Slot für Inspiration umwandelbar) |
+| 6 | Unterklassenmerkmal |
+| 7 | Bannlied |
+| 8 | Attributswerterhöhung |
+| 9 | Expertise (zweite Anwendung) |
+| 10 | Magische Geheimnisse (Zauber aus anderen Klassen-Listen lernen) |
+| 12 | Attributswerterhöhung |
+| 14 | Unterklassenmerkmal |
+| 16 | Attributswerterhöhung |
+| 18 | Überlegene Inspiration |
+| 19 | Epische Gabe |
+| 20 | Worte der Schöpfung |
+
+**Bardische Inspiration-Würfel-Skalierung:** W6 (Stufe 1) → W8 (5) → W10 (10) → W12 (15).
+
+**Unterklassen (Hochschule der ...):** Tanz (Dance), Glanz (Glamour), Wissen (Lore), Tapferkeit (Valor). Unterklassen-Stufen: 3, 6, 14.
+
+---
+
+## Druide
+
+**Trefferwürfel:** W8. **Hauptattribut:** WEI. **Rettungswurf-Übung:** INT, WEI. **Zauberwirken:** Voll-Caster (WEI).
+
+| Stufe | Klassenmerkmale |
+|---:|---|
+| 1 | Zauberwirken, Druidisch, Urtümliche Ordnung |
+| 2 | Tiergestalt, Wilder Gefährte |
+| 3 | Druiden-Unterklasse |
+| 4 | Attributswerterhöhung |
+| 5 | Wilde Wiederkehr |
+| 6 | Unterklassenmerkmal |
+| 7 | Elementare Wut |
+| 8 | Attributswerterhöhung |
+| 10 | Unterklassenmerkmal |
+| 12 | Attributswerterhöhung |
+| 14 | Unterklassenmerkmal |
+| 15 | Verbesserte Elementare Wut |
+| 16 | Attributswerterhöhung |
+| 18 | In Tiergestalt zaubern |
+| 19 | Epische Gabe |
+| 20 | Erzdruide |
+
+**Unterklassen (Zirkel des/der ...):** Land (Land), Mond (Moon), See (Sea), Sterne (Stars). Unterklassen-Stufen: 3, 6, 10, 14.
+
+---
+
+## Hexenmeister
+
+**Trefferwürfel:** W8. **Hauptattribut:** CHA. **Rettungswurf-Übung:** WEI, CHA. **Zauberwirken:** Paktmagie (CHA) — wenige Slots, immer auf höchster verfügbarer Stufe, kommen auf **kurzer Rast** zurück.
+
+| Stufe | Klassenmerkmale |
+|---:|---|
+| 1 | Paktmagie, Schauerliche Anrufungen (eine Anrufung) |
+| 2 | Magische Raffinesse |
+| 3 | Hexenmeister-Unterklasse |
+| 4 | Attributswerterhöhung |
+| 6 | Unterklassenmerkmal |
+| 8 | Attributswerterhöhung |
+| 9 | Schutzherrn kontaktieren |
+| 10 | Unterklassenmerkmal |
+| 11 | Mystisches Arkanum (6. Grad) |
+| 12 | Attributswerterhöhung |
+| 13 | Mystisches Arkanum (7. Grad) |
+| 14 | Unterklassenmerkmal |
+| 15 | Mystisches Arkanum (8. Grad) |
+| 16 | Attributswerterhöhung |
+| 17 | Mystisches Arkanum (9. Grad) |
+| 19 | Epische Gabe |
+| 20 | Mystischer Meister (alle verbrauchten Paktmagie-Slots zurück via Magische Raffinesse) |
+
+**Unterklassen (Patron):** Erzfee (Archfey), Zelestial (Celestial), Unhold (Fiend), Großer Alter (Great Old One). Unterklassen-Stufen: 3, 6, 10, 14.
+
+**Anrufungen-Anzahl steigt:** 1 (Stufe 1) → 3 (2) → 5 (5) → 6 (7) → 7 (9) → 8 (12) → 9 (15) → 10 (18).
+
+---
+
+## Kämpfer
+
+**Trefferwürfel:** W10. **Hauptattribut:** STÄ oder GES. **Rettungswurf-Übung:** STÄ, KON. **Zauberwirken:** keines (außer Mystischer Ritter — Drittel-Caster, INT).
+
+| Stufe | Klassenmerkmale |
+|---:|---|
+| 1 | Kampfstil, Durchschnaufen, Waffenbeherrschung (3 Waffen) |
+| 2 | Taktisches Verständnis, Tatendrang (einmalig — eine zusätzliche Aktion außer Magie) |
+| 3 | Kämpfer-Unterklasse |
+| 4 | Attributswerterhöhung |
+| 5 | Taktikwechsel, Zusätzlicher Angriff |
+| 6 | Attributswerterhöhung |
+| 7 | Unterklassenmerkmal |
+| 8 | Attributswerterhöhung |
+| 9 | Taktischer Meister, Unbeugsamkeit (eine Anwendung) |
+| 10 | Unterklassenmerkmal |
+| 11 | Zwei zusätzliche Angriffe (insgesamt drei Angriffe pro Angriffsaktion) |
+| 12 | Attributswerterhöhung |
+| 13 | Angriffsstudien, Unbeugsamkeit (zwei Anwendungen) |
+| 14 | Attributswerterhöhung |
+| 15 | Unterklassenmerkmal |
+| 16 | Attributswerterhöhung |
+| 17 | Tatendrang (zwei Anwendungen), Unbeugsamkeit (drei Anwendungen) |
+| 18 | Unterklassenmerkmal |
+| 19 | Epische Gabe |
+| 20 | Drei zusätzliche Angriffe (insgesamt vier Angriffe pro Angriffsaktion) |
+
+**Unterklassen:** Schlachtmeister (Battle Master), Champion, Mystischer Ritter (Eldritch Knight), Psi-Krieger (Psi Warrior). Unterklassen-Stufen: 3, 7, 10, 15, 18.
+
+---
+
+## Kleriker
+
+**Trefferwürfel:** W8. **Hauptattribut:** WEI. **Rettungswurf-Übung:** WEI, CHA. **Zauberwirken:** Voll-Caster (WEI).
+
+| Stufe | Klassenmerkmale |
+|---:|---|
+| 1 | Zauberwirken, Göttliche Ordnung (Wahl: Beschützer oder Thaumaturg) |
+| 2 | Göttliche Macht fokussieren (Channel Divinity) — 2 Anwendungen |
+| 3 | Kleriker-Unterklasse |
+| 4 | Attributswerterhöhung |
+| 5 | Untote versengen |
+| 6 | Unterklassenmerkmal — Göttliche Macht 3 Anwendungen |
+| 7 | Gesegnete Schläge |
+| 8 | Attributswerterhöhung |
+| 10 | Göttliche Intervention |
+| 12 | Attributswerterhöhung |
+| 14 | Verbesserte Gesegnete Schläge |
+| 16 | Attributswerterhöhung |
+| 17 | Unterklassenmerkmal |
+| 18 | Göttliche Macht 4 Anwendungen |
+| 19 | Epische Gabe |
+| 20 | Mächtige Göttliche Intervention |
+
+**Unterklassen (Domäne des/der ...):** Leben (Life), Licht (Light), Streiche (Trickery), Krieg (War). Unterklassen-Stufen: 3, 6, 17.
+
+---
+
+## Magier
+
+**Trefferwürfel:** W6. **Hauptattribut:** INT. **Rettungswurf-Übung:** INT, WEI. **Zauberwirken:** Voll-Caster (INT).
+
+| Stufe | Klassenmerkmale |
+|---:|---|
+| 1 | Zauberwirken, Ritual-Adept (Rituale aus dem Zauberbuch ohne Vorbereitung), Arkane Erholung |
+| 2 | Gelehrter (Expertise in einer von vier Fertigkeiten: Arkane Kunde, Geschichte, Nachforschungen, Naturkunde, Religion) |
+| 3 | Magier-Unterklasse |
+| 4 | Attributswerterhöhung |
+| 5 | Zauber auswendig lernen (einen Zauber pro Wirken ohne Buch verfügbar) |
+| 6 | Unterklassenmerkmal |
+| 8 | Attributswerterhöhung |
+| 10 | Unterklassenmerkmal |
+| 12 | Attributswerterhöhung |
+| 14 | Unterklassenmerkmal |
+| 16 | Attributswerterhöhung |
+| 18 | Zaubermeisterschaft |
+| 19 | Epische Gabe |
+| 20 | Lieblingszauber |
+
+**Unterklassen:** Bannmagier (Abjurer), Erkenntnismagier (Diviner), Hervorrufungsmagier (Evoker), Illusionist. Unterklassen-Stufen: 3, 6, 10, 14.
+
+---
+
+## Mönch
+
+**Trefferwürfel:** W8. **Hauptattribut:** GES und WEI. **Rettungswurf-Übung:** STÄ, GES. **Zauberwirken:** keines.
+
+| Stufe | Klassenmerkmale |
+|---:|---|
+| 1 | Kampfkünste, Ungerüstete Verteidigung |
+| 2 | Mönchsfokus (Fokuspunkte), Ungerüstete Bewegung (+3 m), Unglaublicher Stoffwechsel |
+| 3 | Angriffe umleiten, Mönch-Unterklasse |
+| 4 | Attributswerterhöhung, Sturz abfedern |
+| 5 | Betäubender Schlag, Zusätzlicher Angriff |
+| 6 | Mächtige Schläge, Unterklassenmerkmal |
+| 7 | Entrinnen |
+| 8 | Attributswerterhöhung |
+| 9 | Akrobatische Bewegung (Lauf an vertikalen Flächen und über Flüssigkeiten) |
+| 10 | Erhöhter Fokus, Selbstwiederherstellung (entfernt einen Zustand aus Bezaubert/Verängstigt/Vergiftet pro Zug) |
+| 11 | Unterklassenmerkmal |
+| 12 | Attributswerterhöhung |
+| 13 | Energie umleiten |
+| 14 | Der disziplinierte Überlebende |
+| 15 | Perfekter Fokus |
+| 16 | Attributswerterhöhung |
+| 17 | Unterklassenmerkmal |
+| 18 | Überlegene Verteidigung |
+| 19 | Epische Gabe |
+| 20 | Körper und Geist (GES und WEI je +4, Maximum 25) |
+
+**Kampfkünste-Würfel-Skalierung:** W6 (Stufe 1) → W8 (5) → W10 (11) → W12 (17).
+
+**Unterklassen (Krieger des/der ...):** Gnade (Mercy), Schatten (Shadow), Elemente (Elements), Offene Hand (Open Hand). Unterklassen-Stufen: 3, 6, 11, 17.
+
+---
+
+## Paladin
+
+**Trefferwürfel:** W10. **Hauptattribut:** STÄ und CHA. **Rettungswurf-Übung:** WEI, CHA. **Zauberwirken:** Halb-Caster (CHA), beginnt auf Stufe 1.
+
+| Stufe | Klassenmerkmale |
+|---:|---|
+| 1 | Handauflegen, Waffenbeherrschung (2 Waffen), Zauberwirken |
+| 2 | Kampfstil, Paladin-Niederstrecken (Göttliches Niederstrecken stets vorbereitet, 1×/lange Rast ohne Slot) |
+| 3 | Göttliche Macht fokussieren (inkl. Option Göttliches Gespür), Paladin-Unterklasse |
+| 4 | Attributswerterhöhung |
+| 5 | Treues Reittier (Reittier finden stets vorbereitet, 1× ohne Slot), Zusätzlicher Angriff |
+| 6 | Aura des Schutzes (Verbündete in 3 m bekommen +CHA-Mod auf Rettungswürfe) |
+| 7 | Unterklassenmerkmal |
+| 8 | Attributswerterhöhung |
+| 9 | Gegner verdammen |
+| 10 | Aura der Tapferkeit |
+| 11 | Gleißende Schläge |
+| 12 | Attributswerterhöhung |
+| 14 | Erquickende Berührung |
+| 15 | Unterklassenmerkmal |
+| 16 | Attributswerterhöhung |
+| 18 | Aura-Ausdehnung (Aura-Reichweite auf 9 m) |
+| 19 | Epische Gabe |
+| 20 | Unterklassenmerkmal (Capstone der gewählten Unterklasse) |
+
+**Unterklassen (Schwur des/der ...):** Hingabe (Devotion), Ruhm (Glory), Antike (Ancients), Vergeltung (Vengeance). Unterklassen-Stufen: 3, 7, 15, 20.
+
+---
+
+## Schurke
+
+**Trefferwürfel:** W8. **Hauptattribut:** GES. **Rettungswurf-Übung:** GES, INT. **Zauberwirken:** keines (außer Arkaner Gauner — Drittel-Caster, INT).
+
+| Stufe | Klassenmerkmale |
+|---:|---|
+| 1 | Diebessprache, Expertise (zwei Fertigkeiten), Hinterhältiger Angriff (1W6), Waffenbeherrschung (2 Waffen) |
+| 2 | Raffinierte Aktion (Bonusaktion: Spurt, Rückzug oder Verstecken) |
+| 3 | Schurken-Unterklasse, Zielsicher |
+| 4 | Attributswerterhöhung |
+| 5 | Raffinierter Schlag, Unglaubliches Ausweichen |
+| 6 | Expertise (zwei weitere Fertigkeiten) |
+| 7 | Entrinnen, Verlässliches Talent |
+| 8 | Attributswerterhöhung |
+| 9 | Unterklassenmerkmal |
+| 10 | Attributswerterhöhung |
+| 11 | Verbesserter Raffinierter Schlag |
+| 12 | Attributswerterhöhung |
+| 13 | Unterklassenmerkmal |
+| 14 | Hinterhältige Schläge |
+| 15 | Entschlüpfender Geist |
+| 16 | Attributswerterhöhung |
+| 17 | Unterklassenmerkmal |
+| 18 | Schwer zu fassen |
+| 19 | Epische Gabe |
+| 20 | Glückstreffer |
+
+**Hinterhältiger Angriff-Skalierung:** 1W6 (Stufe 1) → 2W6 (3) → ... → 10W6 (20) — alle zwei Stufen +1W6.
+
+**Unterklassen:** Arkaner Gauner (Arcane Trickster), Assassine (Assassin), Seelenklinge (Soulknife), Dieb (Thief). Unterklassen-Stufen: 3, 9, 13, 17.
+
+---
+
+## Waldläufer
+
+**Trefferwürfel:** W10. **Hauptattribut:** GES und WEI. **Rettungswurf-Übung:** STÄ, GES. **Zauberwirken:** Halb-Caster (WEI), beginnt auf Stufe 1.
+
+| Stufe | Klassenmerkmale |
+|---:|---|
+| 1 | Erzfeind (Zeichen des Jägers stets vorbereitet, 2× ohne Slot pro lange Rast), Waffenbeherrschung (2 Waffen), Zauberwirken |
+| 2 | Geschickte Erkundung, Kampfstil |
+| 3 | Waldläufer-Unterklasse |
+| 4 | Attributswerterhöhung |
+| 5 | Zusätzlicher Angriff |
+| 6 | Vagabund |
+| 7 | Unterklassenmerkmal |
+| 8 | Attributswerterhöhung |
+| 9 | Expertise |
+| 10 | Unermüdlichkeit |
+| 11 | Unterklassenmerkmal |
+| 12 | Attributswerterhöhung |
+| 13 | Unermüdlicher Jäger (Konzentration auf Zeichen des Jägers bricht bei Schaden nicht) |
+| 14 | Naturschleier |
+| 15 | Unterklassenmerkmal |
+| 16 | Attributswerterhöhung |
+| 17 | Präziser Jäger |
+| 18 | Wildes Gespür |
+| 19 | Epische Gabe |
+| 20 | Feindestöter |
+
+**Unterklassen:** Bestienmeister (Beast Master), Feenwanderer (Fey Wanderer), Düsterer Pirscher (Gloom Stalker), Jäger (Hunter). Unterklassen-Stufen: 3, 7, 11, 15.
+
+---
+
+## Zauberer
+
+**Trefferwürfel:** W6. **Hauptattribut:** CHA. **Rettungswurf-Übung:** KON, CHA. **Zauberwirken:** Voll-Caster (CHA).
+
+| Stufe | Klassenmerkmale |
+|---:|---|
+| 1 | Zauberwirken, Intuitive Zauberei (2 Anwendungen pro lange Rast — Vorteil auf Angriffs- und Attributswürfe sowie Konzentrations-Rettungswürfe für 1 Minute) |
+| 2 | Metamagie (zwei Optionen), Quelle der Magie (Zaubereipunkte; Slots ↔ Punkte umwandeln) |
+| 3 | Zauberer-Unterklasse |
+| 4 | Attributswerterhöhung |
+| 5 | Zaubereiauffrischung (Zaubereipunkte auch nach kurzer Rast zurück, 1×/lange Rast) |
+| 6 | Unterklassenmerkmal |
+| 7 | Zauberei-Inkarnat (Intuitive Zauberei aktivierbar für 2 Zaubereipunkte; bis zu zwei Metamagien pro Zauber kombinierbar) |
+| 8 | Attributswerterhöhung |
+| 10 | Metamagie (dritte Option) |
+| 12 | Attributswerterhöhung |
+| 14 | Unterklassenmerkmal |
+| 16 | Attributswerterhöhung |
+| 17 | Metamagie (vierte Option) |
+| 18 | Unterklassenmerkmal |
+| 19 | Epische Gabe |
+| 20 | Arkane Vergöttlichung (während Intuitive Zauberei aktiv: eine Metamagie-Option pro Zug ohne Zaubereipunkte-Kosten) |
+
+**Unterklassen:** Aberrante Zauberei (Aberrant Sorcery), Mechanische Zauberei (Clockwork Sorcery), Drakonische Zauberei (Draconic Sorcery), Wilde Magie (Wild Magic Sorcery). Unterklassen-Stufen: 3, 6, 14, 18.
+
+---
+
+## Hinweise zur Pflege
+
+Die Tabellen pro Klasse sind aus dem SRD 5.2.1 DE übernommen. Stufen mit „Attributswerterhöhung" sind die Standard-ASI-Slots; auf jeder dieser Stufen kann statt der Attributs-Erhöhung auch ein Talent gewählt werden (siehe `stufenaufstieg.md`). Unterklassen-Stufen sind klassenabhängig — die jeweilige Liste neben der Tabelle gibt die exakten Stufen an.
+
+Subklassen-Namen, die nicht im SRD 5.2.1 DE enthalten sind (Berserker-Subklassen, alle Bard-Hochschulen, Druiden-Zirkel außer einigen, etc.), sind hier mit dem englischen Originalbegriff plus üblicher deutscher Übersetzung gelistet. Bei abweichender Wizards-DE-Übersetzung im PHB 2024 die Namen entsprechend anpassen.
