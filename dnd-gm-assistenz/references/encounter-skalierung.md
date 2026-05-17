@@ -1,6 +1,6 @@
 # Encounter-Skalierung
 
-Skalierung von Kampfbegegnungen an Gruppengröße und Stufe nach den 2024er-Regeln. Quelle: DMG 2024 („Plan Encounters", Kapitel Creating Adventures), MM 2025 (Stat Blocks und HG-zu-EP-Werte).
+Skalierung von Kampfbegegnungen an Gruppengröße und Stufe nach den 2024er-Regeln. Quellen: DMG 2024 („Plan Encounters", Kapitel Creating Adventures) und SRD 5.2.1 DE (EP-Budget-Tabelle, HG-zu-EP-Tabelle); MM 2025 für die einzelnen Stat-Block-EP-Werte.
 
 ## Grundprinzip 2024
 
@@ -16,7 +16,7 @@ Encounter-Soll ≤ Gruppen-Budget
 
 **Vergleich zu 5e-2014:** Die 2014er-Encounter-Multiplikatoren (×1,5 für 3 Gegner, ×2 für 4–6 etc.) tauchen im DMG 2024 nicht mehr auf. Stattdessen wird einfach die EP-Summe direkt mit dem Gruppen-Budget verglichen. Das DMG sagt das nicht explizit als „abgeschafft", die alte Mechanik fehlt aber im neuen Encounter-Building-Kapitel.
 
-## EP-Budget pro Charakter (DMG 2024, Auszug)
+## EP-Budget pro Charakter (DMG 2024 / SRD 5.2.1 DE)
 
 | Stufe | Niedrig | Mittel | Hoch |
 |---:|---:|---:|---:|
@@ -30,25 +30,37 @@ Encounter-Soll ≤ Gruppen-Budget
 | 8 | 1.000 | 1.700 | 2.100 |
 | 9 | 1.300 | 2.000 | 2.600 |
 | 10 | 1.600 | 2.300 | 3.100 |
+| 11 | 1.900 | 2.900 | 4.100 |
+| 12 | 2.200 | 3.700 | 4.700 |
+| 13 | 2.600 | 4.200 | 5.400 |
+| 14 | 2.900 | 4.900 | 6.200 |
 | 15 | 3.300 | 5.400 | 7.800 |
+| 16 | 3.800 | 6.100 | 9.800 |
+| 17 | 4.500 | 7.200 | 11.700 |
+| 18 | 5.000 | 8.700 | 14.200 |
+| 19 | 5.500 | 10.700 | 17.200 |
 | 20 | 6.400 | 13.200 | 22.000 |
 
-Volle Tabelle (Stufen 1–20) im DMG 2024, Kapitel „Plan Encounters".
+## HG-zu-EP-Konvertierung (SRD 5.2.1 DE / DMG 2024)
 
-## HG-zu-EP-Konvertierung (MM 2025)
-
-Identisch mit 5e-2014:
+Werte identisch zu 5e-2014:
 
 | HG | EP | HG | EP | HG | EP |
 |---:|---:|---:|---:|---:|---:|
-| 0 | 0 oder 10 | 5 | 1.800 | 14 | 11.500 |
-| 1/8 | 25 | 6 | 2.300 | 15 | 13.000 |
-| 1/4 | 50 | 7 | 2.900 | 16 | 15.000 |
-| 1/2 | 100 | 8 | 3.900 | 17 | 18.000 |
-| 1 | 200 | 9 | 5.000 | 20 | 25.000 |
-| 2 | 450 | 10 | 5.900 | 25 | 75.000 |
-| 3 | 700 | 11 | 7.200 | 30 | 155.000 |
-| 4 | 1.100 | 13 | 10.000 | | |
+| 0 | 0 oder 10 | 11 | 7.200 | 22 | 41.000 |
+| 1/8 | 25 | 12 | 8.400 | 23 | 50.000 |
+| 1/4 | 50 | 13 | 10.000 | 24 | 62.000 |
+| 1/2 | 100 | 14 | 11.500 | 25 | 75.000 |
+| 1 | 200 | 15 | 13.000 | 26 | 90.000 |
+| 2 | 450 | 16 | 15.000 | 27 | 105.000 |
+| 3 | 700 | 17 | 18.000 | 28 | 120.000 |
+| 4 | 1.100 | 18 | 20.000 | 29 | 135.000 |
+| 5 | 1.800 | 19 | 22.000 | 30 | 155.000 |
+| 6 | 2.300 | 20 | 25.000 | | |
+| 7 | 2.900 | 21 | 33.000 | | |
+| 8 | 3.900 | | | | |
+| 9 | 5.000 | | | | |
+| 10 | 5.900 | | | | |
 
 ## Rechenbeispiel
 
