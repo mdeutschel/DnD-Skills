@@ -71,6 +71,10 @@ Was muss am Bogen stehen, was wird oft vergessen (passive Wahrnehmung, Initiativ
 
 Bindung, Wunde, Ziel als Material für den GM — kurz formuliert, konkret genug zum Andocken. Anleitung und Beispiele in `references/spieler-anker.md`. Skelett zum Ausfüllen in `assets/charakterkonzept-skelett.md`.
 
+### Downtime zwischen Quests
+
+Wochen zwischen Sitzungen als eigene Vorbereitungs-Einheit: Aktivitäten konkret formulieren, Anker pflegen, mechanische Ziele (Training, Talent über Training, Sprache) sauber anstoßen. Rollenübergreifende Grundlagen in `references/downtime.md`, Spieler-Spitze (Vorbereitung, Notiz an den GM) in `references/downtime-spieler.md`.
+
 ## Live-Modus
 
 Knapp, fokussiert, entscheidungsorientiert. **Immer inline im Chat**, keine Datei — Geschwindigkeit hat Vorrang. Datei nur auf ausdrücklichen Wunsch.
@@ -88,6 +92,10 @@ Knapp, fokussiert, entscheidungsorientiert. **Immer inline im Chat**, keine Date
 | **Zauber-Quickcheck** | 5 | Slot-Stufe / Komponenten / Reichweite / Wirkung in einem Satz / Konzentration ja/nein |
 
 Häufige Live-Regelfragen (Heimlichkeit, Überraschung, Deckung, Konzentration, Zustände, Tod-Rettungswürfe, Crits) mit Standardantworten in `references/live-regelfragen.md`. SG-Anwendungsbeispiele in `references/dc-skala-2024.md`. Waffenbeherrschungs-Eigenschaften in `references/waffenbeherrschung.md`.
+
+### Klemmen am Tisch
+
+Spieler-Block, ausgelöster Anker, Spotlight-Konflikt, akute Regelunsicherheit: Reaktions-Patterns in `references/live-notfall.md`. Im Live-Modus konsultieren, wenn die Situation nicht in die obigen Standardformate passt.
 
 ## Spieler-Robustheits-Prinzipien
 
@@ -111,7 +119,7 @@ Wenn ein Punkt offen bleibt: explizit im Chat ansprechen, nicht stillschweigend 
 
 ## Autarkie (ohne Handbücher)
 
-Wenn das PHB nicht greifbar ist: SG-Skala, die 15 Zustände, Tod-Rettungswürfe, Crits, Verstecken, Deckung, Konzentration, die 8 Waffenbeherrschungs-Eigenschaften, die Charaktererstellungs-Reihenfolge und die Stufen-Meilensteine pro Klasse liegen autark in `references/`. **Nicht autark abgedeckt:** vollständige Klassen-Feature-Texte, einzelne Zauberbeschreibungen, Spezies-Eigenheiten, Hintergrund-Talente im Detail, Subklassen jenseits der Namen. Bei Fragen dazu offen ansagen und nachfragen, ob im PHB nachgeschlagen werden kann.
+Wenn das PHB nicht greifbar ist: SG-Skala, die 15 Zustände, Tod-Rettungswürfe, Crits, Verstecken, Deckung, Konzentration, die 8 Waffenbeherrschungs-Eigenschaften, die Charaktererstellungs-Reihenfolge und die Stufen-Meilensteine pro Klasse liegen autark in `references/`. Downtime-Methodik plus kodifizierte Mechaniken (Lifestyle-Skala, Crafting, Training als Mark of Prestige mit 30 Tagen, Bastion-Turn-Frequenz) liegen autark in `downtime.md` und `downtime-spieler.md` mit Buchverweisen. Detail-Mechanik des Bastion-Systems ist nicht autark — bei aktiver Bastion-Nutzung DMG Kapitel 8 zur Hand. **Nicht autark abgedeckt:** vollständige Klassen-Feature-Texte, einzelne Zauberbeschreibungen, Spezies-Eigenheiten, Hintergrund-Talente im Detail, Subklassen jenseits der Namen. Bei Fragen dazu offen ansagen und nachfragen, ob im PHB nachgeschlagen werden kann.
 
 ## Verweisstruktur
 
@@ -127,10 +135,13 @@ Referenzen werden bei Bedarf gelesen, nicht alle auf einmal.
 | `references/zauberauswahl.md` | Bekannte vs. vorbereitete Zauber, Slots, Konzentration | bei Zauberfragen |
 | `references/charakterbogen-checkliste.md` | Konsistenz, was oft vergessen wird | bei Bogen-Pflege, neuer Stufe |
 | `references/spieler-anker.md` | Bindung/Wunde/Ziel als Material für den GM | Session Zero, Charakterkonzept |
+| `references/downtime-spieler.md` | Vorbereitung der Downtime, Anker-Pflege, Notiz an den GM | vor Stadtphasen, Reisen, Zwischen-Quest-Pausen |
 | **Mechanik und Werte (shared)** | | |
 | `references/dc-skala-2024.md` | SG-Skala mit Anwendungsbeispielen | Live-SG-Fragen, Proben-Einschätzung |
 | `references/waffenbeherrschung.md` | Die 8 Mastery-Eigenschaften | Waffen-Auswahl, Live-Klärung |
 | `references/live-regelfragen.md` | Häufige Regelfragen inkl. Tod-Rettungswürfe, Crits, Konzentration | Live-Modus |
+| `references/live-notfall.md` | Spieler-Block, ausgelöster Anker, Spotlight-Konflikt, Regelunsicherheit | Live-Modus, Klemme am Tisch |
+| `references/downtime.md` | Aktivitäten, Lebenshaltung, Würfel-Heuristik (shared) | bei Downtime-Vorbereitung |
 | `references/glossar-de-en.md` | Begriffsmapping DE↔EN | bei englischer Quellenrecherche |
 | **Skelette** | | |
 | `assets/charakterkonzept-skelett.md` | Leeres Charakterkonzept für Session Zero | bei neuer Kampagne |

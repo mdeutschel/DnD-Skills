@@ -7,7 +7,8 @@ Sammelort für Anthropic-Agent-Skills rund um D&D 5e (2024/2025-Regelwerke).
 - **`dnd-gm-assistenz/`** — Methodik-Skill für Spielleitung. Vorbereitungs-Modus liefert Drehbücher, Tracker, NSC-Steckbriefe, Sitzungspläne; Live-Modus knappe Antworten am Tisch (SGs, Encounter-Skalierung, Regelfragen). Outputs durchgängig auf Deutsch nach den 2024er-Begriffen.
 - **`dnd-spieler-assistenz/`** — Methodik-Skill für Spieler:innen. Vorbereitung deckt Charaktererstellung, Stufenaufstieg, Build-Diskussion, Zauberauswahl und Charakterbogen-Pflege ab; Live-Modus knappe Antworten aus Spielersicht („Welche Probe für X?", „Was tut diese Eigenschaft?"). Gleicher Stil und gleiche Quellenlage wie der GM-Skill.
 - **`_shared/`** — Rollen-übergreifende References (Glossar, Live-Regelfragen, SG-Skala, Waffenbeherrschung), die per Skill-Manifest beim Build in die jeweiligen Skill-ZIPs gespiegelt werden.
-- **`SYSTEM_PROMPT.md`** — System-Prompt zum Einsatz des Skills in anderen Tools (Custom GPTs, Anthropic Console, andere Agenten-Plattformen). Beschreibt, wie die Skill-Dateien und die offiziellen Handbücher als Quellen genutzt werden sollen.
+- **`SYSTEM_PROMPT.md`** — generischer System-Prompt zum Einsatz der Skills in anderen Tools (Custom GPTs, Anthropic Console, andere Agenten-Plattformen). Rollenoffen, deckt Rollen-Erkennung, Quellenpriorität, Sprache und Ton ab — projekt-spezifische Annahmen bewusst ausgeklammert.
+- **`PROJECT_PROMPT_EXAMPLE.md`** — Beispiel für eine Projekt-Schicht, die über `SYSTEM_PROMPT.md` gelegt wird: Default-Rolle, Erfahrungsstand, laufende Kampagne, Hausregeln, verfügbare Quellen. Pro Tisch anpassen oder kürzen.
 
 ## Verwendung
 
@@ -15,7 +16,7 @@ Sammelort für Anthropic-Agent-Skills rund um D&D 5e (2024/2025-Regelwerke).
 
 **Als fertiges ZIP:** Jeder Push auf `master` baut über die GitHub-Action `Release Skills` automatisch ein Release. Pro Skill (jedes Top-Level-Verzeichnis mit `SKILL.md`) entsteht ein ZIP nach dem Schema `<skill>-v<N>.zip` (z. B. `dnd-gm-assistenz-v1.zip`). Die Versionsnummer `v<N>` zählt fortlaufend hoch und ist auch der Release-Tag. Aktuelle Releases siehe Reiter [Releases](../../releases).
 
-**Als Projekt-Prompt in anderen Tools:** Den Inhalt von `SYSTEM_PROMPT.md` als Systemnachricht einsetzen und die Quelldateien des jeweiligen Skills (SKILL.md, alle References und Assets, plus die Shared-References aus `_shared/`) sowie die offiziellen Handbücher (PHB 2024, DMG 2024, MM 2025) als Projekt- oder Wissens-Dateien hinterlegen. `SYSTEM_PROMPT.md` ist aktuell für GM-Nutzung formuliert; für Spieler-Nutzung entsprechend anpassen.
+**Als Projekt-Prompt in anderen Tools:** Den Inhalt von `SYSTEM_PROMPT.md` als generische System-Schicht einsetzen, darüber eine konkrete Projekt-Schicht legen (Vorlage in `PROJECT_PROMPT_EXAMPLE.md` — Default-Rolle, Erfahrungsstand, Kampagne, Hausregeln). Quelldateien des jeweiligen Skills (SKILL.md, alle References und Assets, plus die Shared-References aus `_shared/`) sowie die offiziellen Handbücher (PHB 2024, DMG 2024, MM 2025) als Projekt- oder Wissens-Dateien hinterlegen. Wie die zwei Schichten je nach Tool kombiniert werden (eine konkatenierte System-Nachricht, zwei aufeinanderfolgende System-Messages, etc.), steht im Kopf von `PROJECT_PROMPT_EXAMPLE.md`.
 
 ## Architektur: Shared-Inhalte zwischen Skills
 

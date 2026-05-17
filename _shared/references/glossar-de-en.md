@@ -19,6 +19,8 @@ Die Liste ist nicht vollständig — sie enthält die häufigsten Begriffe, die 
 - [Spezies](#spezies)
 - [Kampf-Begriffe](#kampf-begriffe)
 - [Magie-Begriffe](#magie-begriffe)
+- [Rast und Erschöpfung](#rast-und-erschöpfung)
+- [Lebenshaltung und Handwerk](#lebenshaltung-und-handwerk)
 - [Spielwelt-Begriffe](#spielwelt-begriffe)
 
 ---
@@ -231,6 +233,65 @@ Im Skill durchgängig die **deutschen Kürzel** STÄ / GES / KON / INT / WEI / C
 | Materiell | Material |
 | Wirkungsdauer | Duration |
 | Sofort | Instantaneous |
+
+## Rast und Erschöpfung
+
+| Deutsch | Englisch |
+|---|---|
+| Lange Rast | Long Rest |
+| Kurze Rast | Short Rest |
+| Erschöpfungsstufe | Exhaustion Level |
+| Beeinträchtigte W20-Prüfung | (Effekt der Erschöpfung in 2024er-Mechanik) |
+
+## Lebenshaltung und Handwerk
+
+Die deutschen Lifestyle-Bezeichnungen folgen dem SRD 5.2.1 DE. Achtung: „Ärmlich" (Squalid, 1 SM) und „Schlecht" (Poor, 2 SM) sind gegenüber der intuitiven Erwartung umgekehrt — die offizielle Übersetzung weicht hier von der wörtlichen Bedeutung ab.
+
+| Deutsch | Englisch | Kosten pro Tag |
+|---|---|---:|
+| Lebenshaltungskosten | Lifestyle Expenses | — |
+| Lebensstil | Lifestyle | — |
+| Jämmerlich | Wretched | gratis |
+| Ärmlich | Squalid | 1 SM |
+| Schlecht | Poor | 2 SM |
+| Einfach | Modest | 1 GM |
+| Komfortabel | Comfortable | 2 GM |
+| Wohlhabend | Wealthy | 4 GM |
+| Edel | Aristocratic | 10 GM |
+
+### Handwerks-Begriffe
+
+| Deutsch | Englisch |
+|---|---|
+| Nichtmagische Gegenstände herstellen | Crafting Nonmagical Items |
+| Magische Gegenstände herstellen | Crafting Magic Items |
+| Heiltränke brauen | Brewing Potions of Healing |
+| Zauberschriftrollen verfassen | Scribing Spell Scrolls |
+| Rohmaterial | Raw Material |
+| Übung im Umgang mit | Proficiency with |
+| Werkzeug | Tool |
+| Kräuterkundeausrüstung | Herbalism Kit |
+| Kalligrafiewerkzeug | Calligrapher's Supplies |
+| Helfer | Assistant (beim Handwerk) |
+
+### Seltenheit magischer Gegenstände
+
+| Deutsch | Englisch |
+|---|---|
+| Gewöhnlich | Common |
+| Ungewöhnlich | Uncommon |
+| Selten | Rare |
+| Sehr selten | Very Rare |
+| Legendär | Legendary |
+| Verbrauchsgegenstand | Consumable |
+
+### Dienstleistungen
+
+| Deutsch | Englisch |
+|---|---|
+| Fachkundiger Mietling | Skilled Hireling |
+| Mietling ohne Fachkunde | Untrained Hireling |
+| Bote | Messenger |
 
 ## Spielwelt-Begriffe
 

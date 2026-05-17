@@ -1,98 +1,104 @@
 # Zauberauswahl
 
-Methodik für die Zauberauswahl nach 2024er-Regeln. Die Klassen unterscheiden sich darin, wie sie Zauber lernen, vorbereiten und wirken — die Mechaniken werden im Live-Spiel ständig verwechselt.
+Methodik für die Zauberauswahl nach 2024er-Regeln. Die Klassen unterscheiden sich darin, wie sie Zauber vorbereiten und wirken — die Mechaniken werden im Live-Spiel ständig verwechselt.
 
-## Grundbegriffe
+## Grundbegriffe (SRD 5.2.1 DE)
 
 | Begriff | Bedeutung |
 |---|---|
-| **Cantrip** | Zauber Stufe 0. Unbegrenzt wirkbar, kein Slot. Skaliert mit Charakterstufe (5, 11, 17). |
-| **Zauberslot** | Ressource pro Slot-Stufe. Wird durch Wirken eines Zaubers verbraucht, kommt auf langer Rast zurück (Ausnahme: Hexenmeister auf kurzer Rast). |
-| **Bekannter Zauber** | Steht im Charakter-Repertoire, kann jederzeit gewirkt werden, solange ein passender Slot da ist. |
-| **Vorbereiteter Zauber** | Aus der Klassen-Liste pro Tag (lange Rast) ausgewählt. Was nicht vorbereitet ist, kann nicht gewirkt werden. |
-| **Zauber-Attribut** | Klassen-spezifisch: INT (Magier), WEI (Kleriker, Druide, Waldläufer), CHA (Barde, Hexenmeister, Paladin, Zauberer). |
-| **Zauber-SG** | `8 + Übungsbonus + Zauber-Attribut-Mod`. Der Wert, gegen den Gegner Rettungswürfe machen. |
+| **Zaubertrick** (Cantrip) | Zauber des 0. Grades. Unbegrenzt wirkbar, kein Zauberplatz. Skaliert mit Charakterstufe (5, 11, 17). |
+| **Zauberplatz** (Spell Slot) | Ressource pro Slot-Grad. Wird durch Wirken eines Zaubers verbraucht, kommt auf langer Rast zurück (Ausnahme: Hexenmeister-Paktmagie kommt auf kurzer Rast zurück). |
+| **Vorbereiteter Zauber** | Steht auf der aktiven Vorbereitungs-Liste der Klasse und kann gewirkt werden, solange ein passender Slot da ist. **Alle** zaubernden Klassen in 2024 nutzen Vorbereitete Zauber — der frühere Begriff „bekannte Zauber" ist abgeschafft. |
+| **Vorbereitete-Zauber-Anzahl** | 2024 eine **feste Zahl** aus der Klassentabelle (Spalte „Vorbereitete Zauber"), **nicht** mehr „Stufe + Attribut-Mod" wie in 2014. Beispiel: Barde Stufe 3 = 6 Zauber. |
+| **Zauberwechsel** | Wann die Vorbereitungs-Liste geändert werden darf, ist klassenabhängig — siehe unten. |
+| **Zauber-Attribut** | Klassenspezifisch: INT (Magier), WEI (Kleriker, Druide, Waldläufer), CHA (Barde, Hexenmeister, Paladin, Zauberer). |
+| **Zauberrettungswurf-SG** | `8 + Übungsbonus + Zauber-Attribut-Mod`. Der SG, gegen den Gegner Rettungswürfe machen. |
 | **Zauber-Angriffsbonus** | `Übungsbonus + Zauber-Attribut-Mod`. Bei Zauber-Angriffswurf. |
-| **Konzentration** | Manche Zauber bleiben nur aktiv, solange der Caster konzentriert. Max. **ein** Konzentrationszauber gleichzeitig. Schaden → KON-Rettung SG max(10, halber Schaden). |
-| **Ritual** | Zauber mit Ritual-Tag, gegen 10 zusätzliche Minuten Wirkzeit ohne Slot wirkbar (klassenabhängig). |
-| **Komponenten** | V (verbal), G (gestisch), M (materiell). M-Komponenten mit Goldwert müssen vorhanden sein und werden teils verbraucht. |
-| **Up-Casting** | Niedrigstufigen Zauber mit höherem Slot wirken — manche Zauber bekommen dadurch stärkere Wirkung. |
+| **Konzentration** | Manche Zauber bleiben nur aktiv, solange der Caster konzentriert. Max. **ein** Konzentrationszauber gleichzeitig. Schaden → Konstitutionsrettungswurf SG max(10, halber Schaden). |
+| **Ritual** | Zauber mit Ritual-Tag (R). In 2024 darf **jeder Caster** jeden vorbereiteten Zauber mit Ritual-Tag als Ritual wirken: +10 Min. Wirkzeit, kein Slot verbraucht. Der Magier hat zusätzlich „Ritual-Adept" und kann Rituale aus seinem Zauberbuch ohne Vorbereitung wirken. |
+| **Komponenten** | V (verbal), G (Gesten), M (Material). M-Komponenten mit Goldwert müssen vorhanden sein und werden teils verbraucht. |
+| **Höhergradig wirken** (Up-Casting) | Niedrigstufigen Zauber mit höherem Slot wirken — manche Zauber bekommen dadurch stärkere Wirkung. |
 
-## Klassen-Logik (vereinfacht)
+## Klassen-Logik nach Slot-Progression
 
-### Caster nach Slot-Progression
+- **Voll-Caster** (Slots bis 9. Grad auf Charakterstufe 17+): Magier, Kleriker, Druide, Barde, Zauberer.
+- **Halb-Caster** (Slots bis 5. Grad auf Charakterstufe 17+): Paladin, Waldläufer. Beginnen Zauberwirken auf Stufe **1** (2024er-Änderung gegenüber 2014, wo Stufe 2).
+- **Drittel-Caster** (Slots bis 4. Grad auf Charakterstufe 19+): Mystischer Ritter (Kämpfer-Subklasse), Arkaner Gauner (Schurken-Subklasse). Subklassen-Sache.
+- **Paktmagie-Caster**: Hexenmeister hat eigene Paktmagie-Progression — wenige Slots, immer auf höchster verfügbarer Stufe, kommen auf **kurzer** Rast zurück. Plus Mystisches Arkanum ab Stufe 11 (Zauber des 6.–9. Grades, je 1×/lange Rast).
 
-- **Voll-Caster (Slots bis Stufe 9 auf Charakterstufe 17+):** Magier, Kleriker, Druide, Barde, Zauberer.
-- **Halb-Caster (Slots bis Stufe 5 auf Charakterstufe 17+):** Paladin, Waldläufer. Beginnen Zauberwirken auf Stufe 2.
-- **Drittel-Caster (Slots bis Stufe 4 auf Charakterstufe 19+):** Eldritch Knight (Kämpfer), Arcane Trickster (Schurke). Subklassen-Sache.
-- **Pact Caster:** Hexenmeister hat eigene Pact-Magic-Progression — wenig Slots, immer auf höchster verfügbarer Stufe, kommen auf **kurzer** Rast zurück. Plus Mystic Arcanum ab Stufe 11.
+## Zauberwechsel pro Klasse
 
-### Vorbereitete vs. bekannte Zauber
+Wann die Vorbereitungs-Liste geändert werden darf, ist 2024 klassenabhängig:
 
-**Magier** lernt Zauber ins Zauberbuch (2 pro Stufe gratis, weitere käuflich), bereitet daraus pro Tag vor. Buch kann theoretisch unbegrenzt wachsen.
+| Klasse | Wechsel der vorbereiteten Zauber |
+|---|---|
+| **Magier, Kleriker, Druide** | Vollständig austauschbar nach jeder langen Rast. |
+| **Paladin, Waldläufer** | Ein Zauber pro lange Rast austauschbar. |
+| **Barde, Hexenmeister, Zauberer** | Nur beim Stufenaufstieg austauschbar (ein Zauber pro neuer Stufe). |
 
-**Kleriker, Druide, Paladin** bereitet aus der **gesamten Klassen-Zauberliste** pro Tag vor. Anzahl = Klassenstufe + Zauber-Attribut-Mod (Min. 1 Zauber).
+**Magier-Sonderfall:** Lernt zusätzlich Zauber ins Zauberbuch (auf jeder Magierstufe zwei gratis; weitere aus Schriftrollen oder gekauft, 50 GM × Slot-Grad). Aus dem Buch wird die Vorbereitungs-Liste nach langer Rast neu zusammengestellt.
 
-**Hexenmeister, Zauberer, Waldläufer, Barde** lernt eine **feste Liste** bekannter Zauber, die nur beim Stufenaufstieg austauschbar ist (2024er-Regel: ein gelernter Zauber pro Stufe austauschbar). Wirkt direkt aus dieser Liste, keine tägliche Vorbereitung.
+## Zaubertricks wählen
 
-## Cantrips wählen
+Zaubertricks sind die Default-Aktion zwischen Slot-Verbrauch. Auf Stufe 5, 11, 17 verdoppelt/verdreifacht sich der Schadens-Cantrip-Schaden. Drei Kriterien für die Wahl:
 
-Cantrips sind die Default-Aktion zwischen Slot-Verbrauch. Auf Stufe 5, 11, 17 verdoppelt/verdreifacht sich der Schaden. Drei Kriterien für die Wahl:
+1. **Mindestens ein Schaden-Zaubertrick:** Feuerpfeil (Fire Bolt, Magier/Zauberer), Heilige Flamme (Sacred Flame, Kleriker), Schauriger Strahl (Eldritch Blast, Hexenmeister), Donnerschlag (Thunderclap, Bard/Sorcerer/Wizard), Säurespritzer (Acid Splash, Magier/Zauberer).
+2. **Mindestens ein Utility-Zaubertrick:** Licht, Botschaft, Magierhand, Kleine Illusion, Taschenspielertricks.
+3. **Ein Konzept-Zaubertrick**, der zur Figur passt — auch wenn nicht optimal, hält den Charakter lebendig (Boshafter Spott für Barden, Druidenkunst, Thaumaturgie, Resistenz).
 
-1. **Mindestens ein Schaden-Cantrip** (Feuerstrahl, Eldritch Blast, Heiliges Feuer, Mageklinge), damit kein Slot für Standard-Schaden verbraucht werden muss.
-2. **Mindestens ein Utility-Cantrip** (Licht, Hinweis, Magierhand, Heilende Wort kein Cantrip — sondern Stufe 1; aber Druiden-Cantrip Stab oder Magier-Cantrip Säuregabel etc.).
-3. **Ein Konzept-Cantrip**, der zur Figur passt — auch wenn nicht optimal, hält den Charakter lebendig (Kleines Wunder, Gaukelei, Niedrige Sprache).
+Heilendes Wort ist **kein** Zaubertrick, sondern ein Zauber des 1. Grades.
 
 ## Konzentration als knappes Gut
 
-Nur **ein** Konzentrationszauber gleichzeitig. Bei Schaden: KON-Rettung mit SG max(10, halber erlittener Schaden).
+Nur **ein** Konzentrationszauber gleichzeitig. Bei Schaden: Konstitutionsrettungswurf gegen SG max(10, halber erlittener Schaden).
 
 **Verbessern:**
 
 - KON nicht unter 14, idealerweise 16+.
-- Übung in KON-Rettung (Klassen: Barbar, Kämpfer, Paladin, Druide, Zauberer; per Talent „Resilient KON" oder „War Caster" auch andere).
-- War-Caster-Talent: Vorteil auf Konzentrations-Rettungen (plus Reaktionszauber).
+- Übung im Konstitutionsrettungswurf — im SRD 5.2.1 als Klassenmerkmal nur: **Barbar, Kämpfer, Zauberer, Hexenmeister, Zauberer**. (Paladin hat Weisheits- und Charisma-Rettungswürfe; Druide hat Intelligenz- und Weisheits-Rettungswürfe — keiner von beiden hat von Haus aus KON-Übung.)
+- Talent **Robust** (Resilient) mit Wahl KON gibt Übung im Konstitutionsrettungswurf plus +1 KON.
+- Talent **Kriegszauberer** (War Caster) gibt Vorteil auf Konzentrations-Rettungswürfe plus Reaktionszauber statt Gelegenheitsangriff.
 
-**In der Auswahl bedenken:** wenn die Klasse stark auf Konzentrationszauber baut (Druide, Zauberer, Magier), sehr selektiv sein — drei Konzentrationszauber dabei zu haben, aber nur einen wirken zu können, frustriert.
+**In der Auswahl bedenken:** Wenn die Klasse stark auf Konzentrationszauber baut (Druide, Zauberer, Magier), sehr selektiv sein — drei Konzentrationszauber dabei zu haben, aber nur einen wirken zu können, frustriert.
 
 ## Slot-Ökonomie
 
 **Pro Spieltag rechnen, nicht pro Kampf.** Eine Tagesplanung mit 3–4 Begegnungen bedeutet:
 
-- Niedrigstufige Slots (1–2) für Utility, Heilen, Buffs.
-- Mittlere Slots (3–5) für signature Spells in wichtigen Kämpfen.
-- Höchste Slots (6+) selten, oft 1× pro Tag, für Bossfights.
+- Niedrigstufige Slots (1.–2. Grad) für Utility, Heilen, Buffs.
+- Mittlere Slots (3.–5. Grad) für Signaturzauber in wichtigen Kämpfen.
+- Höchste Slots (6.+ Grad) selten, oft 1×/Tag, für Bossfights.
 
-**Up-Casting prüfen.** Manche niedrigstufigen Zauber skalieren stark (Heilen Wort, Magisches Geschoss, Brennende Hände); andere kaum. Bei letzteren lieber den Slot für einen Zauber dieser Slot-Stufe sparen.
+**Höhergradig wirken prüfen.** Manche niedrigstufige Zauber skalieren stark (Heilendes Wort, Magisches Geschoss, Brennende Hände); andere kaum. Bei letzteren lieber den Slot für einen Zauber dieses Grades sparen.
 
-**Pact-Magic-Sonderfall (Hexenmeister).** Wenige Slots (z. B. nur 2 auf Stufe 5), aber immer auf höchster verfügbarer Stufe. Auf kurzer Rast zurück — dadurch verlockend, Slots aggressiver auszugeben. Eldritch Invocations sind die unbegrenzten Werkzeuge dazwischen.
+**Paktmagie-Sonderfall (Hexenmeister).** Wenige Slots (z. B. nur 2 auf Stufe 5), aber immer auf höchster verfügbarer Stufe. Auf kurzer Rast zurück — dadurch verlockend, Slots aggressiver auszugeben. Schauerliche Anrufungen sind die unbegrenzten Werkzeuge dazwischen.
 
 ## Ritual-Zauber
 
-Mit Ritual-Tag wirkbar: 10 Min. zusätzlich, kein Slot. Klassenabhängig, wer das überhaupt kann:
+**2024er-Regel:** Jeder Caster darf jeden seiner vorbereiteten Zauber mit Ritual-Tag (R) als Ritual wirken — 10 Min. zusätzlich, kein Slot. Der Zauber muss vorbereitet sein.
 
-- **Bardisches Ritual-Wirken**, **Druidisches**, **Magisches** (Magier), **Klerikales** — Voll-Caster lernen Rituale aus der Klassen-Liste.
-- **Hexenmeister:** Pact-of-Tome-Boon plus Book of Ancient Secrets-Invocation gibt zugang.
-- **Waldläufer, Paladin, Sorcerer:** kein Standard-Ritualzauberer.
+**Magier-Sonderfall (Ritual-Adept):** Kann Rituale aus dem Zauberbuch wirken, **ohne** sie vorbereitet zu haben. Damit wird das Zauberbuch ein passiver Ritual-Werkzeugkasten.
 
-Außerhalb des Kampfes immer prüfen, ob ein Slot-freier Ritual-Zug reicht statt einen Slot zu verbrennen (Erkennen von Magie, Identifizieren, Hilfsbereiter Vertrauter, Sprich mit Tieren).
+Außerhalb des Kampfes immer prüfen, ob ein Slot-freier Ritual-Zug reicht statt einen Slot zu verbrennen. Typische Ritual-Zauber: Magie entdecken, Identifizieren, Vertrauten finden, Mit Tieren sprechen, Lautloses Erscheinungsbild.
 
 ## Klassenspezifische Eigenheiten
 
-- **Magier:** beim Stufenaufstieg 2 Zauber gratis ins Buch. Weitere Zauber aus Schriftrollen oder gekauft (50 GM × Slot-Stufe). Vorbereitete Anzahl: Stufe + INT-Mod.
-- **Kleriker:** zauberlist umfasst nur Kleriker-Zauber, plus Domänen-spezifische (vom Subklass-Gelübde gegeben). Domain-Zauber sind immer vorbereitet (Bonus).
-- **Druide:** ähnlich Kleriker — Klassen-Liste plus Zirkel-spezifische Bonuszauber.
-- **Paladin:** Halb-Caster, Smite-Slots-Ökonomie (Slots wahlweise für Zauber oder für Bonusschaden auf Crit/Hit). Aufpassen, dass Smite nicht alle Slots auffrisst — Bless-Konzentration ist oft wertvoller.
-- **Waldläufer:** Hunter's Mark als Konzentration ist auf Stufe 1 frei (klassenmerkmal), aber andere Konzentrationen kollidieren.
-- **Zauberer:** Metamagie + Sorcery Points sind das Hauptwerkzeug. Slots in Sorcery Points umwandeln (und umgekehrt) erlaubt — Flexibilität, aber auch Ressourcen-Drift.
-- **Hexenmeister:** Eldritch Blast + Agonizing Blast ist Default-Schaden; Slots für die signature Spells (Hex, Verwandlung-ähnliche, Hold Person). Mystic Arcanum auf 11+ für die wirklich starken Stufe-6-bis-9-Zauber.
-- **Barde:** Bardische Inspiration ist die Hauptressource; Zauber-Liste ist breit, kann auch andere Klassen-Zauber lernen (Magische Geheimnisse ab Stufe 10).
+- **Magier:** Beim Stufenaufstieg zwei Zauber gratis ins Zauberbuch. Weitere Zauber aus Schriftrollen oder gekauft (50 GM × Slot-Grad). Vorbereitete-Anzahl aus der Klassentabelle. Ritual-Adept (siehe oben) und Gelehrter ab Stufe 2 (Expertise in Arcana, Investigation, Nature, Religion oder History).
+- **Kleriker:** Zauberliste nur Kleriker-Zauber, plus domänen-spezifische Bonuszauber (von der Unterklasse, stets vorbereitet ohne Beitrag zum Vorbereitungs-Limit).
+- **Druide:** Ähnlich Kleriker — Klassenliste plus zirkel-spezifische Bonuszauber.
+- **Paladin:** Halb-Caster ab Stufe 1. **Göttliches Niederstrecken** ist 2024 ein eigener Zauber (1. Grad, Bonusaktion, Konzentration) — Paladin hat ihn ab Stufe 2 stets vorbereitet und kann ihn 1×/lange Rast ohne Slot wirken, weitere Wirkungen kosten Slots. Aufpassen, dass Konzentration mit z. B. Segnen kollidiert.
+- **Waldläufer:** Halb-Caster ab Stufe 1. **Zeichen des Jägers** (Hunter's Mark, 1. Grad, Konzentration) ist stets vorbereitet, 2 freie Anwendungen pro lange Rast (mehr auf höheren Stufen). Ab Stufe 13 (Unermüdlicher Jäger): Konzentration darauf bricht bei Schaden nicht.
+- **Zauberer:** Metamagie + Zaubereipunkte (Sorcery Points) sind das Hauptwerkzeug. Slots in Zaubereipunkte umwandeln (und umgekehrt) erlaubt — Flexibilität, aber auch Ressourcen-Drift.
+- **Hexenmeister:** Schauriger Strahl (Eldritch Blast) plus Anrufung „Agonisierender Strahl" ist Default-Schaden. Paktmagie-Slots für Signaturzauber. Mystisches Arkanum ab Stufe 11 für die wirklich starken Zauber des 6.–9. Grades.
+- **Barde:** Bardische Inspiration ist die Hauptressource (Anwendungen = CHA-Mod pro lange Rast, ab Stufe 5 nach Quelle der Inspiration auch nach kurzer Rast). Zauberliste ist breit; Magische Geheimnisse ab Stufe 10 erlauben Zauber aus anderen Klassen-Listen.
 
 ## Häufige Fehler
 
 - **Zwei Konzentrationszauber gleichzeitig anwirken** — der zweite überschreibt den ersten, keine Slot-Erstattung.
 - **Ritual nicht erkannt** und unnötig einen Slot verbrannt.
-- **Up-Casting vergessen** — Heilen Wort Stufe 1 auf Stufe 5 wirken bringt deutlich mehr.
-- **Vorbereitungs-Liste nicht aktualisiert** nach langer Rast — die meisten Caster dürfen sie auf jeder langen Rast umstellen.
-- **Komponenten fehlen.** Bei materiellen Komponenten mit Goldwert (z. B. 300 GM Diamant für Wiederbelebung) gilt: kein Material → kein Zauber.
+- **Höhergradig wirken vergessen** — Heilendes Wort des 1. Grades mit einem 5er-Slot wirken bringt deutlich mehr Würfel.
+- **Vorbereitungs-Liste nicht aktualisiert** nach langer Rast (Cleric/Druid/Wizard dürfen vollständig austauschen, Paladin/Ranger einen pro Rast).
+- **Komponenten fehlen.** Bei materiellen Komponenten mit Goldwert (z. B. 300 GM Diamant für Wiederbeleben) gilt: kein Material → kein Zauber.
 - **Konzentration übersehen** — wenn ein neuer Konzentrationszauber gewirkt wird, fällt der alte sofort weg.
+- **„Stufe + Attribut-Mod" als Vorbereitungs-Anzahl** — das ist 2014er-Logik. In 2024 zählt die feste Zahl in der Klassentabelle.
+- **„Göttliches Niederstrecken nach dem Trefferwurf entscheiden"** — das war 2014er-Mechanik. In 2024 ist Smite ein Zauber, der als Bonusaktion vor dem Trefferwurf gewirkt wird.

@@ -31,6 +31,7 @@ Begriffsübersetzungen):
 - `_shared/references/waffenbeherrschung.md` — die acht Waffenbeherrschungs-Eigenschaften
 - `_shared/references/dc-skala-2024.md` — SG-Skala und SG-Berechnungsformeln
 - `_shared/references/glossar-de-en.md` — Begriffsmapping nach offizieller deutscher SRD-Übersetzung
+- `_shared/references/downtime.md` — Lebenshaltungs-Skala, Standardaktivitäten und weitere Downtime-Aussagen aus SRD-Material abgeleitet
 
 Dateien unter `_shared/` werden vom Release-Build pro Skill ins ZIP-Staging kopiert (siehe README.md, Abschnitt "Architektur"); im jeweils ausgelieferten Skill landen sie unter `references/`.
 
